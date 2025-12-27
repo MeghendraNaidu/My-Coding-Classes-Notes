@@ -1,0 +1,11 @@
+triggers -- will perform operation in one table 		and store action in anthor table
+
+
+delimiter $$
+create trigger trigger_name
+[before | after] [update | insert | delete] on table_name
+for each row
+begin
+-- command
+end$$
+delimiter ;

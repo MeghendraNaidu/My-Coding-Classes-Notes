@@ -1,0 +1,31 @@
+JOINS -- will extract data from two or more 	tables
+
+inner   -- will return common values from two 	table 
+
+>>>select * from tb1 inner join tb2 on tb1.col=tb2.col
+
+outer  -- will return all values from both 		tables
+
+>>>select * from tb1 left join tb2 on tb1.col=tb2.col
+union
+select * from tb1 right join tb2 on tb1.col=tb2.col;
+
+
+left  -- will return all values from left table 	common values from right table
+
+>>>select * from tb1 left join tb2 on tb1.col=tb2.col
+
+right  -- will return all values from right table common values from left table
+
+>>>select * from tb1 right join tb2 on tb1.col=tb2.col
+
+cross   -- 
+
+>>>select * from tb1 cross join tb2;
+
+
+self
+
+>>>select * from tb1 join tb2;
+
+>>>select * from tb1 join tb2 on tb1.col=tb2.col;

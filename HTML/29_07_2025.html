@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    -----Mobile validation------
+    "." any keybord
+    ".+"
+    "\d" 0-9
+    "{9}" max range
+    "{9,}" start range, end range
+    "{start, end}"
+    "[9876]" in side a square ant one cha - 9|8|6|7
+    "[\d]{9}"
+    "+919876543210"
+    "\+91[9876][\d]{9}" mobile number validation
+
+    ------- Pin Code Validation--------------
+    "500009"
+    "[5][\d]{5}" pin code validation
+
+
+    -----------Email validation------------------
+    abc@gmail.com
+    abc,abc@gmail.com
+    abc123@gmail.com
+    abc_abc@gmail.com
+    .in, .gov, .io, .edu, .org
+    "(in | gov | io | com | org | edu)"
+    "(yahoo | outlook | gmail)"
+    "[abc]" a|b|c
+    "@gmail"            "gmail or (yahoo | outlook | gmail)"
+    "[a-z\d._]+@(yahoo | outlook | gmail)\.(in | gov | io | com | org | edu)" email validation "com or (in | gov | io | com | org | edu)"
+    -->
+    <input type="text" pattern="\+91[9876][\d]{9}">
+</body>
+</html>

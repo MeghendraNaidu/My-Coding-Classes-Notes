@@ -1,0 +1,501 @@
+OrderID,OrderDate,ProductCategory,ProductName,Region,State,SalesAmount,Quantity,Profit
+ORD0001,27-10-2024,Groceries,Wheat,North,Haryana,20840,8,1445.4
+ORD0002,02-01-2024,Furniture,Sofa,South,Karnataka,34360,8,2880.17
+ORD0003,20-12-2023,Groceries,Rice,North,Punjab,23408,8,5489.85
+ORD0004,01-06-2024,Electronics,Smartwatch,East,Odisha,2278,2,536.88
+ORD0005,19-10-2023,Clothing,Shirt,East,Bihar,1098,1,56.05
+ORD0006,20-10-2023,Clothing,Shirt,West,Rajasthan,10482,3,588.48
+ORD0007,12-06-2024,Electronics,Mobile,West,Gujarat,18162,9,3843.41
+ORD0008,05-01-2023,Furniture,Table,West,Maharashtra,4375,5,919
+ORD0009,21-09-2023,Electronics,Headphones,West,Gujarat,45140,10,6421.62
+ORD0010,21-05-2024,Electronics,Headphones,East,Bihar,10017,9,727.57
+ORD0011,05-02-2023,Groceries,Oil,East,Odisha,12456,3,686.97
+ORD0012,05-03-2024,Furniture,Cupboard,West,Maharashtra,16779,7,1891.84
+ORD0013,23-07-2023,Groceries,Sugar,West,Rajasthan,4012,2,526.85
+ORD0014,04-11-2023,Electronics,Headphones,North,Punjab,9372,2,973.42
+ORD0015,30-09-2023,Electronics,Headphones,East,West Bengal,8618,2,1905.86
+ORD0016,22-03-2024,Groceries,Rice,South,Tamil Nadu,24230,5,1352.15
+ORD0017,12-04-2024,Furniture,Chair,South,Tamil Nadu,17905,5,3094.91
+ORD0018,24-07-2023,Furniture,Table,South,Karnataka,12640,5,1232.82
+ORD0019,27-05-2023,Electronics,Headphones,West,Gujarat,24750,5,3444.06
+ORD0020,23-09-2024,Furniture,Sofa,North,Punjab,17604,4,1253.18
+ORD0021,17-02-2023,Groceries,Oil,East,Odisha,13408,4,3252.49
+ORD0022,20-02-2023,Groceries,Rice,East,West Bengal,2365,1,527.1
+ORD0023,24-02-2023,Furniture,Chair,West,Maharashtra,13902,3,2614.8
+ORD0024,11-01-2024,Electronics,Mobile,East,Odisha,38264,8,9441.43
+ORD0025,21-09-2024,Clothing,Jacket,South,Karnataka,37233,9,6538.47
+ORD0026,02-05-2023,Furniture,Chair,West,Maharashtra,4342,2,578.16
+ORD0027,13-11-2024,Furniture,Chair,West,Rajasthan,2888,1,671.96
+ORD0028,25-09-2024,Clothing,Shirt,South,Karnataka,8356,2,1153.23
+ORD0029,27-11-2023,Electronics,Headphones,East,Bihar,44865,9,7497.61
+ORD0030,01-09-2023,Clothing,Jacket,North,Delhi,14196,6,2867.18
+ORD0031,30-08-2024,Clothing,Jeans,East,Odisha,3585,1,638.8
+ORD0032,17-09-2023,Electronics,Mobile,South,Telangana,7480,4,1390.03
+ORD0033,14-07-2023,Furniture,Table,East,Bihar,25053,7,3302.51
+ORD0034,13-07-2023,Clothing,Jeans,North,Delhi,12582,6,1665.7
+ORD0035,05-03-2023,Furniture,Cupboard,West,Maharashtra,31576,8,6603.65
+ORD0036,08-04-2024,Electronics,Smartwatch,West,Gujarat,36510,10,6132.64
+ORD0037,23-02-2024,Furniture,Table,North,Punjab,22955,5,3466.28
+ORD0038,06-10-2023,Clothing,Jacket,North,Delhi,7548,3,749.75
+ORD0039,18-04-2023,Electronics,Laptop,South,Tamil Nadu,24353,7,5801.99
+ORD0040,14-12-2023,Clothing,T-Shirt,North,Haryana,3458,1,550
+ORD0041,03-05-2024,Electronics,Smartwatch,West,Rajasthan,17470,5,4174.91
+ORD0042,01-04-2024,Clothing,Shirt,South,Karnataka,3377,1,612.43
+ORD0043,07-11-2023,Electronics,Laptop,South,Telangana,35720,8,5062.9
+ORD0044,08-09-2023,Groceries,Wheat,South,Telangana,30681,7,2969.31
+ORD0045,12-11-2024,Clothing,Shirt,East,Bihar,5080,5,720.03
+ORD0046,04-03-2024,Clothing,Shirt,South,Tamil Nadu,24528,7,4756.15
+ORD0047,17-04-2024,Furniture,Table,North,Delhi,48790,10,4248.25
+ORD0048,26-01-2023,Electronics,Mobile,South,Karnataka,5676,2,1293.77
+ORD0049,29-03-2023,Furniture,Cupboard,East,Odisha,11557,7,1128.95
+ORD0050,30-04-2023,Groceries,Oil,South,Telangana,28518,6,4440.69
+ORD0051,20-02-2024,Groceries,Oil,North,Delhi,37430,10,3990.93
+ORD0052,09-07-2023,Furniture,Chair,West,Maharashtra,3002,2,322.12
+ORD0053,31-07-2024,Clothing,T-Shirt,South,Telangana,30702,7,1784.85
+ORD0054,09-02-2024,Groceries,Rice,South,Telangana,10899,7,1180.43
+ORD0055,12-05-2024,Furniture,Cupboard,South,Karnataka,9084,6,749.2
+ORD0056,31-08-2024,Groceries,Sugar,South,Karnataka,37992,8,6153.82
+ORD0057,27-05-2023,Furniture,Chair,North,Punjab,1028,1,173.13
+ORD0058,29-12-2023,Furniture,Table,East,West Bengal,2817,3,305.31
+ORD0059,23-02-2023,Furniture,Cupboard,West,Gujarat,9344,2,1883.76
+ORD0060,13-05-2023,Clothing,Jeans,North,Punjab,2932,2,665.36
+ORD0061,10-09-2023,Clothing,Shirt,West,Rajasthan,9640,10,684.89
+ORD0062,20-03-2023,Clothing,Jeans,East,Bihar,4899,3,505.76
+ORD0063,30-08-2023,Clothing,Shirt,South,Karnataka,2314,1,225.58
+ORD0064,02-02-2024,Electronics,Mobile,East,Odisha,16008,8,1453.55
+ORD0065,21-06-2024,Groceries,Oil,North,Punjab,14889,3,2715.75
+ORD0066,12-07-2024,Clothing,Jacket,West,Rajasthan,49680,10,7403.35
+ORD0067,20-04-2024,Electronics,Smartwatch,East,Odisha,20360,10,4321.34
+ORD0068,22-09-2023,Clothing,Jacket,South,Tamil Nadu,30933,7,3133.02
+ORD0069,05-10-2024,Furniture,Chair,South,Telangana,3694,2,576.69
+ORD0070,06-08-2023,Electronics,Mobile,South,Karnataka,2282,1,329.48
+ORD0071,08-08-2023,Clothing,Jeans,South,Tamil Nadu,5008,4,675.04
+ORD0072,30-09-2024,Groceries,Oil,West,Maharashtra,9444,3,1012.16
+ORD0073,17-05-2023,Furniture,Cupboard,North,Punjab,2406,2,202.08
+ORD0074,24-01-2023,Electronics,Mobile,East,Bihar,1444,1,330.99
+ORD0075,29-02-2024,Clothing,Jeans,West,Gujarat,8238,2,1465.59
+ORD0076,09-01-2024,Groceries,Rice,East,Bihar,17430,5,3824.81
+ORD0077,14-08-2023,Electronics,Mobile,East,West Bengal,21258,9,3704.27
+ORD0078,21-10-2023,Groceries,Sugar,West,Maharashtra,13713,7,1198.38
+ORD0079,02-10-2024,Electronics,Mobile,West,Maharashtra,19944,9,1243.08
+ORD0080,16-08-2024,Electronics,Mobile,East,Bihar,8010,10,1879.86
+ORD0081,21-06-2023,Groceries,Rice,West,Gujarat,2878,1,338.32
+ORD0082,04-08-2023,Groceries,Oil,North,Haryana,23848,8,3606.24
+ORD0083,08-11-2024,Electronics,Smartwatch,West,Maharashtra,4480,7,1101.94
+ORD0084,25-02-2024,Clothing,T-Shirt,West,Gujarat,19656,4,1476.3
+ORD0085,02-05-2024,Clothing,Jacket,South,Karnataka,4694,2,852.05
+ORD0086,01-10-2023,Electronics,Smartwatch,West,Maharashtra,5370,3,1215.03
+ORD0087,03-05-2023,Furniture,Table,North,Punjab,19496,4,4225.4
+ORD0088,11-11-2024,Electronics,Mobile,East,Odisha,6910,5,1389
+ORD0089,25-04-2024,Furniture,Chair,West,Gujarat,33280,10,7160.82
+ORD0090,25-10-2023,Clothing,Jeans,South,Telangana,549,1,126.78
+ORD0091,17-05-2024,Electronics,Laptop,West,Gujarat,4924,4,1208.75
+ORD0092,11-06-2024,Clothing,Jacket,North,Punjab,8012,4,1668.57
+ORD0093,18-03-2024,Clothing,Shirt,North,Punjab,3840,5,203.15
+ORD0094,24-06-2023,Clothing,Jeans,North,Delhi,1914,1,376.58
+ORD0095,19-01-2024,Electronics,Smartwatch,South,Tamil Nadu,5910,10,741.11
+ORD0096,19-02-2024,Groceries,Oil,West,Rajasthan,16524,6,3313.81
+ORD0097,29-10-2024,Furniture,Table,South,Tamil Nadu,15738,6,3426.57
+ORD0098,22-02-2024,Clothing,T-Shirt,East,West Bengal,4220,1,726.57
+ORD0099,21-03-2024,Clothing,T-Shirt,East,Odisha,7040,5,918.9
+ORD0100,04-01-2024,Clothing,Jacket,North,Punjab,21952,7,2751.09
+ORD0101,16-02-2023,Furniture,Sofa,North,Haryana,2247,1,493.38
+ORD0102,02-02-2023,Clothing,Jacket,South,Tamil Nadu,7803,9,1158.22
+ORD0103,29-08-2024,Clothing,Shirt,West,Gujarat,3192,6,254.76
+ORD0104,31-07-2023,Clothing,T-Shirt,West,Rajasthan,28294,7,4094.32
+ORD0105,26-11-2024,Clothing,Jacket,West,Rajasthan,11876,4,1385.1
+ORD0106,30-08-2023,Clothing,Jeans,South,Karnataka,1632,3,382.57
+ORD0107,06-05-2023,Electronics,Mobile,North,Haryana,24168,6,1927.71
+ORD0108,25-05-2024,Electronics,Laptop,East,Bihar,3149,1,617.45
+ORD0109,15-10-2023,Electronics,Headphones,South,Telangana,25398,9,5525.07
+ORD0110,13-12-2023,Groceries,Sugar,North,Haryana,21364,7,1432.88
+ORD0111,11-08-2024,Clothing,Shirt,South,Tamil Nadu,10254,3,1302.78
+ORD0112,31-08-2023,Clothing,Jeans,South,Telangana,26712,6,6346.16
+ORD0113,12-04-2024,Clothing,T-Shirt,West,Gujarat,21825,9,1120.91
+ORD0114,09-04-2024,Clothing,Jacket,East,Odisha,16236,4,3030.33
+ORD0115,09-10-2024,Clothing,Jacket,North,Delhi,26310,6,2137.31
+ORD0116,12-08-2024,Clothing,Jacket,North,Punjab,3592,4,208.98
+ORD0117,29-11-2024,Electronics,Headphones,North,Delhi,34064,8,6406.13
+ORD0118,09-02-2023,Groceries,Sugar,North,Punjab,3588,6,764.16
+ORD0119,23-08-2024,Clothing,Jeans,East,Odisha,9720,3,1865.2
+ORD0120,13-09-2024,Furniture,Chair,East,West Bengal,37870,10,4399.47
+ORD0121,02-05-2024,Groceries,Rice,North,Haryana,30888,9,1733.01
+ORD0122,07-03-2024,Furniture,Table,East,West Bengal,34968,8,3112.44
+ORD0123,01-02-2023,Clothing,T-Shirt,South,Telangana,6276,3,1154.58
+ORD0124,16-07-2024,Groceries,Wheat,East,Odisha,2265,3,224.52
+ORD0125,14-03-2023,Electronics,Mobile,North,Punjab,32688,8,2684.76
+ORD0126,19-02-2024,Groceries,Oil,West,Rajasthan,13542,6,2273.02
+ORD0127,12-08-2023,Clothing,Jeans,East,West Bengal,15660,6,2263.25
+ORD0128,12-05-2023,Furniture,Chair,West,Maharashtra,36656,8,3589.2
+ORD0129,10-08-2024,Clothing,T-Shirt,South,Telangana,1755,3,99.12
+ORD0130,27-01-2024,Electronics,Smartwatch,North,Punjab,27734,7,2168.59
+ORD0131,14-09-2023,Clothing,Jacket,West,Rajasthan,4704,7,1045.11
+ORD0132,25-10-2023,Electronics,Laptop,East,West Bengal,8193,3,1497.08
+ORD0133,01-11-2023,Clothing,Jacket,West,Gujarat,4945,5,896.17
+ORD0134,30-11-2024,Groceries,Rice,West,Rajasthan,2396,2,195.95
+ORD0135,30-09-2023,Electronics,Headphones,East,Bihar,1685,1,277.91
+ORD0136,03-12-2023,Electronics,Headphones,North,Punjab,11024,8,1049.02
+ORD0137,06-11-2024,Clothing,Jeans,North,Delhi,3279,1,662.1
+ORD0138,15-03-2023,Electronics,Laptop,North,Punjab,17232,6,2832.54
+ORD0139,19-07-2024,Groceries,Sugar,South,Karnataka,3699,3,705.45
+ORD0140,30-11-2023,Clothing,T-Shirt,East,West Bengal,1122,1,227.7
+ORD0141,23-04-2024,Furniture,Sofa,South,Tamil Nadu,30485,7,2895.44
+ORD0142,29-04-2023,Clothing,Shirt,North,Delhi,13251,3,3300.54
+ORD0143,11-02-2023,Clothing,T-Shirt,South,Telangana,10296,6,2481.98
+ORD0144,05-09-2024,Electronics,Laptop,West,Gujarat,3233,1,177.64
+ORD0145,06-04-2023,Electronics,Laptop,South,Tamil Nadu,1559,1,220.82
+ORD0146,28-07-2023,Groceries,Oil,South,Karnataka,14535,9,2072.71
+ORD0147,03-10-2024,Furniture,Cupboard,East,West Bengal,22596,6,4695.9
+ORD0148,21-06-2023,Electronics,Headphones,North,Delhi,9540,2,1594.28
+ORD0149,02-07-2024,Clothing,Jacket,North,Delhi,32912,8,2883.46
+ORD0150,11-02-2024,Clothing,Jacket,North,Delhi,8217,9,893.45
+ORD0151,03-07-2023,Clothing,Jacket,East,West Bengal,30100,10,3835.12
+ORD0152,27-02-2023,Clothing,Jeans,South,Tamil Nadu,5978,2,1045.76
+ORD0153,15-02-2023,Clothing,Jeans,North,Punjab,6456,6,641.77
+ORD0154,19-11-2023,Furniture,Cupboard,South,Karnataka,18200,5,2201.03
+ORD0155,20-03-2024,Groceries,Sugar,South,Karnataka,33971,7,3254.56
+ORD0156,24-02-2024,Furniture,Sofa,West,Maharashtra,7206,2,615.03
+ORD0157,16-11-2023,Furniture,Chair,West,Rajasthan,9708,2,775.59
+ORD0158,28-01-2023,Electronics,Smartwatch,South,Tamil Nadu,16284,6,842.33
+ORD0159,03-08-2024,Electronics,Headphones,West,Rajasthan,13608,7,1536.56
+ORD0160,01-07-2024,Electronics,Smartwatch,West,Gujarat,34083,7,8377.09
+ORD0161,19-05-2024,Groceries,Wheat,West,Gujarat,2081,1,255.17
+ORD0162,21-05-2023,Furniture,Chair,South,Karnataka,10704,6,2193.76
+ORD0163,29-10-2023,Furniture,Sofa,North,Delhi,8640,5,1314.24
+ORD0164,13-09-2024,Groceries,Sugar,East,West Bengal,5964,6,622.23
+ORD0165,27-05-2023,Furniture,Sofa,North,Delhi,30708,9,2595.26
+ORD0166,05-06-2024,Clothing,Shirt,West,Rajasthan,4926,6,411.18
+ORD0167,26-12-2023,Furniture,Chair,East,West Bengal,3610,5,340.2
+ORD0168,14-11-2023,Clothing,T-Shirt,North,Punjab,9758,7,1946.74
+ORD0169,05-04-2024,Clothing,T-Shirt,East,Odisha,25048,8,1686.32
+ORD0170,06-10-2024,Groceries,Rice,South,Karnataka,29799,9,5965.83
+ORD0171,13-05-2024,Groceries,Sugar,North,Punjab,20928,6,4183.5
+ORD0172,31-05-2024,Groceries,Wheat,North,Haryana,36990,9,2907.97
+ORD0173,07-11-2024,Clothing,Shirt,West,Maharashtra,7996,2,1323.42
+ORD0174,29-02-2024,Electronics,Smartwatch,East,Bihar,2007,3,216.52
+ORD0175,25-02-2024,Furniture,Table,East,Bihar,32463,9,2314.92
+ORD0176,28-01-2023,Furniture,Cupboard,South,Tamil Nadu,17692,4,2501.43
+ORD0177,14-10-2023,Furniture,Table,South,Karnataka,38646,9,6021.51
+ORD0178,23-04-2024,Groceries,Rice,East,West Bengal,16292,4,850.43
+ORD0179,01-04-2023,Furniture,Cupboard,West,Rajasthan,13188,7,2484.47
+ORD0180,02-10-2023,Clothing,Jeans,South,Tamil Nadu,2244,1,509.81
+ORD0181,29-06-2023,Clothing,Jeans,West,Maharashtra,24235,5,5421.9
+ORD0182,20-05-2024,Electronics,Mobile,South,Tamil Nadu,3304,2,260.58
+ORD0183,06-03-2023,Groceries,Wheat,West,Gujarat,8907,3,2083.58
+ORD0184,03-06-2023,Furniture,Sofa,North,Punjab,6962,2,852.56
+ORD0185,19-05-2024,Furniture,Cupboard,North,Punjab,20890,10,4716.05
+ORD0186,30-03-2023,Groceries,Wheat,West,Maharashtra,4524,2,548.24
+ORD0187,24-02-2024,Electronics,Laptop,North,Haryana,40428,9,5091.67
+ORD0188,16-11-2023,Furniture,Chair,West,Maharashtra,13350,6,2322.85
+ORD0189,08-07-2023,Electronics,Laptop,West,Maharashtra,19596,4,3015.9
+ORD0190,30-03-2023,Groceries,Wheat,South,Tamil Nadu,8880,8,821.72
+ORD0191,07-07-2023,Groceries,Sugar,West,Maharashtra,4568,4,861.17
+ORD0192,01-01-2024,Clothing,T-Shirt,North,Haryana,28161,9,5770.99
+ORD0193,11-11-2024,Electronics,Smartwatch,North,Punjab,22164,6,2288.38
+ORD0194,03-04-2024,Furniture,Table,West,Gujarat,2913,3,201.71
+ORD0195,09-07-2023,Furniture,Chair,South,Tamil Nadu,9000,10,563.31
+ORD0196,17-12-2023,Furniture,Cupboard,West,Maharashtra,7894,2,1663
+ORD0197,17-05-2024,Groceries,Sugar,North,Haryana,17694,6,3592.43
+ORD0198,23-07-2024,Electronics,Laptop,South,Tamil Nadu,19612,4,3784.15
+ORD0199,04-06-2024,Groceries,Rice,East,Odisha,25921,7,3232.86
+ORD0200,29-01-2024,Furniture,Chair,North,Haryana,12699,3,2821.48
+ORD0201,13-01-2023,Electronics,Headphones,West,Rajasthan,5680,4,1210.81
+ORD0202,20-02-2024,Groceries,Sugar,North,Haryana,4650,1,290.61
+ORD0203,18-12-2023,Electronics,Laptop,East,Bihar,29718,6,4085.49
+ORD0204,08-03-2023,Electronics,Laptop,East,Odisha,23120,10,5452.68
+ORD0205,18-09-2023,Furniture,Table,West,Maharashtra,11937,3,1891.83
+ORD0206,17-07-2024,Groceries,Rice,South,Tamil Nadu,29834,7,3310.29
+ORD0207,27-05-2024,Furniture,Cupboard,North,Delhi,12104,4,2424.42
+ORD0208,09-10-2024,Electronics,Laptop,North,Delhi,10975,5,1405.93
+ORD0209,05-08-2023,Clothing,Jacket,West,Rajasthan,18300,4,2536.95
+ORD0210,12-05-2023,Furniture,Sofa,South,Telangana,15815,5,2766.94
+ORD0211,23-01-2023,Clothing,T-Shirt,South,Telangana,16911,9,2832.66
+ORD0212,03-07-2024,Electronics,Smartwatch,East,Odisha,1260,1,78.96
+ORD0213,21-05-2024,Clothing,Jeans,South,Tamil Nadu,47860,10,2450.74
+ORD0214,18-02-2024,Groceries,Oil,North,Punjab,5256,3,997.47
+ORD0215,26-07-2024,Electronics,Laptop,East,Odisha,18912,8,3866.99
+ORD0216,15-02-2024,Furniture,Table,West,Gujarat,1974,2,448.93
+ORD0217,27-07-2023,Groceries,Oil,West,Rajasthan,30330,9,7239.72
+ORD0218,27-01-2023,Furniture,Cupboard,South,Tamil Nadu,1342,1,147.92
+ORD0219,26-08-2023,Furniture,Chair,South,Tamil Nadu,17682,7,3475.75
+ORD0220,04-08-2024,Electronics,Smartwatch,West,Maharashtra,30080,10,3096.07
+ORD0221,08-11-2023,Furniture,Chair,South,Telangana,34110,9,6080.03
+ORD0222,06-10-2023,Clothing,Jeans,East,West Bengal,7479,9,1055.89
+ORD0223,04-06-2023,Furniture,Cupboard,East,Bihar,9355,5,1547.82
+ORD0224,23-11-2023,Clothing,Jacket,West,Gujarat,16926,7,3136.01
+ORD0225,06-01-2024,Electronics,Mobile,North,Delhi,28490,10,2111.85
+ORD0226,06-01-2023,Groceries,Sugar,East,West Bengal,11334,6,2733.68
+ORD0227,20-03-2023,Electronics,Headphones,South,Tamil Nadu,11030,5,640.85
+ORD0228,17-10-2024,Furniture,Sofa,East,West Bengal,12360,8,3060.23
+ORD0229,16-02-2023,Furniture,Sofa,South,Telangana,7440,4,1020.48
+ORD0230,14-05-2023,Clothing,Jacket,North,Delhi,9546,6,1891.69
+ORD0231,01-08-2024,Clothing,Shirt,South,Karnataka,2032,4,107.55
+ORD0232,12-07-2024,Furniture,Table,West,Maharashtra,1335,1,195.1
+ORD0233,26-08-2024,Electronics,Smartwatch,South,Tamil Nadu,10758,6,1738.82
+ORD0234,12-04-2024,Clothing,Jeans,West,Rajasthan,2826,1,663.69
+ORD0235,27-04-2024,Groceries,Rice,South,Telangana,12600,5,1602.64
+ORD0236,14-10-2024,Electronics,Mobile,North,Delhi,28168,7,3908.17
+ORD0237,28-10-2023,Furniture,Table,South,Tamil Nadu,13320,3,1705.65
+ORD0238,30-04-2024,Furniture,Chair,South,Tamil Nadu,7756,7,742.38
+ORD0239,25-03-2024,Clothing,Shirt,South,Telangana,20736,9,3242.34
+ORD0240,15-12-2023,Furniture,Chair,West,Maharashtra,12272,4,3009.67
+ORD0241,30-03-2024,Groceries,Rice,North,Punjab,5976,4,1211.44
+ORD0242,24-05-2023,Groceries,Sugar,South,Tamil Nadu,28458,9,3133.88
+ORD0243,30-04-2023,Groceries,Rice,North,Haryana,33488,8,1862.36
+ORD0244,25-01-2024,Electronics,Smartwatch,West,Rajasthan,10068,6,2242.06
+ORD0245,01-07-2024,Groceries,Sugar,West,Maharashtra,10766,7,2186.06
+ORD0246,08-01-2023,Electronics,Laptop,East,Odisha,32824,8,4826.29
+ORD0247,03-10-2023,Electronics,Headphones,West,Rajasthan,12155,5,2572.04
+ORD0248,11-11-2023,Groceries,Sugar,West,Gujarat,19314,9,1514.34
+ORD0249,01-10-2023,Groceries,Wheat,West,Rajasthan,11151,3,2066.5
+ORD0250,27-09-2023,Furniture,Cupboard,East,Bihar,894,1,54.46
+ORD0251,01-02-2024,Clothing,Shirt,East,Odisha,19412,4,2223.47
+ORD0252,18-01-2023,Groceries,Sugar,East,Bihar,30020,10,3766.93
+ORD0253,01-05-2024,Furniture,Table,South,Telangana,21650,5,5380.66
+ORD0254,16-09-2024,Electronics,Mobile,West,Maharashtra,11780,5,1319.83
+ORD0255,10-06-2024,Furniture,Cupboard,East,Bihar,28200,8,4194.92
+ORD0256,07-11-2023,Clothing,Jeans,West,Maharashtra,8250,5,1019.79
+ORD0257,13-05-2024,Clothing,T-Shirt,East,Odisha,29690,10,5164.94
+ORD0258,14-11-2023,Groceries,Oil,South,Tamil Nadu,3846,6,698.23
+ORD0259,15-09-2024,Groceries,Wheat,West,Rajasthan,3446,1,476.59
+ORD0260,19-05-2023,Furniture,Cupboard,East,Bihar,25947,9,2447.62
+ORD0261,01-06-2023,Groceries,Oil,East,Odisha,12420,4,794.1
+ORD0262,17-04-2023,Groceries,Rice,West,Maharashtra,33090,10,7238.91
+ORD0263,09-04-2024,Electronics,Headphones,West,Rajasthan,3019,1,374.71
+ORD0264,18-07-2024,Electronics,Smartwatch,West,Maharashtra,30618,9,4524.89
+ORD0265,28-06-2023,Clothing,Shirt,South,Tamil Nadu,6597,9,1188.62
+ORD0266,19-06-2024,Clothing,Shirt,East,Bihar,41550,10,9068.61
+ORD0267,08-09-2024,Electronics,Headphones,North,Punjab,582,1,30.01
+ORD0268,16-08-2023,Electronics,Laptop,West,Rajasthan,8612,4,859.55
+ORD0269,12-08-2024,Clothing,Jacket,North,Punjab,27566,7,2625.09
+ORD0270,07-11-2023,Groceries,Wheat,East,Odisha,9261,9,525.64
+ORD0271,28-07-2023,Electronics,Smartwatch,South,Tamil Nadu,27822,6,3513.33
+ORD0272,03-06-2023,Electronics,Smartwatch,East,Odisha,18420,10,3345.04
+ORD0273,20-07-2024,Furniture,Sofa,East,Odisha,28640,10,5284.09
+ORD0274,14-12-2023,Furniture,Sofa,North,Delhi,32280,8,3190.18
+ORD0275,07-02-2023,Clothing,T-Shirt,West,Rajasthan,6927,3,449.84
+ORD0276,25-02-2024,Clothing,T-Shirt,East,Bihar,4660,4,1047.41
+ORD0277,12-07-2023,Groceries,Oil,East,West Bengal,6985,5,944.6
+ORD0278,26-01-2023,Electronics,Laptop,South,Tamil Nadu,23610,5,2289.67
+ORD0279,29-09-2023,Electronics,Smartwatch,South,Telangana,8550,6,2127.84
+ORD0280,04-09-2023,Groceries,Oil,East,Bihar,17015,5,2805.77
+ORD0281,14-07-2023,Furniture,Sofa,North,Punjab,13890,5,1556.93
+ORD0282,09-07-2023,Groceries,Wheat,West,Rajasthan,7560,4,964.98
+ORD0283,30-04-2023,Clothing,T-Shirt,North,Punjab,4711,7,942.38
+ORD0284,28-11-2023,Electronics,Mobile,West,Gujarat,26520,8,4087.91
+ORD0285,28-02-2023,Clothing,T-Shirt,West,Gujarat,1360,1,245.01
+ORD0286,05-08-2023,Groceries,Oil,West,Maharashtra,15300,5,1659.22
+ORD0287,29-06-2023,Groceries,Wheat,West,Maharashtra,6594,2,652.25
+ORD0288,27-02-2023,Clothing,Jeans,West,Gujarat,30280,10,3038.37
+ORD0289,08-02-2023,Furniture,Chair,North,Haryana,6114,3,1473.01
+ORD0290,12-06-2023,Groceries,Sugar,East,Bihar,6936,6,868.92
+ORD0291,16-05-2023,Groceries,Sugar,East,Odisha,27770,10,4117.23
+ORD0292,09-01-2023,Furniture,Sofa,North,Haryana,4404,1,888.35
+ORD0293,03-02-2023,Electronics,Laptop,West,Rajasthan,22939,7,3191.23
+ORD0294,03-07-2024,Furniture,Cupboard,North,Punjab,24535,5,2023.34
+ORD0295,07-05-2023,Furniture,Cupboard,North,Haryana,2152,2,529.3
+ORD0296,25-08-2023,Groceries,Rice,West,Gujarat,10028,4,1436.43
+ORD0297,19-05-2023,Electronics,Mobile,East,West Bengal,40450,10,9716.71
+ORD0298,15-03-2024,Furniture,Sofa,East,Odisha,35613,9,5466.78
+ORD0299,19-05-2024,Groceries,Oil,West,Gujarat,2132,4,325.48
+ORD0300,21-08-2024,Clothing,T-Shirt,West,Rajasthan,13052,4,2861.78
+ORD0301,22-11-2023,Furniture,Table,North,Haryana,5856,3,755.65
+ORD0302,28-10-2024,Electronics,Laptop,East,West Bengal,30023,7,6457.3
+ORD0303,25-11-2024,Clothing,Jeans,East,West Bengal,34584,8,6519.36
+ORD0304,17-12-2023,Clothing,Jacket,West,Rajasthan,11500,10,1790.03
+ORD0305,29-08-2023,Furniture,Table,East,Bihar,23205,5,2233.6
+ORD0306,16-03-2024,Groceries,Oil,South,Karnataka,5552,8,1298.35
+ORD0307,15-04-2024,Groceries,Rice,North,Haryana,31941,7,2963.33
+ORD0308,17-03-2023,Groceries,Sugar,East,Odisha,19000,4,4438.8
+ORD0309,10-03-2024,Electronics,Headphones,North,Punjab,24544,8,2414.39
+ORD0310,18-09-2024,Groceries,Wheat,South,Karnataka,15246,9,3422.81
+ORD0311,04-12-2023,Clothing,Jacket,West,Gujarat,4948,2,323.06
+ORD0312,11-12-2023,Furniture,Chair,North,Punjab,29722,7,5188.61
+ORD0313,04-06-2024,Electronics,Headphones,North,Delhi,8200,10,725.58
+ORD0314,15-11-2023,Clothing,T-Shirt,South,Tamil Nadu,14005,5,3382.61
+ORD0315,31-07-2024,Electronics,Headphones,North,Punjab,4974,6,623.16
+ORD0316,24-04-2024,Furniture,Cupboard,North,Delhi,6160,8,681.16
+ORD0317,01-09-2024,Clothing,Shirt,North,Haryana,8082,3,594.65
+ORD0318,13-11-2024,Electronics,Laptop,North,Punjab,3139,1,279.51
+ORD0319,17-05-2024,Groceries,Rice,South,Telangana,2885,5,493.16
+ORD0320,22-05-2024,Groceries,Rice,West,Rajasthan,2276,2,458.49
+ORD0321,17-11-2023,Furniture,Table,South,Tamil Nadu,18781,7,1780.12
+ORD0322,09-11-2023,Groceries,Sugar,East,Bihar,9045,5,1858.53
+ORD0323,03-04-2023,Groceries,Sugar,South,Telangana,22590,6,1495.3
+ORD0324,17-05-2023,Furniture,Sofa,North,Haryana,3475,5,684.7
+ORD0325,30-09-2023,Furniture,Cupboard,West,Gujarat,21930,6,3273.91
+ORD0326,09-06-2024,Electronics,Headphones,West,Gujarat,27009,9,1639.61
+ORD0327,04-10-2024,Groceries,Sugar,East,Odisha,8216,8,943.31
+ORD0328,11-05-2023,Electronics,Laptop,South,Telangana,2349,1,385.55
+ORD0329,21-05-2024,Groceries,Oil,North,Delhi,32976,8,4555.17
+ORD0330,19-06-2023,Electronics,Headphones,North,Punjab,6915,5,1015.78
+ORD0331,25-01-2024,Clothing,Shirt,West,Gujarat,11520,5,1827.81
+ORD0332,27-08-2024,Electronics,Mobile,East,Bihar,35343,9,5829.07
+ORD0333,20-06-2023,Clothing,Shirt,West,Rajasthan,33309,9,5218.59
+ORD0334,13-08-2023,Groceries,Sugar,North,Haryana,8634,2,926.75
+ORD0335,23-08-2024,Electronics,Laptop,South,Karnataka,14152,8,1968.05
+ORD0336,14-03-2024,Furniture,Chair,East,Bihar,22900,10,2057.19
+ORD0337,23-01-2024,Furniture,Table,East,Odisha,11067,7,1185.29
+ORD0338,24-07-2024,Clothing,Jeans,East,West Bengal,15620,10,2866.95
+ORD0339,13-05-2023,Electronics,Laptop,South,Tamil Nadu,35352,8,7195.04
+ORD0340,19-01-2024,Groceries,Oil,North,Haryana,12642,6,1355.36
+ORD0341,09-11-2023,Clothing,Jacket,West,Gujarat,44430,10,4723.11
+ORD0342,13-08-2024,Clothing,Shirt,South,Telangana,17665,5,3261.65
+ORD0343,06-02-2023,Electronics,Smartwatch,East,Odisha,3525,5,645.21
+ORD0344,28-01-2024,Electronics,Smartwatch,South,Telangana,9976,8,1811.92
+ORD0345,02-09-2023,Electronics,Laptop,East,West Bengal,16596,6,3618.95
+ORD0346,25-02-2024,Groceries,Oil,East,Bihar,6880,2,921.15
+ORD0347,11-03-2023,Groceries,Wheat,South,Telangana,1896,3,458.07
+ORD0348,05-04-2024,Electronics,Smartwatch,South,Karnataka,4629,3,775.7
+ORD0349,21-03-2024,Electronics,Smartwatch,North,Haryana,11694,3,1465.71
+ORD0350,16-07-2024,Furniture,Chair,North,Haryana,15390,9,1570.82
+ORD0351,07-01-2023,Electronics,Mobile,East,West Bengal,16611,7,3215.69
+ORD0352,28-11-2024,Electronics,Laptop,East,Odisha,3045,5,318.35
+ORD0353,26-09-2024,Groceries,Oil,South,Karnataka,38520,8,8192.9
+ORD0354,17-04-2023,Groceries,Oil,West,Gujarat,8008,4,1933.38
+ORD0355,07-06-2023,Furniture,Table,East,Bihar,9730,2,1423.07
+ORD0356,06-08-2023,Clothing,Jacket,North,Delhi,13740,5,1410.79
+ORD0357,26-10-2024,Electronics,Laptop,East,West Bengal,39600,9,3767.05
+ORD0358,22-04-2023,Clothing,Shirt,East,Odisha,18565,5,2550.82
+ORD0359,03-02-2024,Furniture,Sofa,North,Haryana,27020,7,4438.88
+ORD0360,31-10-2023,Electronics,Mobile,East,Bihar,16950,6,1996.58
+ORD0361,07-05-2024,Clothing,Shirt,South,Telangana,9040,8,660.7
+ORD0362,09-05-2023,Groceries,Rice,North,Delhi,32158,7,2105.29
+ORD0363,12-08-2024,Clothing,T-Shirt,North,Punjab,5726,2,440.18
+ORD0364,26-07-2023,Groceries,Sugar,South,Tamil Nadu,10112,8,2157.47
+ORD0365,14-05-2023,Clothing,T-Shirt,West,Gujarat,21850,5,2718.1
+ORD0366,19-10-2023,Furniture,Chair,North,Punjab,4637,1,1112.63
+ORD0367,14-09-2024,Clothing,Jacket,West,Gujarat,12036,3,1186.66
+ORD0368,26-01-2023,Furniture,Chair,West,Gujarat,6651,3,430.54
+ORD0369,29-08-2024,Furniture,Cupboard,North,Haryana,38030,10,6935.08
+ORD0370,27-08-2023,Groceries,Wheat,North,Haryana,28554,6,5950.35
+ORD0371,30-10-2023,Groceries,Rice,South,Telangana,14478,3,2994.52
+ORD0372,14-02-2024,Electronics,Headphones,West,Rajasthan,3263,1,179.8
+ORD0373,05-03-2023,Groceries,Sugar,West,Gujarat,3570,5,399.22
+ORD0374,23-02-2023,Electronics,Mobile,North,Punjab,9384,4,891.62
+ORD0375,14-07-2024,Electronics,Headphones,South,Telangana,23778,6,2386.86
+ORD0376,23-06-2023,Electronics,Mobile,North,Delhi,21266,7,5123.21
+ORD0377,06-04-2024,Clothing,Jeans,North,Punjab,22120,7,4908.29
+ORD0378,23-06-2024,Groceries,Sugar,North,Punjab,25081,7,2011.31
+ORD0379,10-07-2023,Electronics,Mobile,West,Rajasthan,8834,7,1660.99
+ORD0380,03-09-2023,Groceries,Wheat,South,Telangana,13408,8,2825.02
+ORD0381,22-07-2024,Clothing,Shirt,South,Telangana,4489,1,901.64
+ORD0382,22-02-2024,Clothing,Jacket,West,Rajasthan,18882,6,4063.25
+ORD0383,05-02-2024,Groceries,Rice,North,Delhi,10960,10,620.7
+ORD0384,16-01-2023,Clothing,Jacket,North,Punjab,17656,4,907.3
+ORD0385,02-12-2023,Furniture,Cupboard,West,Maharashtra,24220,10,5043.91
+ORD0386,09-01-2023,Electronics,Mobile,South,Karnataka,43785,9,3885.46
+ORD0387,29-01-2023,Groceries,Oil,South,Telangana,28608,8,6903.75
+ORD0388,23-05-2023,Groceries,Sugar,North,Punjab,4250,5,888.43
+ORD0389,27-03-2023,Groceries,Sugar,West,Rajasthan,3197,1,427.71
+ORD0390,21-12-2023,Electronics,Headphones,West,Maharashtra,29124,6,2292.86
+ORD0391,27-11-2024,Clothing,Jacket,West,Rajasthan,4249,1,950.79
+ORD0392,07-07-2024,Groceries,Oil,North,Delhi,3108,6,167.32
+ORD0393,09-08-2024,Furniture,Table,North,Delhi,33894,7,2691.65
+ORD0394,11-09-2024,Electronics,Smartwatch,North,Haryana,15456,4,1446.63
+ORD0395,26-11-2023,Electronics,Headphones,East,Odisha,29460,6,2132.82
+ORD0396,06-06-2024,Furniture,Cupboard,South,Karnataka,44874,9,5850.39
+ORD0397,16-10-2023,Clothing,Jeans,West,Gujarat,3852,2,406.8
+ORD0398,15-09-2023,Clothing,Jeans,North,Haryana,19831,7,3641.62
+ORD0399,12-11-2024,Furniture,Chair,South,Karnataka,14312,8,2276.77
+ORD0400,01-10-2023,Electronics,Laptop,North,Delhi,6680,2,1586.54
+ORD0401,19-06-2024,Clothing,Jacket,West,Gujarat,5950,2,777.8
+ORD0402,31-03-2023,Electronics,Mobile,East,West Bengal,5955,3,1350.41
+ORD0403,21-12-2023,Groceries,Oil,West,Gujarat,19576,4,4672.85
+ORD0404,03-01-2023,Electronics,Smartwatch,North,Punjab,1806,3,423.75
+ORD0405,19-12-2023,Clothing,Jacket,North,Delhi,20448,8,4521.23
+ORD0406,03-01-2024,Electronics,Headphones,East,West Bengal,17925,5,2283.47
+ORD0407,20-07-2024,Furniture,Chair,West,Maharashtra,4822,1,630.08
+ORD0408,13-01-2024,Furniture,Sofa,South,Tamil Nadu,37560,8,7660.46
+ORD0409,15-11-2024,Electronics,Laptop,East,Bihar,4528,2,1130.26
+ORD0410,14-04-2024,Clothing,Shirt,East,Odisha,22104,8,4182.39
+ORD0411,03-05-2023,Electronics,Headphones,North,Delhi,15376,8,1199.55
+ORD0412,02-06-2024,Groceries,Oil,East,Odisha,24546,6,1635.08
+ORD0413,11-09-2023,Groceries,Sugar,West,Rajasthan,8840,10,973.6
+ORD0414,24-07-2023,Clothing,Shirt,West,Rajasthan,39807,9,6420.05
+ORD0415,11-07-2023,Clothing,Jacket,West,Rajasthan,36960,8,4657.83
+ORD0416,04-01-2024,Clothing,Jeans,North,Delhi,2034,3,490.85
+ORD0417,01-05-2023,Clothing,Jeans,East,Odisha,4156,2,371.82
+ORD0418,19-03-2023,Groceries,Rice,North,Punjab,13205,5,2037.31
+ORD0419,17-05-2024,Electronics,Laptop,West,Rajasthan,42190,10,9707.58
+ORD0420,02-11-2023,Groceries,Oil,East,Bihar,12804,3,2053.23
+ORD0421,24-07-2024,Furniture,Table,South,Telangana,19500,5,2277.61
+ORD0422,05-06-2023,Electronics,Smartwatch,South,Telangana,1415,1,203.6
+ORD0423,23-02-2024,Furniture,Table,North,Haryana,1694,1,259.65
+ORD0424,25-04-2024,Clothing,Jacket,East,Odisha,38040,8,4161.65
+ORD0425,06-07-2024,Clothing,Jacket,South,Telangana,33250,10,7790.82
+ORD0426,08-03-2024,Furniture,Table,East,West Bengal,45300,10,3731.61
+ORD0427,23-04-2024,Groceries,Rice,West,Gujarat,15930,9,1088.25
+ORD0428,18-08-2023,Clothing,Jeans,West,Rajasthan,19960,8,2804.34
+ORD0429,22-07-2024,Furniture,Cupboard,South,Telangana,10542,7,1768.78
+ORD0430,29-08-2024,Clothing,T-Shirt,East,West Bengal,24510,6,1544.61
+ORD0431,11-01-2024,Furniture,Table,South,Tamil Nadu,9960,8,1513.96
+ORD0432,19-12-2023,Groceries,Rice,East,Odisha,41148,9,7698.51
+ORD0433,14-10-2024,Electronics,Headphones,North,Punjab,1304,1,211.41
+ORD0434,14-03-2023,Furniture,Sofa,West,Maharashtra,17268,6,2807.2
+ORD0435,09-10-2024,Furniture,Cupboard,South,Tamil Nadu,4556,1,260.84
+ORD0436,19-09-2024,Electronics,Smartwatch,North,Haryana,11000,10,1822.54
+ORD0437,11-12-2023,Clothing,Shirt,South,Telangana,15232,7,1376.68
+ORD0438,12-03-2024,Furniture,Table,West,Gujarat,9906,6,543.23
+ORD0439,20-02-2023,Electronics,Smartwatch,South,Telangana,16641,9,1592.37
+ORD0440,15-08-2023,Clothing,T-Shirt,South,Telangana,9782,2,1677.28
+ORD0441,23-07-2023,Groceries,Oil,South,Tamil Nadu,8240,10,2058.71
+ORD0442,03-11-2023,Clothing,Jacket,North,Delhi,3582,1,635.86
+ORD0443,22-09-2023,Electronics,Smartwatch,South,Telangana,36832,8,2858.06
+ORD0444,01-03-2023,Furniture,Cupboard,South,Karnataka,13652,4,754.09
+ORD0445,14-09-2023,Clothing,Jacket,South,Tamil Nadu,8844,4,1857.63
+ORD0446,20-04-2024,Furniture,Sofa,North,Haryana,8924,2,1661.6
+ORD0447,15-06-2023,Clothing,T-Shirt,South,Karnataka,36460,10,8288.92
+ORD0448,03-09-2024,Furniture,Chair,East,Odisha,34846,7,6173.65
+ORD0449,29-06-2024,Electronics,Headphones,West,Maharashtra,20840,10,4098.41
+ORD0450,29-06-2023,Furniture,Sofa,South,Tamil Nadu,12879,3,2805.29
+ORD0451,09-04-2023,Clothing,Jeans,North,Haryana,17732,4,2669.54
+ORD0452,07-01-2024,Groceries,Rice,West,Gujarat,26226,9,5182.32
+ORD0453,25-11-2023,Groceries,Sugar,South,Tamil Nadu,17045,7,1209.68
+ORD0454,11-10-2024,Furniture,Chair,North,Punjab,35144,8,5727.81
+ORD0455,18-09-2023,Furniture,Cupboard,South,Tamil Nadu,6820,10,1437
+ORD0456,12-10-2023,Groceries,Wheat,West,Gujarat,27979,7,4554.51
+ORD0457,30-04-2024,Clothing,Jacket,North,Delhi,10755,9,555.87
+ORD0458,17-08-2024,Furniture,Table,North,Punjab,18512,4,2021.68
+ORD0459,23-04-2024,Clothing,T-Shirt,West,Maharashtra,19552,4,4610.49
+ORD0460,21-01-2024,Clothing,T-Shirt,East,Bihar,4632,4,673.46
+ORD0461,13-01-2023,Groceries,Sugar,South,Karnataka,4428,2,848.63
+ORD0462,17-02-2023,Groceries,Oil,North,Haryana,6177,3,1508.99
+ORD0463,10-03-2024,Groceries,Oil,North,Delhi,6454,2,643.12
+ORD0464,20-01-2024,Groceries,Oil,South,Karnataka,8375,5,2000.6
+ORD0465,19-03-2024,Groceries,Wheat,East,Odisha,12006,9,1183.2
+ORD0466,03-08-2023,Furniture,Chair,West,Gujarat,9984,6,1335.08
+ORD0467,20-08-2024,Groceries,Wheat,East,Bihar,34920,9,4096.1
+ORD0468,28-03-2023,Clothing,Shirt,East,West Bengal,13212,6,2156.29
+ORD0469,29-06-2024,Furniture,Cupboard,South,Karnataka,11592,9,850.52
+ORD0470,16-05-2024,Electronics,Laptop,South,Telangana,7281,9,1686.83
+ORD0471,27-03-2024,Clothing,Shirt,South,Telangana,12240,4,2928.63
+ORD0472,25-03-2023,Electronics,Smartwatch,West,Maharashtra,9490,5,1712.62
+ORD0473,12-09-2023,Furniture,Chair,North,Delhi,5391,3,759.62
+ORD0474,11-08-2024,Groceries,Rice,North,Delhi,21385,7,5030.08
+ORD0475,16-11-2023,Groceries,Sugar,North,Punjab,6534,3,994.2
+ORD0476,23-11-2024,Groceries,Sugar,North,Delhi,5110,2,818.79
+ORD0477,10-03-2023,Electronics,Smartwatch,North,Punjab,3316,1,428.38
+ORD0478,08-11-2023,Groceries,Wheat,East,Bihar,35824,8,3249.75
+ORD0479,17-01-2024,Clothing,Jeans,North,Haryana,33672,8,4630.14
+ORD0480,29-12-2023,Clothing,T-Shirt,West,Gujarat,9620,10,1880.2
+ORD0481,12-11-2024,Clothing,T-Shirt,South,Karnataka,15860,5,2256.26
+ORD0482,06-05-2023,Clothing,Jeans,East,Bihar,14356,4,2273.26
+ORD0483,17-05-2023,Clothing,Jeans,North,Haryana,11538,6,1469.1
+ORD0484,11-06-2023,Electronics,Laptop,East,Odisha,47440,10,4757.9
+ORD0485,28-09-2023,Electronics,Mobile,North,Haryana,20960,10,1312.77
+ORD0486,18-05-2023,Clothing,Jeans,East,Odisha,11655,5,929.57
+ORD0487,18-01-2024,Electronics,Headphones,North,Haryana,32304,8,2563.36
+ORD0488,26-06-2024,Clothing,Shirt,West,Rajasthan,2764,4,146.85
+ORD0489,11-02-2023,Electronics,Mobile,West,Gujarat,4424,4,923.9
+ORD0490,05-06-2024,Groceries,Wheat,North,Haryana,5292,7,1074.35
+ORD0491,15-07-2023,Electronics,Smartwatch,East,West Bengal,3550,2,240.95
+ORD0492,30-12-2023,Clothing,Shirt,East,Bihar,755,1,136.73
+ORD0493,03-08-2023,Electronics,Headphones,South,Telangana,16479,9,1669.62
+ORD0494,18-09-2023,Clothing,T-Shirt,North,Punjab,7092,9,790.56
+ORD0495,14-07-2024,Groceries,Wheat,South,Karnataka,17576,8,1279.65
+ORD0496,24-02-2024,Clothing,Jacket,West,Gujarat,9728,2,1294.23
+ORD0497,26-06-2023,Furniture,Cupboard,West,Rajasthan,23504,8,4232.6
+ORD0498,18-01-2023,Furniture,Table,West,Maharashtra,18260,4,4135.64
+ORD0499,14-02-2024,Clothing,T-Shirt,East,West Bengal,11332,4,1380.93
+ORD0500,09-10-2024,Groceries,Oil,South,Tamil Nadu,32046,7,7504.6

@@ -1,0 +1,35 @@
+/* 
+Combinators
+------------
+4 types of selectors
+1. child selector = access using ">"
+2. descendent selector = access using (space)
+3. adjacent sibling selector = access using "+" or next sibling selector +
+4. general sibling selector = access using "~" or 
+
+this selectors are more impact in seudo class and seudo elements
+
+*/
+
+.container{
+    background-color: black;
+    color: red;
+}
+/* .container>.item1{ 
+    color: aqua;
+} */
+.container>p{ 
+    color: aqua;
+}
+.container>div>p{
+    color: blue;
+}
+/* .container p{ 
+    color: aqua;
+} */
+/* .container+div{ 
+    color: red;
+}
+.container~p{ 
+    color: red;
+} */

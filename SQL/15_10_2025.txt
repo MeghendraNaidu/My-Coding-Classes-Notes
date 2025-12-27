@@ -1,0 +1,48 @@
+DDL-- 
+
+CREATE 
+ALTER 
+DROP      -- will delete entire table with data
+TRUNCATE   -- will delete total data in table
+RENAME     -- WILL CHANGE THE TABLE NAME
+
+
+>>>RENAME TABLE OLD_TABLE_NAME TO NEW_TABLE_NAME;
+
+dml -- 
+
+insert  -- will pass data as new record into table
+update  -- will insert a new value in the palce exsting 		data 
+delete  -- will delete the row based on condition
+
+insert 
+
+>>>insert into table_name values(v1,v2,v3,-----);
+
+>>>insert into table_name values(v1,v2,v3----),(v1,v2,v3-----)----;
+
+>>>insert into table_name(column_name1,column_name2) values(v1,v2);
+
+update
+
+>>>to disable security options
+
+>>>set sql_safe_updates=0;
+
+>>>update table_name set column_name=Updated_value where column_name=old_value;
+
+delete --
+
+>>>delete from table_name where condition;
+
+truncate
+
+>>>truncate table table_name;
+
+drop
+
+>>>drop table table_name;
+
+
+
+

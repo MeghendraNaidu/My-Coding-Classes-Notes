@@ -1,0 +1,96 @@
+@media screen and (max-width: 426px){
+    .nav-container{
+        padding: 3px;
+    }
+    .nav-container>.item{
+        width: 100px;
+        padding: 8px;
+    }
+    .bg-container{
+        height: 80%;
+    }
+    .text1 p{
+        font-size: 5.8rem;
+        line-height: 120px;
+    }
+    .text2{
+        display: none;
+    }
+    .text3 p{
+        font-size: 1rem;
+    }
+    .main-container>.main{
+        width: 90%;
+    }
+    .text4 p{
+        padding: 5px;
+    }
+    .para-container1{
+        padding: 0px;
+    }
+    .para-container1 p{
+        text-align: left;
+        padding: 0px;
+        font-size: 1.1rem;
+    }
+    .note-para{
+        padding: 2px;
+        margin: 5px 0px;
+        border-left-width: 6px;
+    }
+    .note-para p{
+        padding: 5px;
+    }
+    .text5 p{
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .label-container{
+        padding: 8px;
+    }
+    .eat-container{
+        padding: 10px;
+        line-height: 35px;
+    }
+    .eat-container h4{
+        padding: 7px;
+        font-size: 1.2rem;
+    }
+    .eat-container p{
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+    .drink-container{
+        padding: 10px;
+        line-height: 35px;
+    }
+    .drink-container h4{
+        padding: 7px;
+        font-size: 1.2rem;
+    }
+    .drink-container p{
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+    .para-container2 p{
+        font-size: 1.1rem;
+    }
+    .para-container3 span{
+        padding: 3px;
+    }
+    .para-container3 p{
+        padding: 3px;
+        font-size: 1.1rem;
+        text-align: left;
+    }
+    .para-container3>p>b{
+        font-size: 1.2rem;
+    }
+    .forms-container button{
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+    .foot-container{
+        padding: 60px;
+    }
+}

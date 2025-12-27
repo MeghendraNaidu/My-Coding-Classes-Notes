@@ -1,0 +1,95 @@
+to convert into sql
+
+>>>\sql
+
+to connect with server
+
+>>>\c root@localhost
+
+to display databases in server
+
+>>>show databases;
+
+
+ddl  
+create -- create a database or table
+alter  -- add columns , rename the column_names ,drop 		columns
+rename
+drop
+truncate
+
+create a database.
+
+>>>create database database_name;
+
+
+selecting a database
+
+>>>use database_name;
+
+to display tables in database
+
+>>>show tables;
+
+creating a table:
+
+>>>create table table_name(
+column_name datatype,
+column_name datatype
+);
+
+datatype :--  which type of data it is
+
+int       -- will pass whole numbers -- 4 bytes-- 2**31
+bigint    -- will pass whole numbers -- 8 bytes-- 2**63
+float     -- will pass decimal values-- 4 bytes-- 2**31
+decimal(s,p) -- will pass decimal values
+double    -- will pass decimal values-- 8 bytes-- 2**63
+varchar(s) -- wil pass string values   -255
+char(s)    -- will pass string values  -255
+date       -- data in the form dates 'yyyy-mm-dd'
+time       -- data in the form time  'HH:MM:SS'
+
+
+alter --
+
+addcolmns 
+adding column last
+
+>>>alter table table_name add column column_name datatype;
+
+adding column at middle
+
+>>>alter table table_name add column column_name datatype after old_column_name;
+
+adding column at first
+
+>>>alter table table_name add column column_name datatype
+first;
+
+
+delete the columns 
+
+>>>alter table table_name drop column colmn_name;
+
+rename the column_name;
+
+>>>alter table table_name rename column 
+old_column_name to new_column_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

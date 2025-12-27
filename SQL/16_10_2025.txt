@@ -1,0 +1,51 @@
+operator -- relation between operands or values or operand and 		values
+
+airthemetic   -- perform the mathematical operations-(+,-,**,			*,/,%,//) 
+assignment    -- compare the values(=,>=,<=,>,<,!=,<>)
+logical       -- (and,or,not)
+membership    -- (in , not in)
+identify      -- (is, is not)
+
+constraints -- will pass the data into table based condition
+
+unique         -- will pass different data into table which 			different from previous data
+not null       -- will not pass the null values
+check          -- will pass data based on condition
+default        -- will pass default value in the place of null 			value
+auto increment -- will increase number from 1 to n no.rows
+
+>>>create table table_name(
+column_name datatype constraints,
+column_name datatype
+);
+
+
+>>>create table table_name(
+column_name datatype check (condition),
+column_name datatype
+);
+
+
+>>>create table table_name(
+column_name datatype default value,
+column_name datatype
+);
+
+>>>create table table_name(
+column_name datatype unique auto_increment,
+column_name datatype
+);
+
+>>>create table table_name(
+column_name datatype unique auto_increment,
+column_name datatype
+)auto_increment=value;
+
+
+
+
+
+
+
+
+

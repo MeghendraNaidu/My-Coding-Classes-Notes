@@ -1,0 +1,32 @@
+/* 
+task
+-----
+units in css
+----------------
+units are to specify the size of the containner
+There are 2 types of units
+1. Absolute units
+   px, in, cm, mm
+2. Relative units
+    % => 
+   vh => viewport height
+   vw => viewport width
+   em => Element size
+   rem => Root Element size
+   calc()-function
+1em = 16px
+1rem = 16px
+
+default font size = 16px in html
+em => parent element font-size
+rem => root element font-size
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid;
+}

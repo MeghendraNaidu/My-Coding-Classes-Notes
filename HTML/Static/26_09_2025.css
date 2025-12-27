@@ -1,0 +1,159 @@
+/* 
+Grid in CSS
+-----------
+x and y axis
+
+*/
+
+.container{
+    border: 2px solid;
+    /* display: flex; */
+    display: grid;
+    text-align: center;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 100px 300px;  height */
+    /* grid-gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    grid-gap: 5px;
+    height: 100vh;
+}
+.item-1{
+    background-color: lightblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-2{
+    background-color: lightcoral;
+}
+.item-3{
+    background-color: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item-4{
+    background-color: lightgray;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item-5{
+    background-color: lightsteelblue;
+}
+.item-6{
+    background-color: lightsalmon;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.item-7{
+    background-color: lightslategray;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-8{
+    background-color: rgb(0, 176, 235);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-9{
+    background-color: rgb(227, 28, 58);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.semantic{
+    border: 5px solid;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+    /* height: 100vh; */
+}
+.sem{
+    border: 5px solid;
+}
+.sem>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sem-1{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sem-2{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sem-3{
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.sem-4{
+    background-color: aqua;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+.sem-5{
+    background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.sem-6{
+    background-color: burlywood;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container-1{
+    border: 15px solid;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50vh;
+}
+.con{
+    border: 6px solid;
+}
+.con-1{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.con-2{
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.con-3{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.con-4{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}

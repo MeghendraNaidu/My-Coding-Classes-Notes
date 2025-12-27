@@ -1,0 +1,68 @@
+.nav-container1{
+    margin: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+.nav-item1>.bi{
+    margin: 10px;
+    font-size: xx-large;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+hr{
+    margin: 90px;
+    transform: scaleY(0.5);
+}
+.nav-container2{
+    margin: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+.nav-container2 p{
+    margin: 10px;
+    font-size: x-large;
+    color: white;
+}
+.nav-container3{
+    margin: 90px;
+    display: flex;
+    justify-content: start;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+}
+.nav-item2>.bi{
+    margin: 20px;
+    font-size: xx-large;
+    color: white;
+}
+.nav-item2>.fab{
+    margin: 5px;
+    font-size: xx-large;
+    color: white;
+}
+
+.nav-container4{
+    margin: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+.nav-item3>.bi{
+    margin: 20px;
+    font-size: xx-large;
+    color: white;
+}
+.fw-bold{
+    margin: 0px;
+    font-size: xx-large;
+    color: white;
+}

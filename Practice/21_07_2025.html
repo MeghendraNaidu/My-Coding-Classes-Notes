@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <center>
+            <img src="./Images/Top.png" alt="Top" style="width: 960px;">
+        </center>
+
+        <center>
+            <fieldset style="width: 900px;">
+                <legend>Application Details</legend>
+                <table width="95%" cellpadding="10" cellspacing="0">
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Name">Name:</label>
+                        </td>
+                        <td align="left">
+                            <input type="text" id="Name" name="Name" required>
+                        </td>
+                        <td align="left">
+                            <label for="Father's/Guardian's Name">Father's/Guardian's Name:</label>
+                        </td>
+                        <td align="left">
+                            <input type="text" id="Father's/Guardian's Name" name="Father's/Guardian's Name" required>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Date Of Birth">Date Of Birth:</label>
+                        </td>
+                        <td align="left">
+                            <input type="date" id="Date Of Birth" name="Date Of Birth" required>
+                        </td>
+                        <td align="left">
+                            <label for="Gender">Gender:</label>
+                        </td>
+                        <td align="left">
+                            <input type="radio" id="male" name="Gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="Gender" value="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Age As No">Age As NO:</label>
+                        </td>
+                        <td align="left">
+                            <input type="number" id="Age As No" name="Age As No" required>
+                        </td>
+                        <td align="left">
+                            <label for="Aadhaar No">Aadhaar No:</label>
+                        </td>
+                        <td align="left">
+                            <input type="text" id="Aadhaar No" name="Aadhaar No" maxlength="12" minlength="12" required>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Whats App">Whats App No:</label>
+                        </td>
+                        <td align="left">
+                            <input type="text" id="Whats App" name="Whats App" required>
+                        </td>
+                        <td align="left">
+                            <label for="Email">Email:</label>
+                        </td>
+                        <td align="left">
+                            <input type="email" id="Email" name="Email" required>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Photo">Photo:</label>
+                        </td>
+                        <td align="left">
+                            <input type="file" id="Photo" name="Photo" accept="image/*" required>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+            <pre></pre>
+
+
+            <fieldset style="width: 900px;">
+                <legend>Residential Address Details</legend>
+                <table width="95%" cellpadding="10" cellspacing="0">
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Address">Applicant's Address:</label>
+                        </td>
+                        <td align="left">
+                            <textarea name="Address" id="Address"></textarea>
+                        </td>
+                        <td align="left">
+                            <label for="District">District:</label>
+                        </td>
+                        <td align="left">
+                            <select name="District" id="District">
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Mandal">Mandal:</label>
+                        </td>
+                        <td align="left">
+                            <select name="Mandal" id="Mandal">
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </td>
+                        <td align="left">
+                            <label for="Village">Village:</label>
+                        </td>
+                        <td align="left">
+                            <select name="Village" id="Village">
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Pincode">Pincode:</label>
+                        </td>
+                        <td align="left">
+                            <input type="text" id="Pincode" name="Pincode" maxlength="6" minlength="6" required>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <pre></pre>
+
+            <fieldset style="width: 900px;">
+                <legend>Pass Type Details</legend>
+                <table width="95%" cellpadding="10" cellspacing="0">
+                    <tr align="center">
+                        <td align="left">
+                            <label for="City">City:</label>
+                        </td>
+                        <td align="left">
+                            <select name="City" id="City">
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="PassType">Pass Type:</label>
+                        </td>
+                        <td align="left">
+                            <select name="PassType" id="PassType">
+                                <option value="Regular Pass">Regular Pass</option>
+                                <option value="Temporary Pass">Temporary Pass</option>
+                                <option value="Metro Pass">Metro Pass</option>
+                                <option value="Metro Delux Pass">Metro Delux Pass</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <pre></pre>
+            <fieldset style="width: 900px;">
+                <legend>Mode OF Payment & Pass Collection</legend>
+                <table width="95%" cellpadding="10" cellspacing="0">
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Payment Mode">Payment Mode:</label>
+                        </td>
+                        <td align="left">
+                            <select name="Payment Mode" id="Payment Mode">
+                                <option value="Online">Online</option>
+                                <option value="Offline">Offline</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Pass Delivery Mode">Pass Delivery Mode:</label>
+                        </td>
+                        <td align="left">
+                            <select name="Pass Delivery Mode" id="Pass Delivery Mode">
+                                <option value="Home Delivery">Home Delivery</option>
+                                <option value="Self Collection">Self Collection</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="left">
+                            <label for="Pass Collection Center">Center at Which you want to Collect Pass:</label>
+                        </td>
+                        <td align="left">
+                            <select name="Pass Collection Center" id="Pass Collection Center">
+                                <option value="RTC JBS--HYD">RTC JBS--HYD</option>
+                                <option value="RTC AIRPORT--HYD">RTC AIRPORT--HYD</option>
+                                <option value="RTC MG BUS STATION--HYD">RTC MG BUS STATION--HYD</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </center>
+
+        <br>
+        <pre></pre>
+        <center>
+            <img src="./Images/Cap.png" alt="Capture" width="240">
+            <br>
+            <pre></pre>
+
+            <input type="text" name="captcha" id="captcha">
+            <br>
+            <pre></pre>
+
+            <input type="submit" value="Submit">
+        </center>
+    </form>
+    
+</body>
+</html>

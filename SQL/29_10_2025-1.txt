@@ -1,0 +1,102 @@
+use 58r;
+
+select * from 10kcoders;
+
+create view python as
+select * from 10kcoders where course='python full stack';
+
+select * from python;
+
+create view java as select sno,name,admissiondate from 10kcoders where course='java full stack';
+
+select * from java;
+
+create view marks as
+select * from 10kcoders where marks>=90;
+
+select * from marks;
+
+select * from 10kcoders;
+
+select * from python;
+
+insert into 10kcoders values(20,'nagaraju','python full stack',98,'2025-01-01');
+
+insert into python values(22,'harsha','python',90,'2020-02-29');
+
+drop view python;
+
+delimiter $$
+create procedure pro()
+begin
+select * from 10kcoders;
+end$$
+delimiter ;
+
+call pro();
+
+delimiter $$
+create procedure pro1(a int)
+begin
+select * from 10kcoders where marks>a;
+end$$
+delimiter ;
+
+
+call pro1(70);
+
+delimiter $$
+create procedure _up(o varchar(100),n varchar(100))
+begin
+update 10kcoders set name=n where name=o;
+end$$
+delimiter ;
+
+call _up('ravi','charan');
+
+set sql_safe_updates=0;
+
+call _up('shiva','parvathi');
+call pro();
+
+
+delimiter $$
+create procedure _in(s int,n varchar(100),c varchar(100),m int)
+begin
+insert into 10kcoders(sno,name,course,marks) values(s,n,c,m);
+end$$
+delimiter ;
+
+
+call _in(30,'siva','python',100);
+
+delimiter $$
+create procedure _del(a int)
+begin
+delete from 10kcoders where sno=a;
+end$$
+delimiter ;
+
+call _del(18);
+
+call pro();
+
+delimiter $$
+create procedure _up1(in a varchar(100),in b varchar(100))
+begin
+update 10kcoders set course=a where course=b;
+end$$
+delimiter ;
+
+call _up1('java','java full stack');
+
+call pro();
+
+delimiter $$
+create procedure _s(out i varchar(100))
+begin
+select * from 10kcoders where marks>85;
+end$$
+delimiter ;
+
+call _s(@i);

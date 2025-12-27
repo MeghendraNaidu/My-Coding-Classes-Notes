@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Heading</title>
+</head>
+
+<body>
+
+    <h1 id="heading">Welcome!</h1>
+    <button id="btn">Change Text & Style</button>
+
+
+    <h2>Click a Button to Change Background Color</h2>
+
+    <div>
+        <button onclick="changeColor('Red')">Red</button>
+        <button onclick="changeColor('Blue')">Blue</button>
+        <button onclick="changeColor('Green')">Green</button>
+        <button onclick="changeColor('Orange')">Orange</button>
+        <button onclick="resetColor()">Reset</button>
+    </div>
+
+
+
+    <script>
+        // Get references to the elements
+        const heading = document.getElementById("heading");
+        const button = document.getElementById("btn");
+
+        // Add click event listener
+        button.addEventListener("click", function () {
+            heading.textContent = "Hello Students!";
+            heading.style.color = "green";
+            heading.style.fontSize = "30px";
+        });
+
+
+        function changeColor(color) {
+            document.body.style.backgroundColor = color.toLowerCase();
+            document.getElementById("currentColor").textContent = "👉 Current Color: " + color;
+        }
+
+        function resetColor() {
+            document.body.style.backgroundColor = "white";
+            document.getElementById("currentColor").textContent = "";
+        }
+
+
+    </script>
+</body>
+
+</html>

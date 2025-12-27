@@ -1,0 +1,127 @@
+use 58r;
+
+select * from 10kcoders;
+delimiter $$
+create procedure _inout(in a int,out b varchar(100))
+begin
+select * from 10kcoders where marks>=a;
+end$$
+delimiter ;
+call _inout(90,@b);
+
+create table 10k(
+sno int,
+name varchar(100),
+batch char(3),
+amount float);
+
+create table act(
+detail varchar(100),
+dot datetime default now()
+);
+
+select * from 10k;
+
+select * from act;
+
+insert into 10k values(1,'kowshik','58r',10000);
+
+delimiter $$
+create trigger _ai
+after insert on 10k
+for each row
+begin
+insert into act(detail) values('student enrolled');
+end$$
+delimiter ;
+
+select * from act;
+
+select * from 10k;
+
+delimiter $$
+create trigger _bi
+before insert on 10k
+for each row
+begin
+if new.amount<5000 then
+signal sqlstate '45000' set message_text='should not enrolled';
+end if;
+end$$
+delimiter ;
+
+drop trigger _bi;
+
+insert into 10k values(4,'kavya','56r',5001);
+
+set sql_safe_updates=0;
+
+update 10k set amount=10000 where sno=3;
+
+delimiter $$
+create trigger _au
+after update on 10k
+for each row
+begin
+if new.amount<old.amount then
+insert into act(detail) values('amount low');
+elseif new.amount>old.amount then
+insert into act(detail) values('amount high');
+end if;
+end$$
+delimiter ;
+
+
+
+update 10k set amount=11000 where sno=2;
+
+select * from 10k;
+
+select * from act;
+
+delimiter $$
+create trigger _bu
+before update on 10k
+for each row
+begin
+if new.amount<old.amount then
+signal sqlstate '45000' set message_text='you cannot reduce amount';
+end if;
+end$$
+delimiter ;
+
+update 10k set amount=10001 where sno=1;
+
+select * from act;
+
+delimiter $$
+create trigger _ad
+after delete on 10k
+for each  row
+begin
+insert into act(detail) values('bye');
+end$$
+delimiter ;
+
+select * from 10k;
+
+delimiter $$
+create trigger _bd
+before delete on 10k
+for each row
+begin
+if old.amount<10000 then
+signal sqlstate '45000' set message_text='please pay fee';
+end if;
+end$$
+delimiter ;
+
+delete from 10k where sno=2;
+
+insert into 10k values(5,'navya','58r',12000),(6,'rupa','58r',18000);
+
+select * from act;
+
+delete from 10k where amount=10000;
+
+use 58r;

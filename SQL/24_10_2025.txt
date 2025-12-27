@@ -1,0 +1,53 @@
+DATE FUNCTIONS --
+
+now()    -- present date and time
+current_date()  -- present date
+current_time()  -- present time
+date_add('yyyy-mm-dd',interaval no.ofdays day)   
+ -- will add no.of days to a date
+
+date_sub('yyyy-mm-dd',interval no.ofdays day)
+-- will remove no.of days from a date
+
+datediff('yyyy-mm-dd','yyyy-mm-dd')    -- will give no.of difference days between two dates
+
+
+extract(year|month|day from 'yyyy-mm-dd');
+
+-- will extract the only one value from date and time
+
+window functions :
+
+row_number()   -- will assign number to row or record
+
+>>>select *,row_number() over() from table_name;
+
+rank()        -- will skip rank when duplicate values 		are occure
+
+>>>select *,rank() over(column_name) from table_name;
+
+dense_rank()  -- will no skip ranks when duplicate 		values are occure
+>>>select *,dense_rank() over(column_name) from table_name;
+
+lead()  -- wiil send entire column data upper
+
+>>>select *,lead(column_name,no.pos) over() from table_name;
+
+lag()   -- will send entire column data downword
+
+>>>select *,lag(column_name,no.pos) over() from table_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

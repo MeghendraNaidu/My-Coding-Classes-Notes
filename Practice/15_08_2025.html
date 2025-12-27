@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <center>
+        <h1>🌟Naravula Meghendra's Web Portfolio</h1>
+        <i>Showcasing HTML Skills using Tables</i>
+        <nav>
+            <section>
+                <a href="#about me">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#skills">Skills</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#projects"> Projects</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#contact">Contact</a>
+            </section>
+        </nav>
+    </center>
+    <hr>
+    <center>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <td colspan="2">
+                    <h3 id="about me">👤About Me</h3>
+                    <p>Hello! I'm <b>Naravula Meghendra</b>, a passionate web developer. I love building semnatic, accessible, and respective wecsite using core web technologies.</p>
+                    <p>I specialize in front-end development, especially HTML, CSS, and JavaScript.</p>
+                    <img src="./Images/My_Photo.jpg" alt="Naravul Meghendra" width="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 id="skills">🧠Skills</h3>
+                    <ul>
+                        <li>Html5 / CSS3</li>
+                        <li>JavaScript(ES6+)</li>
+                        <li>Responsive Design</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                    <h3>📝Skiill Levels</h3>
+                    <table border="1" cellspacing="2" cellpadding="10">
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Expert</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Intermediate</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <h3 id="projects">📁Projects</h3>
+                   <ol>
+                        <li><b>Portfolio Website-</b>My personal portfolio built using pure HTML and CSS.</li>
+                        <li><b>Todo App-</b>A task management tool with vanilla JavaScript</li>
+                        <li><b>Weather App-</b>A real-time weather dashboard using APIs.</li>
+                    </ol>                    
+                    <h3>🖼️Screenshot</h3>
+                    <img src="./Images/SS9.png" alt="Project Preview" width="40%">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h3 id="contact">📫Contact Me</h3>
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="full name">Full Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="fullname" name="fullname" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                     <label for="email">Email:</label>
+                                </td>
+                                <td>
+                                    <input type="email" id="email" name="Email" required> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="male">Gender:</label>
+                                </td>
+                                <td>
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="Services Intersted">Services Intersted:</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="Services Intersted" id="Services Intersted">
+                                    <label for="Services Intersted">Web Design</label>
+                                    <br>
+                                    <input type="checkbox" name="Services Intersted" id="Services Intersted">
+                                    <label for="Services Intersted">SEO</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="Country">Country:</label>
+                                </td>
+                                <td>
+                                    <select name="Country" id="Country">
+                                        <option value="India">India</option>
+                                        <option value="USA">USA</option>
+                                        <option value="London">London</option>
+                                        <option value="UK">UK</option>
+                                        <option value="Japan">Japan</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="message">Message:</label>
+                                </td>
+                                <td>
+                                    <textarea name="message" id="message"></textarea>
+                                </td>
+                            </tr>
+                            <td>
+                            </td>
+                            <td>
+                                <input type="Button" value="Send">
+                                <input type="Button" value="Clear">
+                            </td>
+
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <p><b>📆Last Update:</b>August 15, 2025</p>
+                        <i>Created by Naravula Meghendra</i>
+                        <br>
+                        <b>Email:</b><a href="meghendra@gmail.com">meghendra@gmail.com</a>
+                        <br>
+                        <b>Website:</b><a href="meghendra.com">meghendra.com</a>
+                        <br>
+                        &copy;2025 Naravula Meghendra. All rights reserved.
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+Student_ID,Gender,Degree,Specialization,College,Year_of_Passout,CGPA,Internships,Certifications,Skills,Employment_Status,Job_Role,Company_Type,Salary,Location
+S001,Female,BA,Psychology,Elite Institute,2022,8.7,No,No,"Financial Modeling, Content Writing",Unemployed,NA,NA,0,Kolkata
+S002,Male,B.Sc,Chemistry,XYZ Engineering,2023,7.5,No,No,HTML,Employed,Content Writer,Private,756350,Mumbai
+S003,Female,B.Com,Taxation,City College,2024,6.9,Yes,No,"HTML, Python, Embedded Systems",Unemployed,NA,NA,0,Pune
+S004,Male,B.Tech,Computer Science,Elite Institute,2024,7.6,Yes,No,"Tally, SQL, Content Writing",Unemployed,NA,NA,0,Bangalore
+S005,Male,B.Sc,Chemistry,ABC College,2024,6.6,No,Yes,"Embedded Systems, Content Writing",Unemployed,NA,NA,0,Varanasi
+S006,Female,B.Sc,Physics,Elite Institute,2021,5.0,No,No,"Excel, Financial Modeling, Python",Unemployed,NA,NA,0,Lucknow
+S007,Male,BA,History,Tech University,2024,6.2,No,Yes,"HTML, Content Writing, AutoCAD",Unemployed,NA,NA,0,Kolkata
+S008,Female,B.Sc,Computer Science,City College,2024,5.3,No,No,"Python, Embedded Systems, Financial Modeling",Unemployed,NA,NA,0,Bangalore
+S009,Female,B.Tech,Mechanical,Elite Institute,2024,6.6,Yes,No,"Tally, Power BI",Unemployed,NA,NA,0,Chennai
+S010,Female,B.Com,Finance,ABC College,2024,9.5,No,Yes,CSS,Unemployed,NA,NA,0,Mumbai
+S011,Female,MBA,Operations,Elite Institute,2024,9.0,No,No,ML,Unemployed,NA,NA,0,Chennai
+S012,Female,B.Sc,Chemistry,Tech University,2022,5.2,No,No,Python,Unemployed,NA,NA,0,Varanasi
+S013,Male,B.Sc,Chemistry,Sunrise College,2023,5.1,Yes,No,"AutoCAD, Power BI",Unemployed,NA,NA,0,Hyderabad
+S014,Female,MBA,HR,Tech University,2022,8.8,Yes,No,"AutoCAD, AI",Unemployed,NA,NA,0,Jaipur
+S015,Female,BA,History,ABC College,2024,9.4,Yes,No,AI,Unemployed,NA,NA,0,Kolkata
+S016,Female,MBA,Marketing,Govt College,2020,6.7,Yes,No,"ML, JavaScript, CSS",Unemployed,NA,NA,0,Hyderabad
+S017,Female,BCA,Networking,ABC College,2023,9.1,Yes,No,"AI, SQL, Embedded Systems",Unemployed,NA,NA,0,Pune
+S018,Female,MBA,Operations,XYZ Engineering,2021,6.9,No,Yes,Content Writing,Employed,HR Executive,Startup,344368,Pune
+S019,Female,MBA,HR,Sunrise College,2022,8.2,Yes,No,"CSS, HTML",Unemployed,NA,NA,0,Mumbai
+S020,Male,B.Tech,EEE,XYZ Engineering,2024,7.1,Yes,No,"Financial Modeling, Python",Unemployed,NA,NA,0,Guntur
+S021,Female,B.Sc,Computer Science,XYZ Engineering,2022,6.9,No,No,"Content Writing, SQL",Employed,Marketing Executive,MNC,296785,Chennai
+S022,Male,BA,History,City College,2021,5.8,No,No,"Power BI, HTML, AI",Unemployed,NA,NA,0,Chennai
+S023,Female,B.Sc,Computer Science,Elite Institute,2021,7.8,No,Yes,JavaScript,Unemployed,NA,NA,0,Vizag
+S024,Male,BA,English,Tech University,2022,6.1,Yes,Yes,"CSS, Financial Modeling",Employed,Research Assistant,Private,645661,Delhi
+S025,Male,BA,Psychology,ABC College,2021,8.9,No,No,"HTML, Power BI",Unemployed,NA,NA,0,Patna
+S026,Male,B.Com,Taxation,Govt College,2021,7.4,No,No,Tally,Employed,Accountant,Private,773552,Indore
+S027,Female,MBA,Finance,XYZ Engineering,2022,7.4,Yes,Yes,"CSS, Embedded Systems, AutoCAD",Unemployed,NA,NA,0,Chennai
+S028,Female,B.Tech,Data Science,Elite Institute,2022,8.9,No,No,"HTML, Excel, AutoCAD",Employed,Web Developer,Private,1083053,Chennai
+S029,Female,BA,History,ABC College,2021,7.9,Yes,No,Power BI,Employed,Data Analyst,NGO,413531,Chennai
+S030,Male,MBA,Finance,City College,2022,7.5,No,Yes,"Excel, SQL",Unemployed,NA,NA,0,Guntur
+S031,Male,B.Sc,Chemistry,City College,2020,6.4,Yes,No,"HTML, Financial Modeling, CSS",Employed,Content Writer,Startup,296103,Indore
+S032,Male,BA,Economics,XYZ Engineering,2023,5.5,No,Yes,Financial Modeling,Employed,Data Analyst,NGO,645186,Guntur
+S033,Female,BA,Economics,XYZ Engineering,2022,7.0,Yes,Yes,"Financial Modeling, Excel",Employed,ML Engineer,Private,541538,Mumbai
+S034,Male,B.Sc,Mathematics,Tech University,2021,5.7,Yes,Yes,"SQL, Excel, Power BI",Employed,ML Engineer,Private,223017,Mumbai
+S035,Male,B.Sc,Mathematics,Sunrise College,2024,9.5,No,Yes,"Embedded Systems, CSS, SQL",Unemployed,NA,NA,0,Lucknow
+S036,Female,B.Sc,Chemistry,Govt College,2021,5.6,Yes,Yes,"Excel, Content Writing, HTML",Unemployed,NA,NA,0,Patna
+S037,Female,B.Com,Finance,Govt College,2021,5.9,No,No,"Tally, CSS, Python",Unemployed,NA,NA,0,Kolkata
+S038,Male,B.Sc,Physics,Govt College,2021,6.9,Yes,No,"Python, Excel, HTML",Unemployed,NA,NA,0,Coimbatore
+S039,Female,BCA,Networking,Sunrise College,2021,6.2,No,Yes,SQL,Unemployed,NA,NA,0,Mumbai
+S040,Male,MBA,Marketing,ABC College,2024,5.9,Yes,Yes,"AI, AutoCAD",Employed,Financial Analyst,NGO,251966,Delhi
+S041,Female,B.Tech,EEE,Govt College,2020,5.7,No,No,"Content Writing, Tally",Unemployed,NA,NA,0,Patna
+S042,Female,B.Sc,Mathematics,XYZ Engineering,2024,7.2,Yes,Yes,"ML, HTML",Employed,Software Engineer,Private,619863,Lucknow
+S043,Male,BCA,Software,City College,2021,9.0,Yes,No,Python,Unemployed,NA,NA,0,Lucknow
+S044,Male,MBA,Marketing,ABC College,2020,6.5,Yes,No,Embedded Systems,Unemployed,NA,NA,0,Jaipur
+S045,Female,B.Com,Taxation,Elite Institute,2021,5.9,No,No,"HTML, Content Writing",Unemployed,NA,NA,0,Patna
+S046,Male,B.Com,Taxation,XYZ Engineering,2022,8.8,Yes,Yes,Content Writing,Unemployed,NA,NA,0,Coimbatore
+S047,Male,MBA,HR,Elite Institute,2024,8.2,No,No,"HTML, Financial Modeling",Unemployed,NA,NA,0,Kolkata
+S048,Male,B.Com,Taxation,City College,2020,8.9,No,Yes,SQL,Unemployed,NA,NA,0,Lucknow
+S049,Male,BCA,Networking,Tech University,2021,8.8,No,No,CSS,Unemployed,NA,NA,0,Delhi
+S050,Male,B.Com,Accounting,Elite Institute,2023,8.2,Yes,No,"Financial Modeling, CSS",Unemployed,NA,NA,0,Guntur
+S051,Male,MBA,HR,XYZ Engineering,2021,5.3,Yes,No,"HTML, AI",Employed,Electrical Engineer,NGO,751258,Pune
+S052,Male,BCA,Software,XYZ Engineering,2020,6.2,No,No,CSS,Employed,ML Engineer,Private,620571,Delhi
+S053,Male,MBA,HR,ABC College,2024,5.5,No,Yes,"CSS, AI",Unemployed,NA,NA,0,Guntur
+S054,Male,BCA,Software,Sunrise College,2022,7.4,Yes,No,"SQL, Financial Modeling, Power BI",Unemployed,NA,NA,0,Chennai
+S055,Female,BCA,Software,XYZ Engineering,2024,8.2,Yes,Yes,Content Writing,Unemployed,NA,NA,0,Mumbai
+S056,Female,BCA,Software,Elite Institute,2024,6.0,Yes,Yes,"Embedded Systems, Power BI",Unemployed,NA,NA,0,Patna
+S057,Male,B.Sc,Mathematics,Tech University,2021,5.2,Yes,No,"Embedded Systems, JavaScript, Power BI",Unemployed,NA,NA,0,Pune
+S058,Female,B.Com,Accounting,XYZ Engineering,2023,6.0,Yes,Yes,"AutoCAD, AI, JavaScript",Unemployed,NA,NA,0,Jaipur
+S059,Male,B.Sc,Chemistry,Elite Institute,2023,5.3,Yes,Yes,"SQL, JavaScript",Unemployed,NA,NA,0,Mumbai
+S060,Male,B.Com,Taxation,City College,2022,8.2,No,Yes,"AutoCAD, Embedded Systems",Unemployed,NA,NA,0,Hyderabad
+S061,Male,MBA,Finance,City College,2022,5.7,Yes,No,"JavaScript, Embedded Systems",Unemployed,NA,NA,0,Vizag
+S062,Female,BA,History,ABC College,2024,9.4,Yes,No,"AI, Embedded Systems",Unemployed,NA,NA,0,Delhi
+S063,Male,MBA,Operations,City College,2023,9.5,No,No,CSS,Unemployed,NA,NA,0,Chennai
+S064,Female,BCA,Software,ABC College,2023,6.5,No,No,Excel,Employed,HR Executive,Private,676455,Hyderabad
+S065,Male,BCA,Networking,Govt College,2021,8.4,Yes,No,Content Writing,Unemployed,NA,NA,0,Varanasi
+S066,Female,B.Tech,Civil,Elite Institute,2021,7.0,No,No,"Content Writing, Embedded Systems, HTML",Employed,Content Writer,Private,760382,Guntur
+S067,Female,MBA,Finance,ABC College,2020,5.1,No,No,"Excel, SQL, Python",Unemployed,NA,NA,0,Vizag
+S068,Male,BA,History,ABC College,2021,8.2,No,No,SQL,Unemployed,NA,NA,0,Mumbai
+S069,Female,B.Com,Taxation,Sunrise College,2020,9.2,Yes,No,"Tally, Power BI",Unemployed,NA,NA,0,Bangalore
+S070,Female,MBA,Finance,Sunrise College,2022,8.1,Yes,Yes,"Content Writing, Financial Modeling, Excel",Unemployed,NA,NA,0,Pune
+S071,Female,BA,Economics,Elite Institute,2022,8.9,No,Yes,"CSS, SQL, HTML",Unemployed,NA,NA,0,Lucknow
+S072,Female,BA,Economics,Sunrise College,2021,6.5,Yes,No,"Tally, SQL, CSS",Unemployed,NA,NA,0,Hyderabad
+S073,Female,MBA,Marketing,City College,2020,7.3,Yes,Yes,AI,Unemployed,NA,NA,0,Patna
+S074,Male,MBA,Marketing,Elite Institute,2021,9.4,Yes,Yes,"Power BI, Python, Tally",Unemployed,NA,NA,0,Jaipur
+S075,Male,BCA,Networking,ABC College,2021,5.8,No,Yes,Content Writing,Unemployed,NA,NA,0,Vizag
+S076,Female,MBA,HR,Sunrise College,2021,7.0,Yes,No,"ML, JavaScript",Employed,Content Writer,MNC,878705,Hyderabad
+S077,Female,BA,Economics,Elite Institute,2023,9.0,Yes,No,Content Writing,Employed,ML Engineer,Private,675742,Patna
+S078,Male,B.Sc,Chemistry,Sunrise College,2022,8.3,No,No,HTML,Unemployed,NA,NA,0,Kolkata
+S079,Female,BA,History,Elite Institute,2021,6.7,Yes,Yes,"Power BI, CSS",Unemployed,NA,NA,0,Coimbatore
+S080,Male,BA,Psychology,ABC College,2021,6.1,Yes,Yes,Financial Modeling,Unemployed,NA,NA,0,Delhi
+S081,Female,B.Sc,Computer Science,XYZ Engineering,2022,8.2,No,Yes,"Financial Modeling, HTML, Excel",Employed,Software Engineer,NGO,538106,Mumbai
+S082,Female,B.Sc,Computer Science,ABC College,2022,7.1,No,Yes,"Python, HTML",Employed,Research Assistant,NGO,679848,Bangalore
+S083,Male,B.Sc,Chemistry,Govt College,2021,7.2,No,Yes,"Content Writing, CSS, JavaScript",Unemployed,NA,NA,0,Varanasi
+S084,Male,B.Com,Finance,ABC College,2021,9.0,Yes,Yes,"AutoCAD, Financial Modeling",Unemployed,NA,NA,0,Varanasi
+S085,Female,B.Tech,AI & ML,Govt College,2023,7.6,Yes,Yes,SQL,Employed,HR Executive,MNC,673579,Indore
+S086,Male,BCA,Networking,ABC College,2020,6.7,No,Yes,"ML, Content Writing",Unemployed,NA,NA,0,Kolkata
+S087,Male,BCA,IT,ABC College,2020,9.0,No,Yes,"Content Writing, Tally, AI",Unemployed,NA,NA,0,Patna
+S088,Male,B.Sc,Physics,XYZ Engineering,2021,7.0,Yes,Yes,"SQL, AI",Unemployed,NA,NA,0,Indore
+S089,Female,B.Com,Taxation,Tech University,2024,5.9,Yes,No,"Power BI, AI",Unemployed,NA,NA,0,Pune
+S090,Female,B.Sc,Mathematics,Elite Institute,2023,6.3,No,Yes,Embedded Systems,Unemployed,NA,NA,0,Indore
+S091,Female,B.Tech,ECE,Tech University,2023,8.0,No,Yes,"Excel, Content Writing",Employed,Electrical Engineer,Private,913849,Kolkata
+S092,Female,BA,Psychology,Elite Institute,2024,5.1,No,Yes,HTML,Employed,HR Executive,Private,338406,Vizag
+S093,Male,B.Com,Taxation,Tech University,2022,6.1,No,No,"HTML, JavaScript",Unemployed,NA,NA,0,Patna
+S094,Male,B.Tech,AI & ML,Tech University,2021,9.0,No,No,"Tally, Content Writing, CSS",Unemployed,NA,NA,0,Coimbatore
+S095,Male,B.Com,Accounting,City College,2021,5.6,No,No,"AutoCAD, SQL",Employed,Data Analyst,NGO,905912,Kolkata
+S096,Female,B.Tech,Computer Science,City College,2023,8.0,Yes,No,Financial Modeling,Employed,Web Developer,Private,601597,Jaipur
+S097,Female,MBA,Finance,Govt College,2022,8.0,Yes,Yes,Power BI,Employed,Electrical Engineer,MNC,444991,Bangalore
+S098,Female,B.Com,Accounting,City College,2023,6.8,Yes,Yes,Financial Modeling,Unemployed,NA,NA,0,Patna
+S099,Male,BCA,IT,Elite Institute,2024,8.8,Yes,Yes,Content Writing,Unemployed,NA,NA,0,Indore
+S100,Female,B.Com,Taxation,City College,2021,6.5,No,Yes,"Content Writing, AutoCAD, CSS",Unemployed,NA,NA,0,Jaipur
+S101,Female,BA,Psychology,Elite Institute,2022,6.5,No,No,HTML,Unemployed,NA,NA,0,Mumbai
+S102,Male,BA,Psychology,ABC College,2023,6.2,Yes,No,"Excel, Tally",Unemployed,NA,NA,0,Pune
+S103,Female,B.Sc,Physics,Govt College,2020,7.4,Yes,No,"HTML, JavaScript, Content Writing",Unemployed,NA,NA,0,Lucknow
+S104,Female,BCA,Software,ABC College,2022,8.5,Yes,Yes,"ML, HTML, Embedded Systems",Unemployed,NA,NA,0,Varanasi
+S105,Female,B.Com,Accounting,City College,2022,8.2,No,Yes,"Excel, AutoCAD",Unemployed,NA,NA,0,Coimbatore
+S106,Male,BA,History,Govt College,2021,7.7,Yes,No,"HTML, ML",Employed,Marketing Executive,NGO,1153612,Hyderabad
+S107,Female,MBA,Marketing,XYZ Engineering,2021,8.7,Yes,Yes,Python,Unemployed,NA,NA,0,Kolkata
+S108,Female,BA,History,City College,2020,5.3,No,Yes,HTML,Unemployed,NA,NA,0,Guntur
+S109,Female,B.Tech,ECE,City College,2020,5.0,Yes,Yes,"Content Writing, Financial Modeling",Employed,Web Developer,Startup,256578,Jaipur
+S110,Female,B.Com,Finance,City College,2023,5.4,Yes,Yes,Power BI,Unemployed,NA,NA,0,Mumbai
+S111,Female,MBA,Finance,XYZ Engineering,2023,8.5,Yes,Yes,"JavaScript, CSS, Python",Unemployed,NA,NA,0,Hyderabad
+S112,Female,B.Tech,ECE,XYZ Engineering,2023,7.4,No,No,"HTML, SQL",Employed,Electrical Engineer,Startup,935529,Kolkata
+S113,Female,MBA,HR,XYZ Engineering,2024,5.2,No,No,"CSS, Tally, Python",Unemployed,NA,NA,0,Kolkata
+S114,Female,BCA,Networking,XYZ Engineering,2021,7.1,No,No,Python,Employed,Financial Analyst,Private,833213,Varanasi
+S115,Male,BA,History,XYZ Engineering,2023,6.1,Yes,No,Embedded Systems,Employed,Electrical Engineer,Private,1129684,Vizag
+S116,Female,BA,English,XYZ Engineering,2021,8.2,Yes,No,Excel,Unemployed,NA,NA,0,Chennai
+S117,Female,BA,History,Elite Institute,2020,7.3,No,Yes,"CSS, Content Writing",Employed,Content Writer,MNC,897317,Varanasi
+S118,Male,B.Tech,Data Science,XYZ Engineering,2020,6.4,No,No,Python,Unemployed,NA,NA,0,Guntur
+S119,Female,MBA,HR,Sunrise College,2021,7.4,No,Yes,"Tally, HTML",Employed,Accountant,NGO,521340,Jaipur
+S120,Female,B.Com,Taxation,Elite Institute,2023,5.7,No,Yes,Tally,Unemployed,NA,NA,0,Guntur
+S121,Male,MBA,Marketing,City College,2023,5.7,Yes,Yes,CSS,Unemployed,NA,NA,0,Kolkata
+S122,Male,B.Sc,Mathematics,City College,2021,9.3,Yes,No,"ML, Tally",Unemployed,NA,NA,0,Pune
+S123,Male,BA,Economics,Govt College,2023,7.1,No,Yes,"AutoCAD, JavaScript",Unemployed,NA,NA,0,Vizag
+S124,Male,B.Tech,Civil,ABC College,2020,5.6,No,Yes,"AutoCAD, Python",Unemployed,NA,NA,0,Coimbatore
+S125,Female,BCA,Software,XYZ Engineering,2021,8.4,No,Yes,"Content Writing, CSS",Employed,Data Analyst,Private,997155,Guntur
+S126,Female,MBA,HR,Tech University,2022,9.2,Yes,Yes,AI,Employed,Content Writer,Startup,846395,Hyderabad
+S127,Female,BA,English,City College,2024,6.7,No,Yes,HTML,Employed,Financial Analyst,Private,246444,Mumbai
+S128,Female,BA,Economics,Tech University,2024,7.0,No,Yes,Content Writing,Unemployed,NA,NA,0,Vizag
+S129,Male,MBA,Operations,Govt College,2024,7.7,Yes,No,"HTML, SQL",Unemployed,NA,NA,0,Coimbatore
+S130,Female,B.Sc,Physics,Sunrise College,2023,5.3,No,Yes,Python,Unemployed,NA,NA,0,Guntur
+S131,Female,B.Com,Taxation,Sunrise College,2021,9.1,No,Yes,HTML,Employed,Marketing Executive,Private,248927,Kolkata
+S132,Female,B.Sc,Physics,Tech University,2024,6.3,Yes,Yes,"AI, Financial Modeling",Employed,Software Engineer,Private,762328,Bangalore
+S133,Male,BA,English,Sunrise College,2020,7.6,No,Yes,"Tally, Content Writing, SQL",Unemployed,NA,NA,0,Jaipur
+S134,Male,B.Sc,Physics,Elite Institute,2023,7.4,Yes,No,"HTML, JavaScript",Unemployed,NA,NA,0,Varanasi
+S135,Female,B.Com,Accounting,Sunrise College,2022,8.0,Yes,No,"Excel, SQL, HTML",Employed,HR Executive,MNC,816441,Bangalore
+S136,Male,MBA,HR,Tech University,2024,8.8,Yes,Yes,"ML, Power BI",Employed,Electrical Engineer,Private,398900,Kolkata
+S137,Female,B.Com,Finance,Sunrise College,2021,7.9,Yes,Yes,"Content Writing, SQL, AutoCAD",Employed,Financial Analyst,Startup,685791,Indore
+S138,Male,B.Com,Accounting,Elite Institute,2020,8.9,No,No,"CSS, Tally",Employed,Software Engineer,Startup,312488,Vizag
+S139,Male,B.Tech,Mechanical,Tech University,2024,6.3,Yes,Yes,"AutoCAD, Embedded Systems, JavaScript",Unemployed,NA,NA,0,Delhi
+S140,Male,B.Com,Accounting,ABC College,2023,6.3,Yes,Yes,"Power BI, Excel",Unemployed,NA,NA,0,Kolkata
+S141,Male,B.Sc,Mathematics,ABC College,2023,8.9,Yes,Yes,"Python, ML, JavaScript",Unemployed,NA,NA,0,Coimbatore
+S142,Female,BCA,Networking,Tech University,2021,7.8,No,No,"Financial Modeling, SQL, ML",Employed,Web Developer,NGO,226038,Lucknow
+S143,Male,BCA,Networking,Tech University,2020,8.4,No,No,ML,Unemployed,NA,NA,0,Patna
+S144,Female,MBA,Operations,City College,2022,9.0,Yes,Yes,"HTML, Content Writing, ML",Unemployed,NA,NA,0,Kolkata
+S145,Male,BA,History,Elite Institute,2022,8.7,Yes,Yes,Python,Unemployed,NA,NA,0,Hyderabad
+S146,Male,BCA,Networking,Govt College,2021,7.0,No,No,"Python, AI, CSS",Employed,Web Developer,Startup,397671,Delhi
+S147,Male,MBA,Marketing,Govt College,2021,8.7,No,No,"JavaScript, Python",Unemployed,NA,NA,0,Kolkata
+S148,Female,B.Com,Taxation,Tech University,2022,7.7,Yes,No,"Tally, SQL",Unemployed,NA,NA,0,Lucknow
+S149,Male,B.Sc,Computer Science,City College,2021,5.5,No,Yes,Excel,Unemployed,NA,NA,0,Pune
+S150,Male,B.Com,Taxation,Elite Institute,2024,6.4,Yes,Yes,"Financial Modeling, Tally",Unemployed,NA,NA,0,Varanasi
+S151,Female,MBA,Operations,City College,2024,8.8,No,Yes,"CSS, AI, Python",Employed,Financial Analyst,Startup,935312,Bangalore
+S152,Female,MBA,Operations,Tech University,2024,7.5,Yes,No,ML,Unemployed,NA,NA,0,Coimbatore
+S153,Male,B.Tech,Computer Science,Tech University,2023,6.1,Yes,Yes,"Embedded Systems, CSS, ML",Unemployed,NA,NA,0,Kolkata
+S154,Female,B.Tech,Data Science,XYZ Engineering,2023,7.8,Yes,No,ML,Unemployed,NA,NA,0,Chennai
+S155,Female,B.Tech,Data Science,Tech University,2024,9.1,No,No,Financial Modeling,Unemployed,NA,NA,0,Indore
+S156,Female,B.Com,Taxation,Elite Institute,2021,7.7,No,Yes,"Power BI, AI",Unemployed,NA,NA,0,Indore
+S157,Male,BCA,Networking,Sunrise College,2020,5.7,No,No,Power BI,Unemployed,NA,NA,0,Pune
+S158,Female,BA,Economics,Sunrise College,2021,9.5,Yes,Yes,"Excel, AI, ML",Employed,Marketing Executive,NGO,847571,Pune
+S159,Female,MBA,Finance,XYZ Engineering,2021,5.1,No,No,Tally,Unemployed,NA,NA,0,Vizag
+S160,Female,BA,History,Govt College,2022,5.3,Yes,No,"Excel, AI",Employed,Financial Analyst,Private,546811,Pune
+S161,Female,B.Sc,Computer Science,Sunrise College,2020,6.8,Yes,No,AutoCAD,Unemployed,NA,NA,0,Kolkata
+S162,Female,B.Sc,Chemistry,Sunrise College,2024,9.5,No,No,CSS,Unemployed,NA,NA,0,Varanasi
+S163,Male,MBA,Operations,City College,2023,7.9,No,No,"Embedded Systems, SQL, JavaScript",Employed,Accountant,Startup,921399,Indore
+S164,Male,B.Tech,ECE,Tech University,2021,9.4,No,No,"ML, AI",Employed,Software Engineer,Private,506306,Mumbai
+S165,Female,BA,Psychology,Tech University,2024,6.9,Yes,No,Embedded Systems,Unemployed,NA,NA,0,Chennai
+S166,Male,BCA,IT,XYZ Engineering,2020,8.3,Yes,No,"AI, Financial Modeling",Unemployed,NA,NA,0,Jaipur
+S167,Male,B.Tech,ECE,Sunrise College,2023,8.8,No,No,ML,Unemployed,NA,NA,0,Lucknow
+S168,Male,BCA,Networking,ABC College,2023,5.5,Yes,No,SQL,Employed,Financial Analyst,Private,573095,Vizag
+S169,Male,B.Sc,Computer Science,XYZ Engineering,2021,6.1,No,Yes,"Excel, Financial Modeling",Unemployed,NA,NA,0,Lucknow
+S170,Female,MBA,HR,City College,2022,9.5,No,Yes,Tally,Unemployed,NA,NA,0,Hyderabad
+S171,Male,B.Com,Finance,ABC College,2024,6.5,No,Yes,JavaScript,Employed,Accountant,MNC,508515,Bangalore
+S172,Female,B.Sc,Computer Science,XYZ Engineering,2022,5.2,No,No,"AI, Power BI",Employed,Research Assistant,MNC,487232,Delhi
+S173,Male,MBA,HR,ABC College,2022,6.7,No,No,HTML,Unemployed,NA,NA,0,Bangalore
+S174,Female,MBA,Finance,XYZ Engineering,2024,8.0,No,No,CSS,Unemployed,NA,NA,0,Pune
+S175,Female,B.Com,Accounting,Elite Institute,2024,5.9,No,No,"Tally, Embedded Systems",Employed,ML Engineer,Startup,731330,Vizag
+S176,Female,BCA,Software,Sunrise College,2022,9.4,No,Yes,HTML,Unemployed,NA,NA,0,Coimbatore
+S177,Male,B.Sc,Physics,ABC College,2024,5.2,Yes,Yes,"Content Writing, CSS",Unemployed,NA,NA,0,Vizag
+S178,Female,BA,Psychology,Elite Institute,2024,8.7,Yes,Yes,"Excel, Content Writing, AutoCAD",Unemployed,NA,NA,0,Hyderabad
+S179,Male,MBA,HR,Govt College,2023,7.6,No,No,Financial Modeling,Unemployed,NA,NA,0,Kolkata
+S180,Male,BCA,Networking,Sunrise College,2020,7.7,No,Yes,AI,Employed,Web Developer,Private,235481,Varanasi
+S181,Male,BA,Economics,Sunrise College,2024,6.8,Yes,No,"Python, Excel, AI",Unemployed,NA,NA,0,Mumbai
+S182,Male,BCA,Software,Govt College,2021,8.2,No,No,"CSS, Content Writing, HTML",Employed,HR Executive,NGO,875030,Delhi
+S183,Female,B.Tech,Mechanical,ABC College,2023,8.3,No,Yes,Power BI,Unemployed,NA,NA,0,Patna
+S184,Female,BCA,Software,Sunrise College,2020,6.3,Yes,No,"AutoCAD, CSS, SQL",Unemployed,NA,NA,0,Mumbai
+S185,Female,B.Sc,Chemistry,ABC College,2021,8.9,No,No,"ML, AutoCAD, JavaScript",Employed,Marketing Executive,NGO,834194,Hyderabad
+S186,Female,B.Sc,Computer Science,Elite Institute,2021,7.9,No,Yes,Financial Modeling,Employed,HR Executive,NGO,1095092,Guntur
+S187,Female,BA,English,Govt College,2020,5.4,Yes,Yes,"SQL, ML",Unemployed,NA,NA,0,Chennai
+S188,Male,BCA,IT,ABC College,2021,9.3,Yes,No,"AI, ML, JavaScript",Unemployed,NA,NA,0,Kolkata
+S189,Female,BCA,Software,ABC College,2022,9.3,Yes,No,"SQL, ML, Excel",Employed,HR Executive,MNC,390240,Guntur
+S190,Female,B.Sc,Mathematics,Sunrise College,2024,8.2,No,Yes,"Power BI, AutoCAD, Financial Modeling",Unemployed,NA,NA,0,Coimbatore
+S191,Male,B.Sc,Physics,Govt College,2023,8.6,No,No,"CSS, HTML",Employed,Web Developer,MNC,558486,Lucknow
+S192,Male,BCA,Networking,XYZ Engineering,2022,6.0,Yes,No,"Excel, HTML, AutoCAD",Unemployed,NA,NA,0,Mumbai
+S193,Female,B.Com,Taxation,XYZ Engineering,2023,8.1,No,No,"Python, ML, Content Writing",Unemployed,NA,NA,0,Lucknow
+S194,Male,B.Com,Accounting,Elite Institute,2021,9.0,No,Yes,"Power BI, ML",Unemployed,NA,NA,0,Patna
+S195,Female,MBA,Marketing,XYZ Engineering,2023,7.0,No,Yes,"Power BI, Excel",Unemployed,NA,NA,0,Vizag
+S196,Female,B.Sc,Mathematics,Elite Institute,2023,8.2,Yes,Yes,"JavaScript, Excel",Unemployed,NA,NA,0,Lucknow
+S197,Female,BCA,Networking,Govt College,2020,9.4,Yes,Yes,"Python, SQL",Unemployed,NA,NA,0,Kolkata
+S198,Female,BCA,Software,Elite Institute,2023,7.0,No,No,Content Writing,Unemployed,NA,NA,0,Hyderabad
+S199,Male,B.Tech,Data Science,Tech University,2020,6.3,Yes,Yes,"SQL, AI, CSS",Unemployed,NA,NA,0,Indore
+S200,Male,BA,English,Govt College,2022,5.4,Yes,No,ML,Employed,Marketing Executive,Startup,470990,Varanasi
+S201,Female,B.Com,Finance,ABC College,2021,8.1,Yes,No,"SQL, Tally",Employed,ML Engineer,Startup,1057710,Lucknow
+S202,Male,MBA,HR,Elite Institute,2022,6.6,No,Yes,"JavaScript, Embedded Systems",Employed,Accountant,NGO,369393,Varanasi
+S203,Male,B.Sc,Chemistry,Tech University,2023,8.3,Yes,No,"Tally, CSS, JavaScript",Unemployed,NA,NA,0,Chennai
+S204,Female,B.Sc,Mathematics,City College,2021,7.2,Yes,Yes,"Python, ML, Financial Modeling",Employed,HR Executive,NGO,831187,Guntur
+S205,Female,BA,Psychology,Sunrise College,2022,8.8,No,Yes,"Financial Modeling, Excel, CSS",Unemployed,NA,NA,0,Jaipur
+S206,Male,B.Com,Taxation,Elite Institute,2023,8.4,No,No,"HTML, ML",Unemployed,NA,NA,0,Coimbatore
+S207,Male,MBA,Operations,City College,2023,7.8,Yes,Yes,Power BI,Unemployed,NA,NA,0,Kolkata
+S208,Female,BA,Economics,ABC College,2023,6.1,No,Yes,"AutoCAD, Content Writing",Unemployed,NA,NA,0,Delhi
+S209,Male,BCA,Software,XYZ Engineering,2022,5.5,No,Yes,"Financial Modeling, JavaScript",Unemployed,NA,NA,0,Guntur
+S210,Female,BCA,Software,ABC College,2024,5.4,Yes,No,JavaScript,Unemployed,NA,NA,0,Mumbai
+S211,Female,B.Tech,Civil,ABC College,2024,8.9,No,No,"SQL, AutoCAD",Unemployed,NA,NA,0,Vizag
+S212,Male,B.Tech,AI & ML,Govt College,2020,8.9,Yes,No,"SQL, Financial Modeling, AutoCAD",Unemployed,NA,NA,0,Guntur
+S213,Female,BCA,IT,XYZ Engineering,2024,7.1,Yes,Yes,"Excel, Power BI, Content Writing",Unemployed,NA,NA,0,Indore
+S214,Male,B.Sc,Mathematics,Elite Institute,2023,7.1,No,No,"Financial Modeling, Excel",Unemployed,NA,NA,0,Varanasi
+S215,Female,BCA,Networking,Elite Institute,2023,8.3,No,Yes,Financial Modeling,Employed,Data Analyst,NGO,503491,Coimbatore
+S216,Female,MBA,Finance,City College,2021,6.7,Yes,Yes,"AI, Power BI, HTML",Employed,ML Engineer,Startup,242993,Delhi
+S217,Female,BA,Psychology,Elite Institute,2024,6.5,Yes,No,"Excel, HTML, ML",Unemployed,NA,NA,0,Patna
+S218,Male,B.Com,Accounting,ABC College,2023,9.4,No,Yes,"ML, Power BI",Employed,Financial Analyst,MNC,814259,Hyderabad
+S219,Male,B.Tech,Mechanical,Tech University,2023,8.2,Yes,No,"Financial Modeling, Tally",Employed,Electrical Engineer,Startup,266891,Patna
+S220,Female,BCA,Networking,Tech University,2022,6.9,No,Yes,"HTML, Embedded Systems, Tally",Unemployed,NA,NA,0,Coimbatore
+S221,Female,BA,History,Sunrise College,2024,9.2,Yes,Yes,Embedded Systems,Employed,Electrical Engineer,Startup,1065534,Hyderabad
+S222,Male,B.Sc,Computer Science,City College,2024,6.0,Yes,No,"Power BI, Financial Modeling, HTML",Unemployed,NA,NA,0,Delhi
+S223,Female,B.Com,Accounting,ABC College,2024,5.2,No,No,"Power BI, Tally",Unemployed,NA,NA,0,Jaipur
+S224,Female,BCA,Networking,Sunrise College,2021,5.6,No,No,"ML, CSS, Embedded Systems",Unemployed,NA,NA,0,Jaipur
+S225,Male,BCA,Networking,Elite Institute,2023,7.8,No,Yes,"HTML, Power BI, Python",Employed,Accountant,Private,1086716,Mumbai
+S226,Male,BA,History,City College,2021,7.8,No,No,"Tally, AutoCAD",Unemployed,NA,NA,0,Pune
+S227,Female,BCA,IT,Sunrise College,2021,7.8,Yes,No,"Excel, Python",Employed,Research Assistant,Private,405662,Hyderabad
+S228,Male,B.Tech,Mechanical,City College,2024,8.0,Yes,No,"Tally, Excel",Unemployed,NA,NA,0,Varanasi
+S229,Male,BA,Economics,Elite Institute,2021,6.6,No,Yes,Financial Modeling,Employed,Marketing Executive,Private,763557,Varanasi
+S230,Male,B.Com,Taxation,XYZ Engineering,2022,5.7,No,No,SQL,Unemployed,NA,NA,0,Lucknow
+S231,Female,B.Sc,Physics,Sunrise College,2021,8.9,Yes,Yes,"Content Writing, Financial Modeling",Employed,Research Assistant,Private,622197,Hyderabad
+S232,Female,B.Tech,Data Science,Tech University,2021,8.9,Yes,No,"SQL, CSS, AutoCAD",Employed,Financial Analyst,Private,634384,Kolkata
+S233,Male,B.Tech,EEE,ABC College,2022,7.6,No,Yes,CSS,Unemployed,NA,NA,0,Pune
+S234,Female,BA,Economics,ABC College,2020,8.3,Yes,Yes,"CSS, Tally",Unemployed,NA,NA,0,Bangalore
+S235,Female,MBA,HR,Tech University,2024,7.7,Yes,Yes,"SQL, Content Writing, Embedded Systems",Unemployed,NA,NA,0,Jaipur
+S236,Female,BCA,Networking,City College,2022,7.0,Yes,Yes,"Power BI, Excel",Unemployed,NA,NA,0,Bangalore
+S237,Female,B.Sc,Chemistry,City College,2020,5.3,Yes,Yes,"Embedded Systems, Excel, CSS",Unemployed,NA,NA,0,Hyderabad
+S238,Female,BA,Economics,Elite Institute,2020,6.2,Yes,No,ML,Unemployed,NA,NA,0,Pune
+S239,Male,B.Sc,Chemistry,Elite Institute,2023,8.4,Yes,Yes,Financial Modeling,Unemployed,NA,NA,0,Jaipur
+S240,Female,BA,Psychology,Tech University,2022,8.9,No,No,"CSS, ML",Unemployed,NA,NA,0,Pune
+S241,Female,BCA,Software,Govt College,2024,8.1,No,No,Excel,Unemployed,NA,NA,0,Kolkata
+S242,Female,BCA,IT,XYZ Engineering,2021,7.0,No,No,JavaScript,Unemployed,NA,NA,0,Coimbatore
+S243,Female,B.Tech,EEE,Govt College,2022,6.0,Yes,No,"SQL, Excel, AI",Unemployed,NA,NA,0,Delhi
+S244,Male,BCA,Software,Govt College,2024,5.2,No,No,"ML, Excel, AI",Unemployed,NA,NA,0,Hyderabad
+S245,Male,BA,History,Sunrise College,2023,5.3,No,Yes,Content Writing,Employed,Web Developer,MNC,1130676,Lucknow
+S246,Female,BA,English,City College,2024,5.3,Yes,Yes,"Excel, Financial Modeling",Unemployed,NA,NA,0,Delhi
+S247,Female,B.Com,Accounting,Elite Institute,2021,6.5,No,No,"JavaScript, HTML, Power BI",Employed,Research Assistant,MNC,906513,Lucknow
+S248,Male,BA,Economics,Tech University,2021,7.4,Yes,Yes,"JavaScript, SQL, Content Writing",Unemployed,NA,NA,0,Lucknow
+S249,Male,BA,Psychology,XYZ Engineering,2021,5.4,No,No,"Content Writing, SQL",Employed,HR Executive,NGO,565841,Lucknow
+S250,Female,B.Sc,Computer Science,XYZ Engineering,2022,6.4,No,No,"AutoCAD, HTML",Unemployed,NA,NA,0,Indore
+S251,Female,B.Tech,Computer Science,XYZ Engineering,2023,8.7,No,Yes,"AutoCAD, Excel, Embedded Systems",Employed,ML Engineer,MNC,1053211,Lucknow
+S252,Male,B.Tech,Mechanical,City College,2022,6.3,Yes,No,"Tally, ML",Employed,Financial Analyst,NGO,1076550,Patna
+S253,Male,BCA,Networking,Sunrise College,2022,8.0,No,No,Python,Employed,Marketing Executive,NGO,375997,Kolkata
+S254,Male,MBA,Operations,XYZ Engineering,2024,8.9,No,Yes,"ML, Python",Unemployed,NA,NA,0,Indore
+S255,Female,B.Sc,Mathematics,Govt College,2021,6.1,Yes,No,"CSS, Embedded Systems, JavaScript",Employed,ML Engineer,Private,841437,Varanasi
+S256,Female,BCA,Software,Elite Institute,2022,5.3,Yes,Yes,"HTML, Financial Modeling",Employed,Software Engineer,NGO,646556,Hyderabad
+S257,Male,MBA,Operations,Sunrise College,2022,7.5,No,Yes,"Power BI, Content Writing",Unemployed,NA,NA,0,Delhi
+S258,Male,B.Sc,Computer Science,Elite Institute,2022,6.5,Yes,Yes,SQL,Unemployed,NA,NA,0,Jaipur
+S259,Male,BA,Economics,City College,2024,6.2,No,Yes,"SQL, HTML",Employed,Electrical Engineer,Startup,406470,Mumbai
+S260,Female,MBA,HR,Elite Institute,2022,7.3,No,Yes,"JavaScript, Power BI",Employed,Research Assistant,MNC,984499,Vizag
+S261,Female,B.Tech,Computer Science,Elite Institute,2023,7.9,Yes,Yes,"HTML, CSS",Employed,Data Analyst,Startup,628717,Vizag
+S262,Female,B.Sc,Computer Science,Elite Institute,2022,9.1,Yes,Yes,"AutoCAD, Tally, Python",Unemployed,NA,NA,0,Jaipur
+S263,Female,MBA,Marketing,Govt College,2020,5.7,No,No,AI,Employed,Data Analyst,MNC,556607,Mumbai
+S264,Male,BCA,Networking,Govt College,2021,6.5,No,Yes,"Financial Modeling, Excel",Unemployed,NA,NA,0,Varanasi
+S265,Male,BA,Psychology,XYZ Engineering,2021,7.5,No,No,"Tally, AutoCAD",Unemployed,NA,NA,0,Hyderabad
+S266,Male,B.Tech,AI & ML,Tech University,2021,9.0,Yes,No,Content Writing,Unemployed,NA,NA,0,Delhi
+S267,Male,BCA,Software,XYZ Engineering,2023,9.0,No,No,"JavaScript, SQL",Unemployed,NA,NA,0,Patna
+S268,Male,MBA,HR,City College,2023,9.2,No,No,"AutoCAD, Python, SQL",Employed,Research Assistant,MNC,613196,Mumbai
+S269,Female,MBA,Marketing,Elite Institute,2024,8.2,Yes,Yes,"Financial Modeling, JavaScript",Unemployed,NA,NA,0,Coimbatore
+S270,Male,BA,Economics,City College,2023,5.2,No,Yes,"AI, HTML, Excel",Employed,Electrical Engineer,Startup,749320,Coimbatore
+S271,Male,B.Tech,Mechanical,Elite Institute,2022,5.4,No,Yes,"ML, CSS, Content Writing",Unemployed,NA,NA,0,Patna
+S272,Female,BA,English,Tech University,2022,5.1,No,Yes,AI,Unemployed,NA,NA,0,Indore
+S273,Female,B.Tech,Data Science,XYZ Engineering,2022,8.4,No,No,CSS,Unemployed,NA,NA,0,Varanasi
+S274,Female,B.Tech,EEE,XYZ Engineering,2024,7.1,Yes,Yes,"Python, SQL",Employed,Research Assistant,MNC,639220,Patna
+S275,Male,B.Tech,Computer Science,City College,2021,7.5,Yes,No,"CSS, HTML",Unemployed,NA,NA,0,Mumbai
+S276,Male,BCA,Networking,Sunrise College,2023,8.0,Yes,Yes,"Financial Modeling, HTML",Unemployed,NA,NA,0,Vizag
+S277,Male,B.Com,Taxation,City College,2020,6.5,Yes,Yes,Financial Modeling,Employed,HR Executive,MNC,758605,Mumbai
+S278,Male,MBA,Finance,Govt College,2023,7.1,Yes,No,"AI, Excel, AutoCAD",Employed,Web Developer,Private,453317,Lucknow
+S279,Male,B.Tech,Mechanical,Sunrise College,2022,9.2,No,No,"ML, AutoCAD, Python",Employed,Electrical Engineer,NGO,642904,Pune
+S280,Female,B.Com,Accounting,Elite Institute,2021,5.6,Yes,Yes,"Financial Modeling, Excel",Unemployed,NA,NA,0,Chennai
+S281,Male,B.Com,Taxation,Elite Institute,2023,5.3,Yes,No,"SQL, JavaScript, Tally",Employed,Electrical Engineer,MNC,378873,Patna
+S282,Male,B.Sc,Mathematics,XYZ Engineering,2021,8.2,No,No,"Content Writing, ML, Financial Modeling",Unemployed,NA,NA,0,Bangalore
+S283,Male,B.Com,Finance,ABC College,2020,6.8,Yes,No,Power BI,Unemployed,NA,NA,0,Guntur
+S284,Female,B.Tech,Computer Science,ABC College,2023,5.8,No,Yes,"AI, Power BI, SQL",Unemployed,NA,NA,0,Chennai
+S285,Male,MBA,Marketing,Tech University,2023,7.4,Yes,No,Python,Employed,HR Executive,NGO,499358,Varanasi
+S286,Female,BCA,Software,Tech University,2022,7.8,Yes,No,"Python, Power BI",Unemployed,NA,NA,0,Patna
+S287,Female,BCA,Software,XYZ Engineering,2022,6.6,Yes,Yes,"Power BI, ML, SQL",Unemployed,NA,NA,0,Vizag
+S288,Male,B.Com,Accounting,ABC College,2024,7.4,No,No,"AutoCAD, CSS",Employed,HR Executive,Startup,774391,Hyderabad
+S289,Female,BCA,IT,ABC College,2024,8.4,Yes,Yes,"JavaScript, Python",Unemployed,NA,NA,0,Chennai
+S290,Female,B.Com,Taxation,Sunrise College,2024,5.5,Yes,No,"AutoCAD, Excel",Unemployed,NA,NA,0,Lucknow
+S291,Female,BA,History,XYZ Engineering,2020,8.4,Yes,Yes,"AI, HTML",Unemployed,NA,NA,0,Coimbatore
+S292,Female,MBA,Marketing,Elite Institute,2020,5.1,No,No,AI,Employed,Content Writer,Private,1059541,Indore
+S293,Male,MBA,HR,City College,2024,7.1,Yes,Yes,Excel,Unemployed,NA,NA,0,Mumbai
+S294,Male,B.Sc,Chemistry,ABC College,2024,6.8,Yes,No,ML,Unemployed,NA,NA,0,Indore
+S295,Female,BA,History,Elite Institute,2023,8.3,Yes,Yes,"AutoCAD, Financial Modeling",Unemployed,NA,NA,0,Pune
+S296,Male,BCA,Networking,Tech University,2023,5.1,No,No,"SQL, AI",Employed,Marketing Executive,MNC,1117282,Hyderabad
+S297,Female,B.Sc,Physics,Sunrise College,2021,5.7,No,Yes,SQL,Unemployed,NA,NA,0,Jaipur
+S298,Male,MBA,Marketing,Sunrise College,2023,9.2,Yes,Yes,Tally,Unemployed,NA,NA,0,Indore
+S299,Female,BCA,Networking,Elite Institute,2020,6.3,No,Yes,CSS,Unemployed,NA,NA,0,Coimbatore
+S300,Male,BCA,Networking,Sunrise College,2022,8.9,Yes,No,"SQL, Python, Tally",Unemployed,NA,NA,0,Chennai

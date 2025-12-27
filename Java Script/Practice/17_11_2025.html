@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+       button{
+        padding: 10px;
+       }
+       .change{
+        background-color: black;
+       }
+       .style-heading{
+        text-align: center;
+        font-size: 2rem;
+        color: red;
+        background-color: aqua;
+        padding: 10px;
+       }
+       .photo{
+        width: 300px;
+        height: 300px;
+       }
+    </style>
+</head>
+<body>
+    <!-- 2 -->
+    <h2>DOM Practice Task</h2>
+    <button onclick="addstyle()">Add Style</button>
+    <button onclick="removestyle()">Remove Style</button>
+    
+    <!-- 1 -->
+    <button onclick="backcolor()">Dark Mode</button>
+
+
+    <!-- 3 -->
+     <button onclick="showimage()">Show Image</button>
+     <button onclick="removeimage()">Remove Image</button>
+
+    <script>
+        function backcolor() {
+            let a = document.getElementsByTagName("body")
+            a[0].classList.toggle("change")
+        }
+
+        function addstyle() {
+            let b = document.getElementsByTagName("h2")
+            b[0].classList.add("style-heading")
+        }
+        function removestyle() {
+            let b = document.getElementsByTagName("h2")
+            b[0].classList.remove("style-heading")
+        }
+
+        let c = document.createElement("img")
+        function showimage() {
+            c.setAttribute("src", "../../HTML/images/Billa.jpeg")
+            document.body.appendChild(c)
+            c.classList.add("photo")
+        }
+        function removeimage() {
+            document.body.removeChild(c)
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+operators --
+
+like     -- will extract the data based on format string
+
+wild card functions:
+
+%    -- no.of characters
+_    -- single characters
+
+>>>select * from table_name where column_name like 'formatstring';
+
+between   -- will give the result based on range of 			values
+
+>>>select * from table_name where column_name between start and end value;
+
+as    -- will change column_name or table_name temperorly
+
+>>>select *,column_name as new_name from table_name;
+
+union     -- will return all values from both table and 	return only once which duplicate values
+
+>>>select * from tb1 union  select * from tb2;
+
+union all  -- will return all values with duplicates
+
+>>>select * from tb1 union all  select * from tb2;
+
+intersect   -- will return common values from both tables
+
+>>>select * from tb1 intersect  select * from tb2;
+
+except   -- will return all values from  a table without common values
+
+>>>select * from tb1 except  select * from tb2;
+
+
+string functions:
+
+concat('first','second')   -- will combine two or more strings
+
+upper()  -- to convert into upper case
+lower()  -- to convert into lower case
+length()  -- will count the no.of characters
+replace('string','old_value','new_value')   
+-- will remove the old value and insert a new value
+
+substr('string',start,end)  -- will divide the string
+
+
+
+
+
+
+
+
+

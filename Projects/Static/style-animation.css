@@ -1,0 +1,44 @@
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px; 
+  height: 45px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.4s ease-in-out;
+  font-size: 2.4rem;
+  color: white;
+}
+.menu-icon i {
+  font-size: 2.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s ease-in-out;
+}
+.menu-icon .icon-x {
+  opacity: 0;
+}
+#menuToggle:checked ~ .menu-icon {
+    transform: rotate(360deg);
+}
+#menuToggle:checked ~ .menu-icon .icon-burger {
+    opacity: 0;
+}
+#menuToggle:checked ~ .menu-icon .icon-x {
+    opacity: 1;
+}

@@ -1,0 +1,29 @@
+clauses -- will extract data based on condition from 		table
+
+where      -- will group data based on condition
+
+>>>select * from table_name where condition;
+
+order by  -- will set a order to table asc/desc
+
+>>>select * from table_name order by column_name;
+>>>select * from table_name order by column_name desc;
+
+limit   -- to select no.of rows you want
+
+>>>select * from table_name limit no.of_rows;
+
+
+distinct   -- will return the duplicate values only 		once
+
+>>>select distinct * from table_name;
+
+group by  -- will group  the data without any condition
+
+>>>select count(*) from table_name group by column_name;
+
+having  -- will apply condition on groupin data
+
+>>>select count(*) from table_name group by column_name  having condition;
+
+

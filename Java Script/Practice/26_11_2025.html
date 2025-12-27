@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: whitesmoke;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="showstudents()">Show Students</button>
+
+    <div id="container"></div>
+
+    <script>
+        let students = [
+        {
+            name : "Nani",
+            age : 21, 
+            marks : 85, 
+            skills : ["Python", "SQL", "JavaScript"],
+            address : {
+                city : "Hyderabad",
+                pincode : 500001
+            }
+        },
+        {
+            name : "Yaswant",
+            age : 22, 
+            marks : 75, 
+            skills : ["Java", "SQL", "JavaScript"],
+            address : {
+                city : "Hyderabad",
+                pincode : 500072
+            }
+        },
+        {
+            name : "Praveen",
+            age : 23, 
+            marks : 80, 
+            skills : ["Python", "SQL", "JavaScript"],
+            address : {
+                city : "Tirupati",
+                pincode : 500672
+            }
+        },
+        {
+            name : "Venkat",
+            age : 21, 
+            marks : 85, 
+            skills : ["SQL", "JavaScript"],
+            address : {
+                city : "Hyderabad",
+                pincode : 50345
+            }
+        }
+        ]
+
+        function showstudents() {
+            let container = document.getElementById("container")
+            container.innerHTML = ""
+
+            for (let student of students) {
+                let card = document.createElement("div")
+                card.className = "card"
+
+                let skillslist = ""
+                for (let skill of student.skills) {
+                    skillslist += `<li>${skill}</li>`
+                }
+
+                card.innerHTML = 
+                `<h3>${student.name}</h3>
+                <p><strong>Age:</strong> ${student.age}</p>
+                <p><strong>Marks:</strong> ${student.marks}</p>
+
+                <strong>Skills:</strong>
+                <ul>${skillslist}</ul>
+
+                <p><strong>City:</strong> ${student.address.city}</p>
+                <p><strong>Pincode:</strong> ${student.address.pincode}</p>`
+
+                container.appendChild(card)
+            }
+        }
+    </script>
+</body>
+</html>

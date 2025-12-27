@@ -1,0 +1,19 @@
+/* 
+CDN full form = Content Delivery Network
+Media Quaries
+---------------
+1. box-sizing
+2. margin
+3. meta view ports
+4. relative units
+5. flex 
+6. grid
+7. media quaries (mobile view) (op)
+
+    @media screen/print/all and (break point) {
+        selector{
+            porperty:value;
+        }
+    }
+
+*/

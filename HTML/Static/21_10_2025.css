@@ -1,0 +1,40 @@
+/* 
+Bootstrap
+----------
+why?
+1. CDN (Content Delivery Network)
+        bootstrap icons
+        bootstrap css byusing CDN link
+2. Download the bootstrap
+3. NPM
+4. GEM
+
+*/
+/* 
+Classes
+--------
+    1 to 5
+    p-1, 2, 3, 4, 5
+    pb, pt, pe, ps, - 1, 2, 3, 4, 5
+    m - 1, 2, 3, 4, 5
+    mb, mt, me, ms - 1, 2, 3, 4, 5
+    text-primary
+    text-secondary
+    text-danger
+    text-susses
+    text-center
+    text-right
+    text-left
+    border
+    border - 1, 2, 3, 4, 5
+    border-primary
+    border-secondary
+    border-susses
+    border-danger
+    border-top
+    border-bottom
+    border-left
+    border-right
+    border-start
+    border-end
+*/

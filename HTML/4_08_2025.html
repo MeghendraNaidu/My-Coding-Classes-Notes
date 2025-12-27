@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <header>
+        <section>
+            <center>
+                <h2>Student Name</h2>
+            </center>
+        </section>
+
+        <section>
+            <nav>
+                <center>
+                <a href="#about">About</a> 
+                &nbsp;&nbsp; <span>|</span> &nbsp;&nbsp;
+                <a href="#skills">Skills</a> 
+                &nbsp;&nbsp; <span>|</span> &nbsp;&nbsp;
+                <a href="#education">Education</a> 
+                &nbsp;&nbsp; <span>|</span> &nbsp;&nbsp;
+                <a href="#projects">Projects</a> 
+                &nbsp;&nbsp; <span>|</span> &nbsp;&nbsp;
+                <a href="#contact">Contact</a> 
+                </center>
+            </nav>
+        </section>
+    </header>
+    <hr>
+
+    <!-- About me section -->
+    <section>
+        <h3 id="about"><u>About Me :</u></h3>
+        <center>
+            <img src="./images/My_Photo.jpg" width="100" alt="My Photo">
+        </center>
+        <dl>
+            <dt>
+
+            </dt>
+            <dd>
+                Hello! I am a student learning <span contenteditable="true">HTML</span>. This is my personal portfolio.
+            </dd>
+        </dl>
+    </section>
+    <hr>
+
+    <!-- Skills Section -->
+     <section>
+        <h3 id="skills"><u>Skills :</u></h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+            <li>Node</li>
+        </ul>
+     </section>
+     <hr>
+
+     <!-- Education Section -->
+    <section>
+        <h3 id="education"><u>Education :</u></h3>
+
+        <table border="1" cellspacing="0" cellpadding="10" width="100%">
+            <tr align="center">
+                <th>Course</th>
+                <th>College or School Name</th>
+                <th>Year Of Pass</th>
+                <th>Percentage</th>
+            </tr>
+            <tr align="center">
+                <td>Bachelor of Technology</td>
+                <td>Bharath Institue of Higher Education And Research</td>
+                <td>2025</td>
+                <td>8.7 CGPA</td>
+            </tr>
+            <tr align="center">
+                <td>Intermediate</td>
+                <td>Sri Chaitanya Educational Institution</td>
+                <td>2021</td>
+                <td>86.2%</td>
+            </tr>
+            <tr align="center">
+                <td>SSC</td>
+                <td>Keshava Reddy EM School</td>
+                <td>2019</td>
+                <td>9.0 CGPA</td>
+            </tr>
+        </table>
+    </section>
+        <hr>
+
+        <!-- Projects Section -->
+    <section>
+        <h3 id="projects"><u>My Projects :</u></h3>
+        <ol>
+            <li>
+                <dl>
+                    <dt>
+                        Crop Recommendation System Using Machine Learning
+                    </dt>
+                    <dd>
+                        Project Screenshot
+                            Developed a web-based Crop Recommendation System using Flask that predicts the most suitable crop based on
+                                    soil nutrients (N, P, K), temperature, humidity, pH, and rainfall.
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>
+                        Hotel Booking Management System Using Web Development
+                    </dt>
+                    <dd>
+                        Project Screenshot
+                            Developed a full-stack hotel management web application to streamline room booking, food ordering, billing, and
+                                    feedback collection.
+                    </dd>
+                </dl>
+            </li>
+        </ol>
+    </section>
+    <hr>
+
+    <!-- Contact Section -->
+    <section>
+        <center>
+            <h3 id="contact">Contact</h3>
+            <form action="">
+                <table border="0" cellspacing="0" cellpadding="2" width="40%">
+                    <tr>
+                        <td>
+                            <label for="name">Name :</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email :</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email" pattern="[a-z[\d]._]+@(gmail|yahoo|outlook)\.(com|in|gov|org|edu)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Gender :</label></td>
+                        <td>
+                            <label for="male">Male:</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="female">Female:</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="course">Course :</label>
+                        </td>
+                        <td>
+                            <select name="course" id="course">
+                                <option value="" disabled selected>---select---</option>
+                                <option value="B-Tech">B-Tech</option>
+                                <option value="M-Tech">M-Tech</option>
+                                <option value="BSE">BSE</option>
+                                <option value="MSC">MSC</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Message :</label>
+                        </td>
+                        <td>
+                            <textarea name="" id="" rows="6" cols="30">type message hear....
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <input type="Submit">
+                        </td>
+                        <!-- <td></td> -->
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </section>
+    <hr>
+
+    <!-- Video Section -->
+    <section>
+        <center>
+            <h3>
+                Watch My Video
+            </h3>
+            <video width="500" controls autoplay muted loop>
+                <source src="../Practice/video/The RajaSaab.mp4">
+            </video>
+        </center>
+    </section>
+    <hr>
+
+    <!-- Audio Section -->
+    <section>
+        <center>
+            <h3>
+                Listen  to My Audio
+            </h3>
+
+            <audio controls autoplay muted loop>
+                <source src="../Practice/Audio/Kalki.mp3">
+            </audio>
+        </center>
+    </section>
+    <hr>
+
+    <!-- Address Section -->
+    <footer>
+        <center>
+            <h3>
+                My Address :
+            </h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36361.76096694294!2d78.36826454575981!3d17.483472501236495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91b5be1f29c3%3A0xf5af71d23e422328!2sKukatpally%20Housing%20Board%20Colony%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1756834696914!5m2!1sen!2sin" frameborder="1" width="500" height="300">
+
+            </iframe>
+        </center>
+    </footer>
+
+</body>
+</html>

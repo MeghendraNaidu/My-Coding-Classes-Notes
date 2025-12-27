@@ -1,0 +1,40 @@
+aggregate function --
+
+sum()     -- will give total sum of values
+min()     -- will give minimum value from group of values
+max()	  -- will give maximum value from group of values
+avg()     -- will return average (sum of values/count of 		values)
+count()  -- will count no. of rows have data
+
+>>>select agg(column_name) from table_name;
+
+keys --  
+
+primary key  --  will not accept both duplicate and null 		values
+             -- will mention establish connection  with , 		which type column
+foreign key  -- will establish connection between two or 		more table
+
+>>>create table table_name1(
+column_name1 datatype primary key,
+column_name2 datatype
+);
+
+>>>create table table_name2(
+column_name1 datatype,
+column_name3 datatype,
+foreign key (column_name1) references table_name1(column_name1)
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

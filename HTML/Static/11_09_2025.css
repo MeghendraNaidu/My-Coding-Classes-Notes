@@ -1,0 +1,121 @@
+/* 
+Pseudo class
+------------------
+If there is single ":" it is pseudo class
+And if there is a double "::" it is pseudo elements 
+
+a = link, hover, visited, active this all are used only in "a" tags
+
+
+*/
+
+/* a:link{
+   color: yellow;
+ }
+   a:hover{
+   color: red;
+ }
+   a:visited{
+   color: goldenrod;
+ }
+   a:active{
+   color: green;
+ } */
+  /* :root{
+   color: red;
+ } */
+
+ /* .container>p:nth-child(odd){
+   background-color: red;
+   color: aqua;
+ } */
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+   /* 
+  .container{
+   background-color: aqua;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+   padding: 10px; */
+   /* border: 2px solid; */
+   /* flex-direction: column;
+   width: fit-content; */
+   /* display: none; */
+   /* position: relative;
+   top: -220px;
+   transition: 0.5s ease; 
+   height: 0px;
+   overflow: hidden;
+} */
+
+.bi{
+   font-size: xx-large;
+  }
+  p{
+   display: none;
+  }
+  #check{
+   display: none;
+  } */
+  /* #check:checked+p{
+   display: inline-block;
+  }
+  #check:checked~.container{
+   display: flex;
+  } */
+
+  /* #check:checked+.container{
+   top: 0px;
+  } */
+
+  /* #check:checked+.container{
+   height: 100%;
+  } */
+
+
+.cat-para{
+   width: 200px;
+   height: 200px;
+}
+label{
+   width: 100%;
+}
+interview:hover{
+   display: inline-block;
+   background-color: aqua;
+   cursor: pointer;
+   /* margin: ; */
+}
+img{
+   /* width: 100%;
+   height: 100%;
+   object-fit: cover ; */
+   text-align: center;
+}
+label:hover{
+   color: red;
+}
+.cat-para>img{
+   width: 100px;
+   height: 100px;
+   display: none;
+}
+#cat:checked~.cat-para>img{
+   display: flex;
+   /* justify-content: center;
+   align-items: center; */
+}
+.milk-con{
+   display: none;
+}
+#milk:checked~.milk-con{
+   display: flex;
+}
+#milk,#cat{
+   display: none;
+}

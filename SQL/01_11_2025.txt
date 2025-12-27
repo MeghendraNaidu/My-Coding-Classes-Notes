@@ -1,0 +1,40 @@
+TCL -- 
+
+rollback    -- will retrive or undo the 		data  
+commit      -- will store the data 			permenently
+savepoint   -- will store data 				temperorly
+
+rollback;
+
+commit;
+
+savepoint name;
+
+
+
+
+
+dcl  -- giving permission or remove the permissions
+
+creation of user
+
+>>>create user username@localhost identified by 'password';
+
+grant  - give permissions
+
+revoke- remove permissions
+
+>>>grant select,insert,update on databasename.* to username@localhost;
+
+>>>revoke commands on databasename.* from username@localhost;
+
+remove the user;
+
+>>>drop  user username@localhost;
+
+
+
+
+
+
+

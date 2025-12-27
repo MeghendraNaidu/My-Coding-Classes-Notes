@@ -1,0 +1,65 @@
+.container{
+    width: 700px;
+    height: 600px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.label-container{
+    width: 100%;
+    height: 50px;
+}
+.label-container label{
+    width: 40%;
+    padding: 10px;
+    font-size: x-large;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline-block;
+}
+.eat-container{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: whitesmoke;
+    display: none;
+}
+.eat-container h4{
+    color: black;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.eat-container p{
+    color: gray;
+    letter-spacing: 2px;
+}
+.drink-container{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: whitesmoke;
+    display: none;
+}
+.drink-container h4{
+    color: black;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.drink-container p{
+    color: gray;
+    letter-spacing: 2px;
+}
+#eat, #drink{
+    display: none;
+}
+#eat:checked+label, #drink:checked+label{
+    background-color: gray;
+    color: white;
+    width: 50%;
+    margin-top: 6px;
+    margin-left: 20px;
+    height: 20px;
+ }
+#eat:checked~.eat-container{
+    display: block;
+}
+#drink:checked~.drink-container{
+    display: block;
+}

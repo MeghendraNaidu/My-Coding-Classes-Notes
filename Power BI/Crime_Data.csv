@@ -1,0 +1,271 @@
+State,District,Year,Crime_Type,Total_Cases,Solved_Cases,Unsolved_Cases,Crime_Rate (per lakh),Population,Gender,Time_of_Crime
+Maharashtra,Mumbai City,2020,Theft,2500,1125,1375,67.57,3700000,Male,Evening
+Maharashtra,Mumbai City,2021,Theft,2650,1200,1450,71.62,3700000,Male,Evening
+Maharashtra,Mumbai City,2022,Theft,2400,1080,1320,64.86,3700000,Male,Evening
+Maharashtra,Mumbai City,2023,Theft,2750,1250,1500,74.32,3700000,Male,Evening
+Maharashtra,Mumbai City,2024,Theft,2800,1300,1500,75.68,3700000,Male,Evening
+Maharashtra,Mumbai City,2020,Murder,150,90,60,4.05,3700000,Male,Night
+Maharashtra,Mumbai City,2021,Murder,140,85,55,3.78,3700000,Male,Night
+Maharashtra,Mumbai City,2022,Murder,160,95,65,4.32,3700000,Male,Night
+Maharashtra,Mumbai City,2023,Murder,130,80,50,3.51,3700000,Male,Night
+Maharashtra,Mumbai City,2024,Murder,170,105,65,4.59,3700000,Male,Night
+Maharashtra,Pune,2020,Theft,1900,950,950,54.29,3500000,Both,Day
+Maharashtra,Pune,2021,Theft,2100,1050,1050,60.00,3500000,Both,Day
+Maharashtra,Pune,2022,Theft,1850,900,950,52.86,3500000,Both,Day
+Maharashtra,Pune,2023,Theft,2200,1100,1100,62.86,3500000,Both,Day
+Maharashtra,Pune,2024,Theft,2350,1175,1175,67.14,3500000,Both,Day
+Maharashtra,Pune,2020,Cyber Crime,450,180,270,12.86,3500000,Both,Day
+Maharashtra,Pune,2021,Cyber Crime,500,200,300,14.29,3500000,Both,Day
+Maharashtra,Pune,2022,Cyber Crime,600,240,360,17.14,3500000,Both,Day
+Maharashtra,Pune,2023,Cyber Crime,750,300,450,21.43,3500000,Both,Day
+Maharashtra,Pune,2024,Cyber Crime,900,360,540,25.71,3500000,Both,Day
+Karnataka,Bengaluru,2020,Theft,3500,1400,2100,87.50,4000000,Male,Evening
+Karnataka,Bengaluru,2021,Theft,3800,1520,2280,95.00,4000000,Male,Evening
+Karnataka,Bengaluru,2022,Theft,3600,1440,2160,90.00,4000000,Male,Evening
+Karnataka,Bengaluru,2023,Theft,4100,1640,2460,102.50,4000000,Male,Evening
+Karnataka,Bengaluru,2024,Theft,4300,1720,2580,107.50,4000000,Male,Evening
+Karnataka,Bengaluru,2020,Cyber Crime,800,240,560,20.00,4000000,Both,Day
+Karnataka,Bengaluru,2021,Cyber Crime,1100,330,770,27.50,4000000,Both,Day
+Karnataka,Bengaluru,2022,Cyber Crime,1400,420,980,35.00,4000000,Both,Day
+Karnataka,Bengaluru,2023,Cyber Crime,1800,540,1260,45.00,4000000,Both,Day
+Karnataka,Bengaluru,2024,Cyber Crime,2200,660,1540,55.00,4000000,Both,Day
+Karnataka,Mysuru,2020,Assault,550,400,150,22.00,2500000,Female,Evening
+Karnataka,Mysuru,2021,Assault,600,420,180,24.00,2500000,Female,Evening
+Karnataka,Mysuru,2022,Assault,500,380,120,20.00,2500000,Female,Evening
+Karnataka,Mysuru,2023,Assault,650,450,200,26.00,2500000,Female,Evening
+Karnataka,Mysuru,2024,Assault,700,480,220,28.00,2500000,Female,Evening
+Karnataka,Mysuru,2020,Kidnapping,80,60,20,3.20,2500000,Female,Night
+Karnataka,Mysuru,2021,Kidnapping,70,55,15,2.80,2500000,Female,Night
+Karnataka,Mysuru,2022,Kidnapping,90,70,20,3.60,2500000,Female,Night
+Karnataka,Mysuru,2023,Kidnapping,100,75,25,4.00,2500000,Female,Night
+Karnataka,Mysuru,2024,Kidnapping,110,80,30,4.40,2500000,Female,Night
+Tamil Nadu,Chennai,2020,Theft,2800,1540,1260,70.00,4000000,Male,Evening
+Tamil Nadu,Chennai,2021,Theft,2950,1620,1330,73.75,4000000,Male,Evening
+Tamil Nadu,Chennai,2022,Theft,2700,1480,1220,67.50,4000000,Male,Evening
+Tamil Nadu,Chennai,2023,Theft,3100,1700,1400,77.50,4000000,Male,Evening
+Tamil Nadu,Chennai,2024,Theft,3300,1810,1490,82.50,4000000,Male,Evening
+Tamil Nadu,Chennai,2020,Assault,1100,825,275,27.50,4000000,Female,Day
+Tamil Nadu,Chennai,2021,Assault,1250,930,320,31.25,4000000,Female,Day
+Tamil Nadu,Chennai,2022,Assault,1050,780,270,26.25,4000000,Female,Day
+Tamil Nadu,Chennai,2023,Assault,1350,1000,350,33.75,4000000,Female,Day
+Tamil Nadu,Chennai,2024,Assault,1400,1050,350,35.00,4000000,Female,Day
+Tamil Nadu,Coimbatore,2020,Cyber Crime,300,105,195,12.00,2500000,Both,Day
+Tamil Nadu,Coimbatore,2021,Cyber Crime,350,120,230,14.00,2500000,Both,Day
+Tamil Nadu,Coimbatore,2022,Cyber Crime,400,140,260,16.00,2500000,Both,Day
+Tamil Nadu,Coimbatore,2023,Cyber Crime,500,175,325,20.00,2500000,Both,Day
+Tamil Nadu,Coimbatore,2024,Cyber Crime,600,210,390,24.00,2500000,Both,Day
+Tamil Nadu,Coimbatore,2020,Kidnapping,50,35,15,2.00,2500000,Female,Night
+Tamil Nadu,Coimbatore,2021,Kidnapping,45,30,15,1.80,2500000,Female,Night
+Tamil Nadu,Coimbatore,2022,Kidnapping,55,40,15,2.20,2500000,Female,Night
+Tamil Nadu,Coimbatore,2023,Kidnapping,60,45,15,2.40,2500000,Female,Night
+Tamil Nadu,Coimbatore,2024,Kidnapping,65,50,15,2.60,2500000,Female,Night
+Uttar Pradesh,Lucknow,2020,Theft,2100,735,1365,70.00,3000000,Male,Evening
+Uttar Pradesh,Lucknow,2021,Theft,2300,800,1500,76.67,3000000,Male,Evening
+Uttar Pradesh,Lucknow,2022,Theft,2000,700,1300,66.67,3000000,Male,Evening
+Uttar Pradesh,Lucknow,2023,Theft,2500,875,1625,83.33,3000000,Male,Evening
+Uttar Pradesh,Lucknow,2024,Theft,2700,945,1755,90.00,3000000,Male,Evening
+Uttar Pradesh,Lucknow,2020,Murder,180,126,54,6.00,3000000,Male,Night
+Uttar Pradesh,Lucknow,2021,Murder,170,119,51,5.67,3000000,Male,Night
+Uttar Pradesh,Lucknow,2022,Murder,190,133,57,6.33,3000000,Male,Night
+Uttar Pradesh,Lucknow,2023,Murder,160,112,48,5.33,3000000,Male,Night
+Uttar Pradesh,Lucknow,2024,Murder,200,140,60,6.67,3000000,Male,Night
+Uttar Pradesh,Kanpur,2020,Assault,1500,1050,450,60.00,2500000,Female,Day
+Uttar Pradesh,Kanpur,2021,Assault,1650,1150,500,66.00,2500000,Female,Day
+Uttar Pradesh,Kanpur,2022,Assault,1400,980,420,56.00,2500000,Female,Day
+Uttar Pradesh,Kanpur,2023,Assault,1750,1225,525,70.00,2500000,Female,Day
+Uttar Pradesh,Kanpur,2024,Assault,1850,1295,555,74.00,2500000,Female,Day
+Uttar Pradesh,Kanpur,2020,Kidnapping,120,84,36,4.80,2500000,Female,Night
+Uttar Pradesh,Kanpur,2021,Kidnapping,110,77,33,4.40,2500000,Female,Night
+Uttar Pradesh,Kanpur,2022,Kidnapping,130,91,39,5.20,2500000,Female,Night
+Uttar Pradesh,Kanpur,2023,Kidnapping,140,98,42,5.60,2500000,Female,Night
+Uttar Pradesh,Kanpur,2024,Kidnapping,150,105,45,6.00,2500000,Female,Night
+West Bengal,Kolkata,2020,Theft,1800,990,810,60.00,3000000,Male,Evening
+West Bengal,Kolkata,2021,Theft,1950,1070,880,65.00,3000000,Male,Evening
+West Bengal,Kolkata,2022,Theft,1700,935,765,56.67,3000000,Male,Evening
+West Bengal,Kolkata,2023,Theft,2100,1155,945,70.00,3000000,Male,Evening
+West Bengal,Kolkata,2024,Theft,2250,1235,1015,75.00,3000000,Male,Evening
+West Bengal,Kolkata,2020,Assault,800,600,200,26.67,3000000,Female,Day
+West Bengal,Kolkata,2021,Assault,900,675,225,30.00,3000000,Female,Day
+West Bengal,Kolkata,2022,Assault,750,560,190,25.00,3000000,Female,Day
+West Bengal,Kolkata,2023,Assault,950,710,240,31.67,3000000,Female,Day
+West Bengal,Kolkata,2024,Assault,1000,750,250,33.33,3000000,Female,Day
+West Bengal,Howrah,2020,Murder,100,70,30,4.00,2500000,Male,Night
+West Bengal,Howrah,2021,Murder,90,63,27,3.60,2500000,Male,Night
+West Bengal,Howrah,2022,Murder,110,77,33,4.40,2500000,Male,Night
+West Bengal,Howrah,2023,Murder,80,56,24,3.20,2500000,Male,Night
+West Bengal,Howrah,2024,Murder,120,84,36,4.80,2500000,Male,Night
+West Bengal,Howrah,2020,Kidnapping,60,42,18,2.40,2500000,Female,Night
+West Bengal,Howrah,2021,Kidnapping,55,38,17,2.20,2500000,Female,Night
+West Bengal,Howrah,2022,Kidnapping,65,45,20,2.60,2500000,Female,Night
+West Bengal,Howrah,2023,Kidnapping,70,49,21,2.80,2500000,Female,Night
+West Bengal,Howrah,2024,Kidnapping,75,52,23,3.00,2500000,Female,Night
+Delhi,Central Delhi,2020,Theft,3000,1050,1950,75.00,4000000,Male,Evening
+Delhi,Central Delhi,2021,Theft,3200,1120,2080,80.00,4000000,Male,Evening
+Delhi,Central Delhi,2022,Theft,2900,1015,1885,72.50,4000000,Male,Evening
+Delhi,Central Delhi,2023,Theft,3400,1190,2210,85.00,4000000,Male,Evening
+Delhi,Central Delhi,2024,Theft,3600,1260,2340,90.00,4000000,Male,Evening
+Delhi,Central Delhi,2020,Assault,1500,900,600,37.50,4000000,Female,Day
+Delhi,Central Delhi,2021,Assault,1650,990,660,41.25,4000000,Female,Day
+Delhi,Central Delhi,2022,Assault,1400,840,560,35.00,4000000,Female,Day
+Delhi,Central Delhi,2023,Assault,1800,1080,720,45.00,4000000,Female,Day
+Delhi,Central Delhi,2024,Assault,1900,1140,760,47.50,4000000,Female,Day
+Delhi,South Delhi,2020,Cyber Crime,400,160,240,10.00,4000000,Both,Day
+Delhi,South Delhi,2021,Cyber Crime,500,200,300,12.50,4000000,Both,Day
+Delhi,South Delhi,2022,Cyber Crime,600,240,360,15.00,4000000,Both,Day
+Delhi,South Delhi,2023,Cyber Crime,750,300,450,18.75,4000000,Both,Day
+Delhi,South Delhi,2024,Cyber Crime,900,360,540,22.50,4000000,Both,Day
+Delhi,South Delhi,2020,Kidnapping,150,90,60,3.75,4000000,Female,Night
+Delhi,South Delhi,2021,Kidnapping,160,96,64,4.00,4000000,Female,Night
+Delhi,South Delhi,2022,Kidnapping,140,84,56,3.50,4000000,Female,Night
+Delhi,South Delhi,2023,Kidnapping,170,102,68,4.25,4000000,Female,Night
+Delhi,South Delhi,2024,Kidnapping,180,108,72,4.50,4000000,Female,Night
+Gujarat,Ahmedabad,2020,Theft,2200,1210,990,55.00,4000000,Male,Evening
+Gujarat,Ahmedabad,2021,Theft,2400,1320,1080,60.00,4000000,Male,Evening
+Gujarat,Ahmedabad,2022,Theft,2100,1155,945,52.50,4000000,Male,Evening
+Gujarat,Ahmedabad,2023,Theft,2600,1430,1170,65.00,4000000,Male,Evening
+Gujarat,Ahmedabad,2024,Theft,2800,1540,1260,70.00,4000000,Male,Evening
+Gujarat,Ahmedabad,2020,Murder,110,77,33,2.75,4000000,Male,Night
+Gujarat,Ahmedabad,2021,Murder,100,70,30,2.50,4000000,Male,Night
+Gujarat,Ahmedabad,2022,Murder,120,84,36,3.00,4000000,Male,Night
+Gujarat,Ahmedabad,2023,Murder,90,63,27,2.25,4000000,Male,Night
+Gujarat,Ahmedabad,2024,Murder,130,91,39,3.25,4000000,Male,Night
+Gujarat,Surat,2020,Assault,1300,910,390,32.50,4000000,Female,Day
+Gujarat,Surat,2021,Assault,1450,1015,435,36.25,4000000,Female,Day
+Gujarat,Surat,2022,Assault,1200,840,360,30.00,4000000,Female,Day
+Gujarat,Surat,2023,Assault,1550,1085,465,38.75,4000000,Female,Day
+Gujarat,Surat,2024,Assault,1600,1120,480,40.00,4000000,Female,Day
+Gujarat,Surat,2020,Cyber Crime,250,100,150,6.25,4000000,Both,Day
+Gujarat,Surat,2021,Cyber Crime,300,120,180,7.50,4000000,Both,Day
+Gujarat,Surat,2022,Cyber Crime,400,160,240,10.00,4000000,Both,Day
+Gujarat,Surat,2023,Cyber Crime,500,200,300,12.50,4000000,Both,Day
+Gujarat,Surat,2024,Cyber Crime,650,260,390,16.25,4000000,Both,Day
+Madhya Pradesh,Indore,2020,Theft,1800,810,990,45.00,4000000,Male,Evening
+Madhya Pradesh,Indore,2021,Theft,2000,900,1100,50.00,4000000,Male,Evening
+Madhya Pradesh,Indore,2022,Theft,1700,765,935,42.50,4000000,Male,Evening
+Madhya Pradesh,Indore,2023,Theft,2200,990,1210,55.00,4000000,Male,Evening
+Madhya Pradesh,Indore,2024,Theft,2400,1080,1320,60.00,4000000,Male,Evening
+Madhya Pradesh,Indore,2020,Kidnapping,90,54,36,2.25,4000000,Female,Night
+Madhya Pradesh,Indore,2021,Kidnapping,80,48,32,2.00,4000000,Female,Night
+Madhya Pradesh,Indore,2022,Kidnapping,100,60,40,2.50,4000000,Female,Night
+Madhya Pradesh,Indore,2023,Kidnapping,110,66,44,2.75,4000000,Female,Night
+Madhya Pradesh,Indore,2024,Kidnapping,120,72,48,3.00,4000000,Female,Night
+Madhya Pradesh,Bhopal,2020,Murder,130,91,39,3.25,4000000,Male,Night
+Madhya Pradesh,Bhopal,2021,Murder,120,84,36,3.00,4000000,Male,Night
+Madhya Pradesh,Bhopal,2022,Murder,140,98,42,3.50,4000000,Male,Night
+Madhya Pradesh,Bhopal,2023,Murder,110,77,33,2.75,4000000,Male,Night
+Madhya Pradesh,Bhopal,2024,Murder,150,105,45,3.75,4000000,Male,Night
+Madhya Pradesh,Bhopal,2020,Assault,1000,700,300,25.00,4000000,Female,Day
+Madhya Pradesh,Bhopal,2021,Assault,1150,805,345,28.75,4000000,Female,Day
+Madhya Pradesh,Bhopal,2022,Assault,950,665,285,23.75,4000000,Female,Day
+Madhya Pradesh,Bhopal,2023,Assault,1250,875,375,31.25,4000000,Female,Day
+Madhya Pradesh,Bhopal,2024,Assault,1300,910,390,32.50,4000000,Female,Day
+Rajasthan,Jaipur,2020,Theft,2000,800,1200,50.00,4000000,Male,Evening
+Rajasthan,Jaipur,2021,Theft,2200,880,1320,55.00,4000000,Male,Evening
+Rajasthan,Jaipur,2022,Theft,1900,760,1140,47.50,4000000,Male,Evening
+Rajasthan,Jaipur,2023,Theft,2400,960,1440,60.00,4000000,Male,Evening
+Rajasthan,Jaipur,2024,Theft,2600,1040,1560,65.00,4000000,Male,Evening
+Rajasthan,Jaipur,2020,Kidnapping,100,70,30,2.50,4000000,Female,Night
+Rajasthan,Jaipur,2021,Kidnapping,110,77,33,2.75,4000000,Female,Night
+Rajasthan,Jaipur,2022,Kidnapping,90,63,27,2.25,4000000,Female,Night
+Rajasthan,Jaipur,2023,Kidnapping,120,84,36,3.00,4000000,Female,Night
+Rajasthan,Jaipur,2024,Kidnapping,130,91,39,3.25,4000000,Female,Night
+Rajasthan,Jodhpur,2020,Murder,80,56,24,2.00,4000000,Male,Night
+Rajasthan,Jodhpur,2021,Murder,70,49,21,1.75,4000000,Male,Night
+Rajasthan,Jodhpur,2022,Murder,90,63,27,2.25,4000000,Male,Night
+Rajasthan,Jodhpur,2023,Murder,60,42,18,1.50,4000000,Male,Night
+Rajasthan,Jodhpur,2024,Murder,100,70,30,2.50,4000000,Male,Night
+Rajasthan,Jodhpur,2020,Assault,900,630,270,22.50,4000000,Female,Day
+Rajasthan,Jodhpur,2021,Assault,1000,700,300,25.00,4000000,Female,Day
+Rajasthan,Jodhpur,2022,Assault,850,595,255,21.25,4000000,Female,Day
+Rajasthan,Jodhpur,2023,Assault,1100,770,330,27.50,4000000,Female,Day
+Rajasthan,Jodhpur,2024,Assault,1200,840,360,30.00,4000000,Female,Day
+Andhra Pradesh,Hyderabad,2020,Theft,2800,1400,1400,70.00,4000000,Male,Evening
+Andhra Pradesh,Hyderabad,2021,Theft,3000,1500,1500,75.00,4000000,Male,Evening
+Andhra Pradesh,Hyderabad,2022,Theft,2700,1350,1350,67.50,4000000,Male,Evening
+Andhra Pradesh,Hyderabad,2023,Theft,3200,1600,1600,80.00,4000000,Male,Evening
+Andhra Pradesh,Hyderabad,2024,Theft,3400,1700,1700,85.00,4000000,Male,Evening
+Andhra Pradesh,Hyderabad,2020,Cyber Crime,700,280,420,17.50,4000000,Both,Day
+Andhra Pradesh,Hyderabad,2021,Cyber Crime,900,360,540,22.50,4000000,Both,Day
+Andhra Pradesh,Hyderabad,2022,Cyber Crime,1100,440,660,27.50,4000000,Both,Day
+Andhra Pradesh,Hyderabad,2023,Cyber Crime,1300,520,780,32.50,4000000,Both,Day
+Andhra Pradesh,Hyderabad,2024,Cyber Crime,1500,600,900,37.50,4000000,Both,Day
+Andhra Pradesh,Visakhapatnam,2020,Murder,90,63,27,2.25,4000000,Male,Night
+Andhra Pradesh,Visakhapatnam,2021,Murder,80,56,24,2.00,4000000,Male,Night
+Andhra Pradesh,Visakhapatnam,2022,Murder,100,70,30,2.50,4000000,Male,Night
+Andhra Pradesh,Visakhapatnam,2023,Murder,70,49,21,1.75,4000000,Male,Night
+Andhra Pradesh,Visakhapatnam,2024,Murder,110,77,33,2.75,4000000,Male,Night
+Andhra Pradesh,Visakhapatnam,2020,Assault,1200,840,360,30.00,4000000,Female,Day
+Andhra Pradesh,Visakhapatnam,2021,Assault,1350,945,405,33.75,4000000,Female,Day
+Andhra Pradesh,Visakhapatnam,2022,Assault,1100,770,330,27.50,4000000,Female,Day
+Andhra Pradesh,Visakhapatnam,2023,Assault,1450,1015,435,36.25,4000000,Female,Day
+Andhra Pradesh,Visakhapatnam,2024,Assault,1500,1050,450,37.50,4000000,Female,Day
+Punjab,Amritsar,2020,Theft,1500,750,750,37.50,4000000,Male,Evening
+Punjab,Amritsar,2021,Theft,1650,825,825,41.25,4000000,Male,Evening
+Punjab,Amritsar,2022,Theft,1400,700,700,35.00,4000000,Male,Evening
+Punjab,Amritsar,2023,Theft,1750,875,875,43.75,4000000,Male,Evening
+Punjab,Amritsar,2024,Theft,1850,925,925,46.25,4000000,Male,Evening
+Punjab,Amritsar,2020,Kidnapping,70,49,21,1.75,4000000,Female,Night
+Punjab,Amritsar,2021,Kidnapping,60,42,18,1.50,4000000,Female,Night
+Punjab,Amritsar,2022,Kidnapping,80,56,24,2.00,4000000,Female,Night
+Punjab,Amritsar,2023,Kidnapping,90,63,27,2.25,4000000,Female,Night
+Punjab,Amritsar,2024,Kidnapping,100,70,30,2.50,4000000,Female,Night
+Punjab,Ludhiana,2020,Murder,60,42,18,1.50,4000000,Male,Night
+Punjab,Ludhiana,2021,Murder,50,35,15,1.25,4000000,Male,Night
+Punjab,Ludhiana,2022,Murder,70,49,21,1.75,4000000,Male,Night
+Punjab,Ludhiana,2023,Murder,40,28,12,1.00,4000000,Male,Night
+Punjab,Ludhiana,2024,Murder,80,56,24,2.00,4000000,Male,Night
+Punjab,Ludhiana,2020,Assault,800,560,240,20.00,4000000,Female,Day
+Punjab,Ludhiana,2021,Assault,900,630,270,22.50,4000000,Female,Day
+Punjab,Ludhiana,2022,Assault,750,525,225,18.75,4000000,Female,Day
+Punjab,Ludhiana,2023,Assault,1000,700,300,25.00,4000000,Female,Day
+Punjab,Ludhiana,2024,Assault,1100,770,330,27.50,4000000,Female,Day
+Kerala,Kochi,2020,Theft,1200,720,480,30.00,4000000,Male,Evening
+Kerala,Kochi,2021,Theft,1350,810,540,33.75,4000000,Male,Evening
+Kerala,Kochi,2022,Theft,1100,660,440,27.50,4000000,Male,Evening
+Kerala,Kochi,2023,Theft,1450,870,580,36.25,4000000,Male,Evening
+Kerala,Kochi,2024,Theft,1500,900,600,37.50,4000000,Male,Evening
+Kerala,Kochi,2020,Cyber Crime,300,150,150,7.50,4000000,Both,Day
+Kerala,Kochi,2021,Cyber Crime,400,200,200,10.00,4000000,Both,Day
+Kerala,Kochi,2022,Cyber Crime,500,250,250,12.50,4000000,Both,Day
+Kerala,Kochi,2023,Cyber Crime,600,300,300,15.00,4000000,Both,Day
+Kerala,Kochi,2024,Cyber Crime,700,350,350,17.50,4000000,Both,Day
+Kerala,Thiruvananthapuram,2020,Murder,50,35,15,1.25,4000000,Male,Night
+Kerala,Thiruvananthapuram,2021,Murder,40,28,12,1.00,4000000,Male,Night
+Kerala,Thiruvananthapuram,2022,Murder,60,42,18,1.50,4000000,Male,Night
+Kerala,Thiruvananthapuram,2023,Murder,30,21,9,0.75,4000000,Male,Night
+Kerala,Thiruvananthapuram,2024,Murder,70,49,21,1.75,4000000,Male,Night
+Kerala,Thiruvananthapuram,2020,Kidnapping,40,28,12,1.00,4000000,Female,Night
+Kerala,Thiruvananthapuram,2021,Kidnapping,35,24,11,0.88,4000000,Female,Night
+Kerala,Thiruvananthapuram,2022,Kidnapping,45,31,14,1.13,4000000,Female,Night
+Kerala,Thiruvananthapuram,2023,Kidnapping,50,35,15,1.25,4000000,Female,Night
+Kerala,Thiruvananthapuram,2024,Kidnapping,55,38,17,1.38,4000000,Female,Night
+Bihar,Patna,2020,Theft,2400,720,1680,60.00,4000000,Male,Evening
+Bihar,Patna,2021,Theft,2600,780,1820,65.00,4000000,Male,Evening
+Bihar,Patna,2022,Theft,2300,690,1610,57.50,4000000,Male,Evening
+Bihar,Patna,2023,Theft,2800,840,1960,70.00,4000000,Male,Evening
+Bihar,Patna,2024,Theft,3000,900,2100,75.00,4000000,Male,Evening
+Bihar,Patna,2020,Murder,200,120,80,5.00,4000000,Male,Night
+Bihar,Patna,2021,Murder,190,114,76,4.75,4000000,Male,Night
+Bihar,Patna,2022,Murder,210,126,84,5.25,4000000,Male,Night
+Bihar,Patna,2023,Murder,180,108,72,4.50,4000000,Male,Night
+Bihar,Patna,2024,Murder,220,132,88,5.50,4000000,Male,Night
+Bihar,Gaya,2020,Kidnapping,150,90,60,3.75,4000000,Female,Night
+Bihar,Gaya,2021,Kidnapping,140,84,56,3.50,4000000,Female,Night
+Bihar,Gaya,2022,Kidnapping,160,96,64,4.00,4000000,Female,Night
+Bihar,Gaya,2023,Kidnapping,130,78,52,3.25,4000000,Female,Night
+Bihar,Gaya,2024,Kidnapping,170,102,68,4.25,4000000,Female,Night
+Bihar,Gaya,2020,Assault,1100,770,330,27.50,4000000,Female,Day
+Bihar,Gaya,2021,Assault,1250,875,375,31.25,4000000,Female,Day
+Bihar,Gaya,2022,Assault,1050,735,315,26.25,4000000,Female,Day
+Bihar,Gaya,2023,Assault,1350,945,405,33.75,4000000,Female,Day
+Bihar,Gaya,2024,Assault,1400,980,420,35.00,4000000,Female,Day
+Assam,Guwahati,2020,Theft,1000,500,500,25.00,4000000,Male,Evening
+Assam,Guwahati,2021,Theft,1100,550,550,27.50,4000000,Male,Evening
+Assam,Guwahati,2022,Theft,900,450,450,22.50,4000000,Male,Evening
+Assam,Guwahati,2023,Theft,1200,600,600,30.00,4000000,Male,Evening
+Assam,Guwahati,2024,Theft,1300,650,650,32.50,4000000,Male,Evening
+Assam,Guwahati,2020,Assault,500,350,150,12.50,4000000,Female,Day
+Assam,Guwahati,2021,Assault,550,385,165,13.75,4000000,Female,Day
+Assam,Guwahati,2022,Assault,450,315,135,11.25,4000000,Female,Day
+Assam,Guwahati,2023,Assault,600,420,180,15.00,4000000,Female,Day
+Assam,Guwahati,2024,Assault,650,455,195,16.25,4000000,Female,Day

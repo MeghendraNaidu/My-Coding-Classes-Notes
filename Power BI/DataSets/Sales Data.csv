@@ -1,0 +1,51 @@
+Category,Age,Gender,Quantity,Region,DATE,SALES
+Electronics,35,Male,1,North,2024-01-01,450.99
+Clothing,28,Female,2,West,2024-01-01,79.98
+Home Goods,42,Male,3,East,2024-01-02,45.00
+Electronics,19,Female,1,South,2024-01-02,1200.50
+Food,55,Male,10,North,2024-01-03,25.00
+Clothing,31,Female,1,West,2024-01-03,149.99
+Home Goods,60,Male,2,East,2024-01-04,180.00
+Electronics,24,Male,1,South,2024-01-04,88.99
+Food,47,Female,5,North,2024-01-05,12.50
+Clothing,38,Male,3,West,2024-01-05,90.00
+Electronics,51,Female,2,East,2024-01-06,900.00
+Home Goods,22,Male,1,South,2024-01-06,65.99
+Clothing,45,Female,4,North,2024-01-07,200.00
+Food,30,Male,7,West,2024-01-07,17.50
+Electronics,29,Female,1,East,2024-01-08,350.00
+Home Goods,58,Male,3,South,2024-01-08,210.00
+Clothing,21,Male,2,North,2024-01-09,50.00
+Food,33,Female,12,West,2024-01-09,30.00
+Electronics,49,Male,1,East,2024-01-10,1500.00
+Home Goods,27,Female,1,South,2024-01-10,35.50
+Clothing,39,Male,5,North,2024-01-11,250.00
+Food,62,Female,6,West,2024-01-11,15.00
+Electronics,40,Male,3,East,2024-01-12,180.00
+Home Goods,36,Female,2,South,2024-01-12,99.99
+Clothing,54,Male,1,North,2024-01-13,85.00
+Food,25,Female,8,West,2024-01-13,20.00
+Electronics,32,Male,1,East,2024-01-14,600.00
+Home Goods,48,Female,4,South,2024-01-14,140.00
+Clothing,23,Female,3,North,2024-01-15,105.00
+Food,59,Male,15,West,2024-01-15,37.50
+Electronics,44,Female,2,East,2024-01-16,750.00
+Home Goods,37,Male,1,South,2024-01-16,70.00
+Clothing,26,Female,1,North,2024-01-17,45.00
+Food,50,Male,9,West,2024-01-17,22.50
+Electronics,34,Female,1,East,2024-01-18,299.99
+Home Goods,56,Male,5,South,2024-01-18,175.00
+Clothing,20,Male,2,North,2024-01-19,60.00
+Food,41,Female,11,West,2024-01-19,27.50
+Electronics,65,Male,1,East,2024-01-20,1100.00
+Home Goods,29,Female,3,South,2024-01-20,120.00
+Clothing,46,Male,4,North,2024-01-21,180.00
+Food,32,Female,14,West,2024-01-21,35.00
+Electronics,53,Male,2,East,2024-01-22,550.00
+Home Goods,27,Female,1,South,2024-01-22,40.00
+Clothing,30,Male,3,North,2024-01-23,115.00
+Food,43,Female,7,West,2024-01-23,17.50
+Electronics,40,Female,1,East,2024-01-24,999.00
+Home Goods,33,Male,2,South,2024-01-24,80.00
+Clothing,57,Female,2,North,2024-01-25,95.00
+Food,24,Male,6,West,2024-01-25,15.00

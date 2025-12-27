@@ -1,0 +1,161 @@
+/* .container{
+    width: 100%;
+    border: 2px solid;
+}
+.label-container{
+    width: 100%;
+    height: 50px;
+}
+.label-container label{
+    width: 40%;
+    padding: 10px;
+    font-size: x-large;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline-block;
+}
+.eat-container{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 350px;
+    padding: 15px;
+    background-color: whitesmoke;
+    display: none;
+    position: relative;
+    bottom: 1100px;
+    transition: 0.9s ease;
+    z-index: -1;
+}
+.eat-container h4{
+    color: black;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.eat-container p{
+    color: gray;
+    letter-spacing: 2px;
+}
+.drink-container{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 350px;
+    padding: 15px;
+    background-color: whitesmoke;
+    position: relative;
+    bottom:500px ;
+    display: none;
+    transition: 0.9 ease;
+}
+.drink-container h4{
+    color: black;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.drink-container p{
+    color: gray;
+    letter-spacing: 2px;
+}
+#eat, #drink{
+    display: none;
+}
+#eat:checked+label, #drink:checked+label{
+    background-color: gray;
+    color: white;
+    width: 50%;
+    margin-top: 6px;
+    margin-left: 20px;
+    height: 20px;
+ }
+#eat:checked~.eat-container{
+    bottom: 0px;
+}
+#drink:checked~.drink-container{
+    bottom: 500px;;
+} */
+
+/* 
+This is a class code
+*/
+*{
+   margin: 0;
+   padding: 0;
+}
+.lable-container{
+   width: 100%;
+   text-align: center;
+   background-color: aqua;
+   padding: 10px;
+}
+.lable-container>label{
+   margin-right:10px ;
+   background-color: blueviolet;
+   color: white;
+   padding: 5px;
+}
+.mirai,.little{
+   /* display: none; */
+   position: relative;
+   bottom: 500px;
+   z-index: -1;
+   transition: 0.8s ease;
+}
+.mirai-container,.little-container{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   align-items: start;
+}
+.item{
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+   }
+#mirai,#little{
+   display: none;
+}
+#mirai:checked~.mirai{
+   /* display: flex;
+   justify-content: center; */
+   bottom: 0px;
+   z-index: -1;
+}
+#little:checked~.little{
+   /* display: flex;
+   justify-content: center; */
+   bottom:120px;
+   z-index: -1;
+}
+img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+ .item-1{
+    background-color: lightblue;
+ }
+ .item-2{
+    background-color: lightcoral;
+ }
+ .item-3{
+    background-color: lightgray;
+ }
+ .item-4{
+    background-color: lightgreen;
+ }
+ .item-5{
+    background-color: lightsalmon;
+ }
+ .img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
+   display: none;
+ }
+ #a:checked~.img-1{
+   position: absolute;
+   top: 0;
+   display: inline-block;
+   /* width: 500px;
+   height: 500px; */
+
+ }
+#d:checked~:root{
+   background-color: black;
+}

@@ -1,0 +1,15 @@
+subqueries -- query with in the another query
+
+single row  --(=,>,<,>=,<=,!=,<>) condition will return 		as single row and single column 
+multi row  -- (in, not in)condition will return as more 		then one row and single column
+multi column  -- 
+
+case 1 -- (=,>,<,>=,<=,!=,<>)condition will return as 	single row multiple columns
+
+case2 -- ( in , not in)condition will return as multi 	row and multi columns
+
+nested  
+
+correlated
+
+

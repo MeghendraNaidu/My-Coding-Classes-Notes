@@ -1,0 +1,53 @@
+use 58r;
+
+select * from emp;
+
+set sql_safe_updates=0;
+
+update emp set salary=76000.00 where salary=35000.00;
+
+select * from emp order by salary desc limit 1 offset 2;
+
+select max(salary) from emp;
+
+select max(salary) from emp where salary<(select max(salary) from emp);
+
+select * from emp where salary=(select max(salary) from emp where salary<(select max(salary) from emp where salary<(select max(salary) from emp)));
+
+
+select max(salary) from emp;
+
+select * from emp where salary=(select max(salary) from emp where salary<(select max(salary) from emp));
+
+
+select * from emp;
+
+select distinct department from emp;
+
+select distinct department,max(salary) from emp;
+
+select max(salary) from emp group by department;
+
+select * from emp as a where salary <(select max(salary) from emp where a.department=department);
+
+select department,max(salary) from emp group by department;
+
+select * from emp as a where salary>(select min(salary) from emp where a.department=department);
+
+select city from emp where name='priya';
+
+select count(city) from emp where city=(select city from emp where name='priya');
+
+
+select * from emp where city in (select city from emp group by city having count(city)>(select count(city) from emp where city=(select city from emp where name='priya')));
+
+select max(salary) from emp where department='it';
+
+select avg(salary) from emp where department='finance';
+
+select * from emp where salary>(select avg(salary) from emp where department='finance') and salary<(select max(salary) from emp where department='it');
+
+
+select * from emp where salary between (select avg(salary) from emp where department='finance') and (select max(salary) from emp where department='it');
+
+select * from emp as a where age>(select avg(age) from emp where a.department=department)

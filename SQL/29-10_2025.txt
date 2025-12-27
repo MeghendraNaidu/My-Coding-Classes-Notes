@@ -1,0 +1,47 @@
+view -- to create virtual table for main table
+
+>>>create view view_name as
+select * from table_name where column_name='value';
+
+remove the views
+
+>>>drop view view_name;
+
+procedures :-- reuse the commands
+
+create of procedure 
+
+delimiter $$
+create procedure procedure_name()
+begin
+-- command
+end$$
+delimiter ;
+
+call procedure_name();
+
+with parameters :--
+
+delimiter $$
+create procedure procedure_name(parameters)
+begin
+-- command
+end$$
+delimiter ;
+
+call procedure_name(values)
+
+in/out 
+
+
+
+
+
+
+
+
+
+
+
+
+

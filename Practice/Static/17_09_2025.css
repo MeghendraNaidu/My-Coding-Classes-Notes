@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+}
+html, body{
+    height: 100%;
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: +1;
+    top: 0;
+}
+.nav-container>.item{
+    width: 350px;
+    padding: 12px;
+    margin: 6px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.item:hover{
+    background-color: lightgray;
+    color: black;
+}
+.bg-container{
+    width: 100%;
+    height: 90%;
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+}
+.text1 p{
+    color: white;
+    font-size: 6.2rem;
+    line-height: 150px;
+}
+.text2{
+    padding: 7px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.text2 p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.text3{
+    padding: 7px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.text3 p{
+    color: white;
+    padding: 5px;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.468);
+}
+.main-container>.main{
+    width: 55%;
+}
+.text4{
+    padding: 10px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.text4 p{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+}
+.para-container1{
+    padding: 7px;
+}
+.para-container1 p{
+    margin: 20px 0px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+.note-para{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    border-left-width: 8px;
+    border-left-style: solid;
+    border-left-color: lightgray;
+    background-color: #f1f1f1;
+}
+.note-para p{
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.image1{
+    width: 100%;
+    margin: 30px 0px;
+}
+.image1 img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+.text5 p{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.label-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.label-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.label-container label{
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.eat-container{
+    width: 100%;
+    font-size: 12rem;
+    padding: 20px;
+    line-height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+}
+.eat-container>.text6{
+    margin: 20px 0px;
+}
+.eat-container h4{
+    padding: 10px;
+    color: black;
+    font-size: 1.2rem;
+}
+.eat-container p{
+    padding: 10px;
+    color: gray;
+    font-size: 1.2rem;
+}
+.drink-container{
+    width: 100%;
+    font-size: 12.rem;
+    padding: 20px;
+    line-height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+}
+.drink-container>.text7{
+    margin: 20px 0px;
+}
+.drink-container h4, p{
+    padding: 10px;
+    color: black;
+    font-size: 1.2rem;
+}
+#eat, #drink{
+    display: none;
+}
+#eat:checked~.label-container label[for="eat"], 
+#drink:checked~.label-container label[for="drink"]{
+    background-color: gray;
+    color: white;
+}
+#eat:checked~.eat-container{
+    display: block;
+}
+#drink:checked~.drink-container{
+    display: block;
+}
+.image2{
+    width: 100%;
+    margin: 30px 0px;
+}
+.image2 img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+.para-container2 p{
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.image3{
+    width: 100%;
+    margin: 30px 0px;
+}
+.image3 img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+.para-container3 span{
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+.para-container3 p{
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+}
+.para-container3>p>b{
+    font-size: 1.3rem;
+}
+.forms-container{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+.forms-container input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0px;
+}
+.forms-container input::placeholder{
+    font-size: 1.5rem;
+}
+.forms-container button{
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+}
+.forms-container button:hover{
+    background-color: gray;
+    color: black;
+}
+.foot-container{
+    width: 100%;
+    padding: 70px;
+    background-color: #f1f1f1;
+}
+.foot-container p, a{
+    color: black;
+    text-align: center;
+
+}
