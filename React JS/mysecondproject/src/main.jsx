@@ -4,15 +4,17 @@ import { createRoot } from 'react-dom/client'
 // import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Description from './components/sample.jsx'
-import CustomNavbar from './components/CustomNavbar.jsx'
-import CustomCarousels from './components/CustomCarousels.jsx';
+// import CustomNavbar from './components/CustomNavbar.jsx'
+// import CustomCarousels from './components/CustomCarousels.jsx';
 import CounterApp from './classComponents/CounterApp.jsx';
+// import Application from '../../myfirstapp/src/Application.jsx';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <CustomNavbar/>
-  <CustomCarousels/>
+  {/* <Application/> */}
+  {/* <CustomNavbar/> */}
+  {/* <CustomCarousels/> */}
   <CounterApp/>
   <Description/>
     {/* <h1>React is a JS Library which is used Build UI</h1> */}
