@@ -37,3 +37,11 @@ class Application extends React.Component {
 }
 
 export default Application 
+
+// create a component
+// use the useEffect to call the api
+// get the code from dummyjson docs and insert it in useEffect
+// create the state and update the state
+// if data available iterate it and display it else display the spinner
+
+// React Router
