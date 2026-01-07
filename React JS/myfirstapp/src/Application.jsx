@@ -45,3 +45,4 @@ export default Application
 // if data available iterate it and display it else display the spinner
 
 // React Router
+// Install React Router
