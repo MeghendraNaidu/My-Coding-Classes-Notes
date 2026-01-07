@@ -18,7 +18,7 @@ function Recipes(){
     return(
         <>
         <CustomNavbar/>
-        {recipes?<div style={{display:"flex", margin:"45px 0px 0px 0px"}}><img src={recipes.image} style={{width:"40px", margin:'20px'}}/>
+        {recipes?<div style={{display:"flex", margin:"45px 0px 0px 0px"}}><img src={recipes.image} style={{width:"480px", margin:'20px'}}/>
         <div style={{display:"flex", flexDirection:"column", margin:"20px", flexWrap:"wrap"}}>
             <p style={{fontSize:"1.5rem"}}><b style={{fontSize:"1.5rem", fontWeight:"600"}}>Ingredients :</b>{recipes.ingredients}</p>
             <p style={{fontSize:"1.5rem"}}><b style={{fontSize:"1.5rem", fontWeight:"600"}}>Meal Type :</b>{recipes. mealType[0]}</p>
