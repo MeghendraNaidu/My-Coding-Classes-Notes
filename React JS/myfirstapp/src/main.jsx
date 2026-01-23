@@ -1,4 +1,4 @@
-import { StrictMode } from 'react';
+import { createContext, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 // import './index.css'
 import App from './App.jsx'
@@ -14,23 +14,27 @@ import About from './components/About.jsx';
 import Recipes from './components/Recipes.jsx';
 import PageNotFound from './components/PageNotFound.jsx';
 
+export const Waiter = createContext()
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/recipes/:id" element={<Recipes/>} />
-      <Route path="*" element={<PageNotFound/>} />
-    </Routes>
-  </BrowserRouter>,
-  {/* <CustomNavbar/> */}
-  {/* <CustomCarousel/> */}
-  {/* <CustomSpinner/> */}
-  {/* <FetchRecipes/> */}
-  {/* <Application/> */}
+    <Waiter value="Chicken Biryani">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/recipes/:id" element={<Recipes />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>,
+    </Waiter>
+    {/* <CustomNavbar/> */}
+    {/* <CustomCarousel/> */}
+    {/* <CustomSpinner/> */}
+    {/* <FetchRecipes/> */}
+    {/* <Application/> */}
 
-  {/* <App /> */}
-  {/* <UserList/> */}
+    {/* <App /> */}
+    {/* <UserList/> */}
   </StrictMode>,
 )
