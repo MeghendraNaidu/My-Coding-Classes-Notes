@@ -4,11 +4,11 @@ import FetchRecipes from "./components/FetchRecipes"
 
 
 function App() {
-  return(
+  return (
     <>
-    <CustomNavbar/>
-    <CustomCarousel/>
-    <FetchRecipes/>
+      <CustomNavbar />
+      <CustomCarousel />
+      <FetchRecipes />
     </>
   )
 }

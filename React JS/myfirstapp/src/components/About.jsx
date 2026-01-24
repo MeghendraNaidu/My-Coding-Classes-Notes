@@ -6,11 +6,11 @@ import { Waiter } from "../main"
 
 function About() {
     const data = useContext(Waiter)
-    return(
+    return (
         <>
-        <CustomNavbar/>
-        <CustomCarousel/>
-        <h1>This is About Page {data}</h1>
+            <CustomNavbar />
+            <CustomCarousel />
+            <h1>This is About Page {data}</h1>
         </>
     )
 }
