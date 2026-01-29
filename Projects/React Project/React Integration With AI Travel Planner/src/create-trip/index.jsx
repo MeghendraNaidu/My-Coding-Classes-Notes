@@ -1,19 +1,35 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import axios from "axios";
 import { Input } from '@/components/ui/input';
 import { SelectBudgetOptions, SelectTravelesList } from '@/constants/options';
 import { Button } from '@/components/ui/button';
+import { toast } from 'sonner';
 
 
 
 function CreateTrip() {
   // const [place, setPlace] = useState()
 
-  const[formData, setformData] = useState([])
+  const [formData, setformData] = useState([])
 
-  const handleInputChange = (name, value){
-    
+  const handleInputChange = (name, value) => {
+    setformData({
+      ...formData,
+      [name]: value
+    })
+  }
+  useEffect(() => {
+    console.log(formData)
+  }, [formData])
+
+  const OnGenerateTrip=()=>{
+    if(formData?.noOfDays>9&&!formData?.location||!formData?.budget||!formData?.traveler)
+    {
+      toast("Please fill all the Detailes.")
+      return ;
+    }
+    console.log(formData)
   }
 
   const [query, setQuery] = useState("");
@@ -77,7 +93,8 @@ function CreateTrip() {
                   <div key={place.properties.place_id} className="p-2 hover:bg-gray-100 cursor-pointer"
                     onClick={() => {
                       setSelectedPlace(place);
-                      console.log(place.properties)
+                      // console.log(place.properties)
+                      handleInputChange("location", place.properties)
                       setQuery(place.properties.formatted);
                       setSuggestions([]);
                     }}>
@@ -92,7 +109,9 @@ function CreateTrip() {
         <div>
           <h2 className='text-xl my-3 font-medium'>How many days are you planning your trip?</h2>
 
-          <Input placeholder={'Ex.3'} type="number" />
+          <Input placeholder={'Ex.3'} type="number"
+            onChange={(e) => handleInputChange("noOfDays", e.target.value)}
+          />
         </div>
 
       </div>
@@ -101,7 +120,11 @@ function CreateTrip() {
         <h2 className='text-xl my-3 font-medium'>What is your Budget?</h2>
         <div className='grid grid-cols-3 gap-4 mt-5'>
           {SelectBudgetOptions.map((item, index) => (
-            <div key={index} className='p-4 border rounded-lg hover:shadow-lg cursor-pointer'>
+            <div key={index}
+              onClick={() => handleInputChange("budget", item.title)}
+              className={`p-4 border rounded-lg hover:shadow-lg cursor-pointer
+                ${formData?.budget==item.title&&'shadow-lg border-black'}
+              `}>
               <h2 className='text-4xl'>{item.icon}</h2>
               <h2 className='font-bold text-lg'>{item.title}</h2>
               <h2 className='text-sm text-gray-500'>{item.desc}</h2>
@@ -114,7 +137,11 @@ function CreateTrip() {
         <h2 className='text-xl my-3 font-medium'>Who do you plan on traveling with on your next adventure?</h2>
         <div className='grid grid-cols-3 gap-4 mt-5'>
           {SelectTravelesList.map((item, index) => (
-            <div key={index} className='p-4 border rounded-lg hover:shadow-lg cursor-pointer'>
+            <div key={index}
+              onClick={() => handleInputChange("traveler", item.people)}
+              className={`p-4 border rounded-lg hover:shadow-lg cursor-pointer
+                ${formData?.traveler==item.people&&'shadow-lg border-black'}
+              `}>
               <h2 className='text-4xl'>{item.icon}</h2>
               <h2 className='font-bold text-lg'>{item.title}</h2>
               <h2 className='text-sm text-gray-500'>{item.desc}</h2>
@@ -124,9 +151,9 @@ function CreateTrip() {
       </div>
 
       <div className='my-10 flex justify-end'>
-        <Button>Generate Trip</Button>
+        <Button onClick={OnGenerateTrip}>Generate Trip</Button>
       </div>
-      
+
 
     </div>
   )
