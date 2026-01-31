@@ -2,9 +2,25 @@ import React, { useEffect, useState } from 'react'
 // import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import axios from "axios";
 import { Input } from '@/components/ui/input';
-import { SelectBudgetOptions, SelectTravelesList } from '@/constants/options';
+import { AI_PROMPT, SelectBudgetOptions, SelectTravelesList } from '@/constants/options';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
+import { chat } from '@/service/AIModal';
+
+import { FcGoogle } from "react-icons/fc";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import { useGoogleLogin } from '@react-oauth/google';
+import { doc, setDoc } from 'firebase/firestore';
+import { db } from '@/service/firebaseConfig';
 
 
 
@@ -12,6 +28,10 @@ function CreateTrip() {
   // const [place, setPlace] = useState()
 
   const [formData, setformData] = useState([])
+
+  const [openDialog, setOpenDialog] = useState(false)
+
+  const [loading, setLoading] = useState(false)
 
   const handleInputChange = (name, value) => {
     setformData({
@@ -23,15 +43,121 @@ function CreateTrip() {
     console.log(formData)
   }, [formData])
 
-  const OnGenerateTrip=()=>{
-    if(formData?.noOfDays>9&&!formData?.location||!formData?.budget||!formData?.traveler)
-    {
-      toast("Please fill all the Detailes.")
-      return ;
+  const login = useGoogleLogin({
+    onSuccess: (codeResp) => GetUserProfile(codeResp),
+    onError: (error) => console.log(error)
+  })
+
+  const OnGenerateTrip = async () => {
+
+    const user = localStorage.getItem("user")
+
+    if (!user) {
+      setOpenDialog(true)
+      return
     }
-    console.log(formData)
+
+    if (formData?.noOfDays > 9 && !formData?.location || !formData?.budget || !formData?.traveler) {
+      toast("Please fill all the Detailes.")
+      return;
+    }
+    // console.log(formData)
+
+    setLoading(true)
+
+    const FINAL_PROMPT = AI_PROMPT
+      .replace("{location}", `${formData?.location?.address_line1}, ${formData?.location?.address_line2}`)
+      .replace("{totalDays}", formData?.noOfDays)
+      .replace("{traveler}", formData?.traveler)
+      .replace("{budget}", formData?.budget)
+    // .replace("{totalDays}",formData?.noOfDays)
+
+    // console.log(FINAL_PROMPT)
+
+    // const result = await contents.sendMessage(FINAL_PROMPT)
+    // const result = await ai.models.generateContent({
+    //   model : "gemini-3-flash-preview",
+    //   contents : [
+    //     {
+    //       role : "user",
+    //       parts : [{text : FINAL_PROMPT}],
+    //     },
+    //   ],
+    // })
+    // console.log(result?.response?.text)
+
+    const result = await chat.sendMessage({
+      message: FINAL_PROMPT
+    });
+    let text = result.text;
+    // 🔥 REMOVE MARKDOWN WRAPPERS
+    text = text.replace(/```json/g, "").replace(/```/g, "").trim();
+
+    const tripPlan = JSON.parse(text);
+
+    console.log(tripPlan);
+    setLoading(false)
+    SaveAiTrip(tripPlan)
+
+
+    // const result = await ai.models.generateContent({
+    //   model: "j2-jumbo",
+    //   contents: [
+    //     {
+    //       role: "user",
+    //       parts: [{ text: FINAL_PROMPT }],
+    //     },
+    //   ],
+    //   generationConfig: {
+    //     temperature: 1,
+    //     topP: 0.95,
+    //     maxOutputTokens: 8192,
+    //     responseMimeType: "application/json",
+    //   },
+    // });
+
+    // console.log(result?.response?.text);
+
+    // const result = await client.responses.create({
+    //   model,
+    //   temperature: generationConfig.temperature,
+    //   top_p: generationConfig.top_p,
+    //   max_output_tokens: generationConfig.max_output_tokens,
+    //   response_format: generationConfig.response_format,
+    //   input: contents,
+    // })
+    // console.log(result?.response?.text)
   }
 
+  const SaveAiTrip = async (TripData) => {
+    setLoading(true)
+    // Add a new document in collection "cities"
+    const user = JSON.parse(localStorage.getItem("user"))
+    const docId = Date.now().toString()
+    await setDoc(doc(db, "AITrips", docId), {
+      userSelection: formData,
+      tripData: TripData,
+      userEmail: user?.email,
+      id: docId
+    });
+    setLoading(false)
+  }
+
+  const GetUserProfile = (tokenInfo) => {
+    axios.get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${tokenInfo?.access_token}`, {
+      headers: {
+        Authorization: `Bearer ${tokenInfo?.access_token}`,
+        Accept: `Application/json`
+      }
+    }).then((resp) => {
+      console.log(resp)
+      localStorage.setItem("user", JSON.stringify(resp.data))
+      setOpenDialog(false)
+      OnGenerateTrip()
+    })
+  }
+
+  // This code is for Maps and places Api fetch
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   // eslint-disable-next-line no-unused-vars
@@ -123,7 +249,7 @@ function CreateTrip() {
             <div key={index}
               onClick={() => handleInputChange("budget", item.title)}
               className={`p-4 border rounded-lg hover:shadow-lg cursor-pointer
-                ${formData?.budget==item.title&&'shadow-lg border-black'}
+                ${formData?.budget == item.title && 'shadow-lg border-black'}
               `}>
               <h2 className='text-4xl'>{item.icon}</h2>
               <h2 className='font-bold text-lg'>{item.title}</h2>
@@ -140,7 +266,7 @@ function CreateTrip() {
             <div key={index}
               onClick={() => handleInputChange("traveler", item.people)}
               className={`p-4 border rounded-lg hover:shadow-lg cursor-pointer
-                ${formData?.traveler==item.people&&'shadow-lg border-black'}
+                ${formData?.traveler == item.people && 'shadow-lg border-black'}
               `}>
               <h2 className='text-4xl'>{item.icon}</h2>
               <h2 className='font-bold text-lg'>{item.title}</h2>
@@ -151,8 +277,33 @@ function CreateTrip() {
       </div>
 
       <div className='my-10 flex justify-end'>
-        <Button onClick={OnGenerateTrip}>Generate Trip</Button>
+        <Button
+          disabled={loading}
+          onClick={OnGenerateTrip}>
+          {loading ?
+            <AiOutlineLoading3Quarters className='h-7 w-7 animate-spin' /> : "Generate Trip"
+          }
+        </Button>
       </div>
+
+      <Dialog open={openDialog}>
+        <DialogContent>
+          <DialogHeader>
+            {/* <DialogTitle>Are you absolutely sure?</DialogTitle> */}
+            <DialogDescription>
+              <img src='/logo.svg' />
+              <h2 className='font-bold text-lg mt-7'>Sign In With Google</h2>
+              <p>Sign in to the App with Google authentication securely.</p>
+              <Button
+                onClick={login}
+                className="w-full mt-5 flex gap-5 items-center">
+                <FcGoogle className='h-7 w-7' />
+                Sign In With Google
+              </Button>
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
 
 
     </div>
@@ -160,87 +311,3 @@ function CreateTrip() {
 }
 
 export default CreateTrip
-
-
-
-// import React, { useState } from "react";
-// import axios from "axios";
-
-// function CreateTrip() {
-// const [query, setQuery] = useState("");
-// const [suggestions, setSuggestions] = useState([]);
-// const [selectedPlace, setSelectedPlace] = useState(null);
-
-// const GEOAPIFY_KEY = import.meta.env.VITE_GEOAPIFY_API_KEY;
-
-// const fetchPlaces = async (text) => {
-//   if (!text) return setSuggestions([]);
-
-//   try {
-//     const res = await axios.get(
-//       `https://api.geoapify.com/v1/geocode/autocomplete`,
-//       {
-//         params: {
-//           text,
-//           apiKey: GEOAPIFY_KEY,
-//           limit: 5,
-//         },
-//       }
-//     );
-
-//     setSuggestions(res.data.features);
-//   } catch (err) {
-//     console.error("Geoapify error:", err);
-//   }
-// };
-
-//   return (
-//     <div className="sm:px-10 md:px-32 lg:px-56 xl:px-60 px-5 mt-10">
-//       <h2 className="font-bold text-3xl">Tell us your Travel Preferences</h2>
-//       <p className="mt-3 text-gray-500 text-[18px]">
-//         Just provide some basic information, and our trip planner will generate
-//         a customized itinerary.
-//       </p>
-
-//       <div className="mt-10">
-//         <h2 className="text-xl my-3 font-medium">
-//           What is your destination of choice?
-//         </h2>
-
-//         {/* INPUT */}
-//         <input
-//           type="text"
-//           value={query}
-//           onChange={(e) => {
-//             setQuery(e.target.value);
-//             fetchPlaces(e.target.value);
-//           }}
-//           placeholder="Enter a city or place"
-//           className="w-full p-3 border rounded-lg"
-//         />
-
-//         {/* DROPDOWN */}
-//         {suggestions.length > 0 && (
-//           <div className="border rounded-lg mt-2 bg-white shadow-md">
-//             {suggestions.map((place) => (
-//               <div
-//                 key={place.properties.place_id}
-//                 className="p-2 hover:bg-gray-100 cursor-pointer"
-//                 onClick={() => {
-//                   setSelectedPlace(place);
-//                   console.log(place)
-//                   setQuery(place.properties.formatted);
-//                   setSuggestions([]);
-//                 }}
-//               >
-//                 {place.properties.formatted}
-//               </div>
-//             ))}
-//           </div>
-//         )}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default CreateTrip;
