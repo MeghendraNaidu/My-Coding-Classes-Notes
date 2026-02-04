@@ -47,8 +47,6 @@ function Hotels(trip) {
           <Link to={'https://www.google.com/maps/search/?api=1&query=' + hotel?.HotelName + "," + hotel?.HotelAddress} target='_blank'>
             <div key={index} className='hover:scale-105 transition-all cursor-pointer'>
 
-              {/* <img src='/placeholder.png' className='rounded-xl' /> */}
-
               <img
                 src={images[hotel.HotelName] ? images[hotel.HotelName] : "/placeholder.png"}
                 className="rounded-xl h-40 w-full object-cover"

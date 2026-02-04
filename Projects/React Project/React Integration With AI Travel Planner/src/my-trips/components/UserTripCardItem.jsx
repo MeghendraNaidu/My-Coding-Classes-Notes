@@ -23,7 +23,6 @@ function UserTripCardItem(trip) {
     return (
         <Link to={'/view-trip/' + trip?.trip?.id}>
             <div className='hover:scale-105 transition-all'>
-                {/* <img src='/placeholder.png' className='object-cover rounded-xl'/> */}
 
                 <img src={placeImg} className='h-[200px] w-[250px] object-cover rounded-xl' />
 

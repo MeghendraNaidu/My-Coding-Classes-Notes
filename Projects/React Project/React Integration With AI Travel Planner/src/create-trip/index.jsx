@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-// import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import axios from "axios";
 import { Input } from '@/components/ui/input';
 import { AI_PROMPT, SelectBudgetOptions, SelectTravelesList } from '@/constants/options';
@@ -22,12 +21,10 @@ import { useGoogleLogin } from '@react-oauth/google';
 import { doc, setDoc } from 'firebase/firestore';
 import { db } from '@/service/firebaseConfig';
 import { useNavigate } from 'react-router-dom';
-// import { ai, contents } from '@/service/AIModal';
 
 
 
 function CreateTrip() {
-  // const [place, setPlace] = useState()
 
   const [formData, setformData] = useState([])
 
@@ -74,21 +71,8 @@ function CreateTrip() {
       .replace("{totalDays}", formData?.noOfDays)
       .replace("{traveler}", formData?.traveler)
       .replace("{budget}", formData?.budget)
-    // .replace("{totalDays}",formData?.noOfDays)
 
     // console.log(FINAL_PROMPT)
-
-    // const result = await contents.sendMessage(FINAL_PROMPT)
-    // const result = await ai.models.generateContent({
-    //   model : "gemini-3-flash-preview",
-    //   contents : [
-    //     {
-    //       role : "user",
-    //       parts : [{text : FINAL_PROMPT}],
-    //     },
-    //   ],
-    // })
-    // console.log(result?.response?.text)
 
     // This is Onriginal One
 
@@ -96,7 +80,6 @@ function CreateTrip() {
       message: FINAL_PROMPT
     });
     let text = result.text;
-    // 🔥 REMOVE MARKDOWN WRAPPERS
     text = text.replace(/```json/g, "").replace(/```/g, "").trim();
 
     const tripPlan = JSON.parse(text);
@@ -105,80 +88,10 @@ function CreateTrip() {
     setLoading(false)
     SaveAiTrip(tripPlan)
 
-    // const result = await ai.models.generateContent({
-    //   model: "gemini-3-flash-preview",
-    //   contents: [
-    //     { role: "user", parts: [{ text: FINAL_PROMPT }] }
-    //   ],
-    //   generationConfig: {
-    //     responseMimeType: "application/json"
-    //   }
-    // });
-    // const text = result.response.text();
-    // const cleanJson = text.replace(/```json|```/g, "");
-    // const data = JSON.parse(cleanJson);
-    // console.log(data)
-
-    // const result = await ai.models.generateContent({
-    //   model: "gemini-2.0-flash", // more stable
-    //   contents: contents,
-    //   generationConfig: {
-    //     temperature: 0.7,
-    //     topP: 0.95,
-    //     topK: 40,
-    //     maxOutputTokens: 4096,
-    //     responseMimeType: "application/json"
-    //   }
-    // });
-
-    // console.log(result);
-
-    // const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
-
-    // if (!text) {
-    //   console.error("No output from model", result);
-    //   return;
-    // }
-
-    // const data = JSON.parse(text);
-    // console.log(data);
-
-
-
-
-
-    // const result = await ai.models.generateContent({
-    //   model: "j2-jumbo",
-    //   contents: [
-    //     {
-    //       role: "user",
-    //       parts: [{ text: FINAL_PROMPT }],
-    //     },
-    //   ],
-    //   generationConfig: {
-    //     temperature: 1,
-    //     topP: 0.95,
-    //     maxOutputTokens: 8192,
-    //     responseMimeType: "application/json",
-    //   },
-    // });
-
-    // console.log(result?.response?.text);
-
-    // const result = await client.responses.create({
-    //   model,
-    //   temperature: generationConfig.temperature,
-    //   top_p: generationConfig.top_p,
-    //   max_output_tokens: generationConfig.max_output_tokens,
-    //   response_format: generationConfig.response_format,
-    //   input: contents,
-    // })
-    // console.log(result?.response?.text)
   }
 
   const SaveAiTrip = async (TripData) => {
     setLoading(true)
-    // Add a new document in collection "cities"
     const user = JSON.parse(localStorage.getItem("user"))
     const docId = Date.now().toString()
     await setDoc(doc(db, "AITrips", docId), {
@@ -244,14 +157,7 @@ function CreateTrip() {
       <div className='mt-15 flex flex-col gap-10'>
         <div>
           <h2 className='text-xl my-3 font-medium'>What is your destination of choice?</h2>
-
-          {/* <GooglePlacesAutocomplete
-            apiKey={import.meta.env.GEOAPIFY_API_KEY}
-            selectProps={{
-              place,
-              onChange: (v) => { setPlace(v); console.log(v) }
-            }}
-          /> */}
+          
           <div className="relative">
             <input type="text" value={query} onChange={(e) => {
               setQuery(e.target.value);
