@@ -21,6 +21,8 @@ import {
 import { useGoogleLogin } from '@react-oauth/google';
 import { doc, setDoc } from 'firebase/firestore';
 import { db } from '@/service/firebaseConfig';
+import { useNavigate } from 'react-router-dom';
+// import { ai, contents } from '@/service/AIModal';
 
 
 
@@ -32,6 +34,8 @@ function CreateTrip() {
   const [openDialog, setOpenDialog] = useState(false)
 
   const [loading, setLoading] = useState(false)
+
+  const navigate = useNavigate()
 
   const handleInputChange = (name, value) => {
     setformData({
@@ -86,6 +90,8 @@ function CreateTrip() {
     // })
     // console.log(result?.response?.text)
 
+    // This is Onriginal One
+
     const result = await chat.sendMessage({
       message: FINAL_PROMPT
     });
@@ -98,6 +104,47 @@ function CreateTrip() {
     console.log(tripPlan);
     setLoading(false)
     SaveAiTrip(tripPlan)
+
+    // const result = await ai.models.generateContent({
+    //   model: "gemini-3-flash-preview",
+    //   contents: [
+    //     { role: "user", parts: [{ text: FINAL_PROMPT }] }
+    //   ],
+    //   generationConfig: {
+    //     responseMimeType: "application/json"
+    //   }
+    // });
+    // const text = result.response.text();
+    // const cleanJson = text.replace(/```json|```/g, "");
+    // const data = JSON.parse(cleanJson);
+    // console.log(data)
+
+    // const result = await ai.models.generateContent({
+    //   model: "gemini-2.0-flash", // more stable
+    //   contents: contents,
+    //   generationConfig: {
+    //     temperature: 0.7,
+    //     topP: 0.95,
+    //     topK: 40,
+    //     maxOutputTokens: 4096,
+    //     responseMimeType: "application/json"
+    //   }
+    // });
+
+    // console.log(result);
+
+    // const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
+
+    // if (!text) {
+    //   console.error("No output from model", result);
+    //   return;
+    // }
+
+    // const data = JSON.parse(text);
+    // console.log(data);
+
+
+
 
 
     // const result = await ai.models.generateContent({
@@ -141,6 +188,7 @@ function CreateTrip() {
       id: docId
     });
     setLoading(false)
+    navigate('/view-trip/' + docId)
   }
 
   const GetUserProfile = (tokenInfo) => {
@@ -289,7 +337,6 @@ function CreateTrip() {
       <Dialog open={openDialog}>
         <DialogContent>
           <DialogHeader>
-            {/* <DialogTitle>Are you absolutely sure?</DialogTitle> */}
             <DialogDescription>
               <img src='/logo.svg' />
               <h2 className='font-bold text-lg mt-7'>Sign In With Google</h2>
