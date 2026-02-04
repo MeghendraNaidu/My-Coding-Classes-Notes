@@ -24,7 +24,7 @@ function UserTripCardItem(trip) {
         <Link to={'/view-trip/' + trip?.trip?.id}>
             <div className='hover:scale-105 transition-all'>
 
-                <img src={placeImg} className='h-[200px] w-[250px] object-cover rounded-xl' />
+                <img src={placeImg} className='h-50 w-62.5 object-cover rounded-xl' />
 
                 <div>
                     <h2 className='font-bold text-lg text-black'>{trip?.trip?.userSelection?.location?.address_line1},{" "}{trip?.trip?.userSelection?.location?.address_line2}</h2>

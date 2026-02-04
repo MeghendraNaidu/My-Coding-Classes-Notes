@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { db } from '@/service/firebaseConfig'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import React, { useEffect } from 'react'
@@ -44,7 +45,7 @@ function MyTrips() {
                     <UserTripCardItem trip = {trip} key={index}/>
                 )):
                 [1, 2, 3, 4, 5, 6].map((item, index)=>(
-                    <div key={index} className='h-[200px] w-full bg-slate-200 animate-pulse rounded-xl'>
+                    <div key={index} className='h-50 w-full bg-slate-200 animate-pulse rounded-xl'>
 
                     </div>
                 ))

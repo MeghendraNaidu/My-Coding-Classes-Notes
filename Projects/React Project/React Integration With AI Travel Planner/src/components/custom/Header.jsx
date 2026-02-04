@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 import { Button } from '../ui/button'
 import {
@@ -67,7 +68,7 @@ function Header() {
 
             <Popover>
               <PopoverTrigger asChild>
-                <img src={user?.picture} className='h-[35px] w-[35px] rounded-full' />
+                <img src={user?.picture} className='h-8.75 w-8.75 rounded-full' />
               </PopoverTrigger>
               <PopoverContent>
                 <PopoverHeader>
